@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modding-Referenz – Fourways</title>
+<meta name="description" content="So erstellst du Fourways-Mods mit Fahrzeugen, 3D-Modellen, Geländekarten, Frachttarifen, Übersetzungen und Spielskripten.">
+<meta name="theme-color" content="#0b1226">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://fourways-game.com/de/mods/reference/">
+<!-- mod-alternates -->
+<link rel="alternate" hreflang="en" href="https://fourways-game.com/mods/reference/">
+<link rel="alternate" hreflang="es" href="https://fourways-game.com/es/mods/reference/">
+<link rel="alternate" hreflang="ca" href="https://fourways-game.com/ca/mods/reference/">
+<link rel="alternate" hreflang="fr" href="https://fourways-game.com/fr/mods/reference/">
+<link rel="alternate" hreflang="de" href="https://fourways-game.com/de/mods/reference/">
+<link rel="alternate" hreflang="it" href="https://fourways-game.com/it/mods/reference/">
+<link rel="alternate" hreflang="pt-BR" href="https://fourways-game.com/pt/mods/reference/">
+<link rel="alternate" hreflang="x-default" href="https://fourways-game.com/mods/reference/">
+<!-- /mod-alternates -->
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.neptrino.com/script.js" data-website-id="96a6ace5-060e-4a0f-bef4-261feb80c0c0" data-domains="fourways-game.com,www.fourways-game.com"></script>
+</head>
+<body class="guide-body mod-guide">
+<header class="nav solid">
+  <div class="wrap nav-in">
+    <a class="brand" href="/de/" data-local><img src="/icon.svg" alt="" width="34" height="34"><span translate="no">Fourways</span></a>
+    <nav aria-label="Hauptnavigation">
+      <a href="/de/guide/" data-local>Spielanleitung</a>
+      <a class="btn btn-sm" href="../">Erstelle deinen ersten Mod</a>
+      <!-- mod-languages -->
+      <details class="lang"><summary aria-label="Sprache"><span>DE</span></summary><ul translate="no"><li><a href="/mods/reference/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/es/mods/reference/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/ca/mods/reference/" hreflang="ca" lang="ca" data-lang="ca">Català</a></li><li><a href="/fr/mods/reference/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/mods/reference/" hreflang="de" lang="de" data-lang="de" aria-current="page">Deutsch</a></li><li><a href="/it/mods/reference/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt/mods/reference/" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português (Brasil)</a></li></ul></details>
+<!-- /mod-languages -->
+    </nav>
+  </div>
+</header>
+
+<main class="guide wrap">
+  <nav aria-label="Brotkrumennavigation">
+    <ol class="crumbs"><li><a href="/de/" data-local translate="no">Fourways</a></li><li><a href="../">Mods</a></li><li aria-current="page">Modding-Referenz</li></ol>
+  </nav>
+
+  <header class="gi-head">
+    <h1>Modding-Referenz</h1>
+    <p>Füge Fahrzeuge hinzu, ändere Gelände und Tarife, übersetze das Spiel oder schreibe eigene Spielregeln.</p>
+  </header>
+
+  <a class="mod-reference-link" href="../api/">
+    <span><strong>Modding-API durchsuchen</strong><span>Schlage Hooks, Methoden und Dateioptionen nach.</span></span>
+    <span class="mod-reference-arrow" aria-hidden="true">→</span>
+  </a>
+
+  <div class="guide-grid mod-reference">
+    <nav class="guide-toc" aria-label="Inhalt">
+      <p class="toc-g">Auf dieser Seite</p>
+      <ul>
+        <li><a href="#files">Mod-Dateien und IDs</a></li>
+        <li><a href="#vehicles">Fahrzeuge</a></li>
+        <li><a href="#models">3D-Modelle</a></li>
+        <li><a href="#fares-and-names">Frachttarife und Namen</a></li>
+        <li><a href="#maps">Karten</a></li>
+        <li><a href="#translations">Übersetzungen</a></li>
+        <li><a href="#scripts">Spielskripte</a></li>
+        <li><a href="#saves">Spielstände und Weitergabe</a></li>
+      </ul>
+    </nav>
+    <article class="guide-article mod-article">
+      <h2 id="files">Mod-Dateien und IDs</h2>
+      <p>Jeder Mod ist ein Ordner mit einer <code>mod.json</code>. Füge nur die weiteren Dateien hinzu, die dein Mod verwendet.</p>
+      <pre translate="no"><code>my_mod/
+  mod.json
+  data.json
+  lang/*.lang.txt
+  maps/
+  models/*.glb
+  main.gd</code></pre>
+      <p>Hier ist eine vollständige <code>mod.json</code>. Nur <code>id</code> ist Pflicht. Wähle eine eindeutige ID und behalte sie bei Updates bei. Spielstände erkennen den Mod an dieser ID.</p>
+      <pre translate="no"><code>{
+  "id": "north_line_mail",
+  "name": "North Line Mail",
+  "version": "1.0",
+  "author": "Your name",
+  "description": "A diesel for overnight mail trains."
+}</code></pre>
+      <p>Öffne im Hauptmenü <strong>Mods</strong> und wähle <strong>Mod-Ordner öffnen</strong>. Lege den Ordner oder die ZIP-Datei dort ab, klicke auf <strong>Neu suchen</strong> und aktiviere den Mod. Arbeite beim Bearbeiten mit dem entpackten Ordner, damit du speichern und erneut suchen kannst. Änderungen gelten für das nächste Spiel, das du startest oder lädst.</p>
+
+      <h2 id="vehicles">Fahrzeuge</h2>
+      <p>Trage jedes Fahrzeug in <code>data.json</code> unter <code>vehicles</code> mit einer eindeutigen Fahrzeug-ID ein. <code>north_line_mail_diesel</code> fügt zum Beispiel eine Lok hinzu, die wie die Diesellok des Grundspiels aussieht.</p>
+      <pre translate="no"><code>{
+  "vehicles": {
+    "north_line_mail_diesel": {
+      "name": "North Line Mail Diesel",
+      "kind": "rail",
+      "look": "diesel",
+      "cargos": ["mail", "pax"],
+      "max_wagons": 6,
+      "speed": 6.2,
+      "cost": 88000,
+      "run": 7600,
+      "year": 1962,
+      "desc": "A fast diesel for overnight mail."
+    }
+  }
+}</code></pre>
+      <div class="gtable">
+        <table>
+          <thead><tr><th scope="col">Feld</th><th scope="col">Wert</th></tr></thead>
+          <tbody>
+            <tr><td translate="no"><code>name</code>, <code>desc</code></td><td>Anzeigename und optionale Shopbeschreibung.</td></tr>
+            <tr><td translate="no"><code>kind</code></td><td><code>rail</code>, <code>road</code>, <code>water</code> oder <code>air</code>.</td></tr>
+            <tr><td><code>look</code> oder <code>model</code></td><td>Verwende ein vorhandenes Modell desselben Typs oder gib den Pfad zu deinem eigenen Modell an. Beispiele aus dem Grundspiel sind <code>steam</code>, <code>diesel</code>, <code>bus</code>, <code>truck</code>, <code>ferry</code>, <code>freighter</code>, <code>prop</code> und <code>jet</code>.</td></tr>
+            <tr><td translate="no"><code>cargos</code></td><td>Liste mit mindestens einer vorhandenen Fracht-ID, etwa <code>pax</code>, <code>mail</code>, <code>coal</code>, <code>wood</code>, <code>goods</code> und <code>food</code>.</td></tr>
+            <tr><td><code>max_wagons</code> oder <code>cap</code></td><td>Für Loks ist <code>max_wagons</code> Pflicht. Bei anderen Fahrzeugen gibt <code>cap</code> die Kapazität an.</td></tr>
+            <tr><td translate="no"><code>speed</code></td><td>Felder pro Spieltag. Mit 30 multipliziert ergibt das die Geschwindigkeit in km/h, die im Shop steht.</td></tr>
+            <tr><td translate="no"><code>cost</code>, <code>run</code></td><td>Kaufpreis und jährliche Betriebskosten in ganzen Dollar. Wagen erhöhen den Preis des Zuges.</td></tr>
+            <tr><td translate="no"><code>year</code></td><td>Erstes Verkaufsjahr. Lass das Feld weg, wenn das Fahrzeug von Anfang an verfügbar sein soll.</td></tr>
+            <tr><td translate="no"><code>rel</code></td><td>Optionale Anfangszuverlässigkeit zwischen 0 und 1. Der Standardwert hängt vom Jahr des Fahrzeugs ab.</td></tr>
+            <tr><td translate="no"><code>electric</code></td><td>Setze den Wert für Loks mit Oberleitungsbedarf auf <code>true</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Mods fügen neue Fahrzeug-IDs hinzu. Meldet Fourways eine doppelte ID, wähle eine, die nur dein Mod verwendet.</p>
+
+      <h2 id="models">Eigene 3D-Modelle</h2>
+      <p>Exportiere dein Modell als binäres glTF (<code>.glb</code>) und lege es in <code>models/</code> ab. Verwende in der Fahrzeugdefinition <code>"model": "models/mail.glb"</code> anstelle von <code>look</code>. Gib unter <code>length</code> die Fahrzeuglänge in Feldern an.</p>
+      <ul>
+        <li>Modelliere mit einer Einheit pro Feld. Ein Bus ist etwa 0,46 Einheiten lang, ein Schiff etwa 0,9.</li>
+        <li>Zentriere das Modell am Ursprung, setze seine Unterseite auf Y = 0 und richte es nach −Z aus.</li>
+        <li>Eigene Modelle behalten ihre exportierten Materialien. Modelle, die du mit <code>look</code> übernimmst, nutzen die Firmenfarben.</li>
+        <li>Das Modell einer Lokomotive umfasst nur die Lok. Fourways stellt die Wagen bereit.</li>
+      </ul>
+
+      <h2 id="fares-and-names">Frachttarife und Namen</h2>
+      <p>Füge die gewünschten Abschnitte in <code>data.json</code> neben den Fahrzeugdefinitionen ein oder verwende sie einzeln.</p>
+      <pre translate="no"><code>{
+  "cargo": {
+    "mail": {"rate": 52, "days": 10}
+  },
+  "town_names": {
+    "prefixes": ["Vila", "Sant", "Mont"],
+    "suffixes": ["nova", "bella", "serrat"],
+    "replace": false
+  },
+  "company_names": ["Ferrocarrils del Nord", "Costa Brava Lines"]
+}</code></pre>
+      <ul>
+        <li>Verwende in <code>cargo</code> vorhandene Fracht-IDs. <code>rate</code> ist der Tarif für eine Einheit über 25 Felder. <code>days</code> gibt an, wie viele Tage der volle Tarif gilt. Beide Werte müssen positiv sein. Drücke <kbd>Y</kbd>, um das Ergebnis unter Frachttarife zu sehen.</li>
+        <li><code>town_names</code> kombiniert eine Vorsilbe und eine Nachsilbe zu Ortsnamen. Ersetze mit <code>replace: true</code> die Namenslisten des Grundspiels durch deine eigenen.</li>
+        <li><code>company_names</code> liefert Namen für Konkurrenzfirmen. Das Spiel verwendet diese Namen zuerst und greift danach auf seine eigene Liste zurück.</li>
+      </ul>
+
+      <h2 id="maps">Höhenkarten und Voreinstellungen</h2>
+      <p>Lege eine PNG- oder JPEG-Datei in Graustufen in <code>maps/</code> ab. Schwarz markiert das tiefste Gelände, meist das Meer, und Weiß das höchste. Fourways passt das Bild an die Weltgröße an und führt es unter <strong>Karte</strong> in <strong>Neues Spiel</strong> auf.</p>
+      <p>Lege zu <code>great_valley.png</code> eine Datei namens <code>great_valley.json</code> an, um Name, Beschreibung und Startoptionen festzulegen.</p>
+      <pre translate="no"><code>{
+  "name": "Great Valley",
+  "description": "A wide valley between two ranges.",
+  "settings": {"w": 512, "h": 256, "towns": 1, "industries": 2, "year": 1970}
+}</code></pre>
+      <ul>
+        <li>Breite und Höhe können jeweils 64, 128, 256, 512 oder 1024 Felder betragen.</li>
+        <li>Die Dichte von Orten und Industrien reicht von 0 (wenige) bis 3 (sehr dicht).</li>
+        <li>Mögliche Startjahre sind 1950, 1960, 1970, 1980, 1990 und 2000. Spieler können die Voreinstellungen vor dem Start ändern.</li>
+      </ul>
+
+      <h2 id="translations">Übersetzungen und neue Sprachen</h2>
+      <p>Lege Textdateien mit der Endung <code>.lang.txt</code> in <code>lang/</code> ab. Beginne jeden Block mit <code>&gt; </code> und dem genauen englischen Wortlaut. Füge pro Sprachcode eine Zeile hinzu. Das funktioniert für Texte des Grundspiels und für Namen und Beschreibungen deiner Mod-Fahrzeuge.</p>
+      <pre translate="no"><code>&gt; Cost %s
+es: Coste %s
+ca: Cost %s
+fr: Coût %s</code></pre>
+      <ul>
+        <li>Lass Platzhalter wie <code>%s</code> und <code>%d</code> in derselben Reihenfolge. Verwende <code>\n</code> für Zeilenumbrüche und doppelte Anführungszeichen für Texte mit Leerzeichen am Anfang oder Ende.</li>
+        <li>Für eine neue Sprache hinterlegst du Übersetzungen unter ihrem Sprachcode. Übersetze auch den Schlüssel <code>English</code>, damit die Sprache unter ihrem eigenen Namen in den <strong>Einstellungen</strong> erscheint. Schreibe etwa <code>nl: Nederlands</code> unter <code>&gt; English</code>.</li>
+        <li>Schließe Texte in Skripten in <code>L.t("English text")</code> ein, damit Spieler sie mit denselben Dateien übersetzen können.</li>
+      </ul>
+
+      <h2 id="scripts">Spielskripte</h2>
+      <p>Lege <code>main.gd</code> im Mod-Ordner an und beginne mit <code>extends Mod</code>. Überschreibe die benötigten Funktionen. Dieses Beispiel zahlt dem Spieler jeden Monat 500 $ Zuschuss und veröffentlicht eine Meldung.</p>
+      <pre translate="no"><code>extends Mod
+
+func _on_month(sim: Sim) -&gt; void:
+    sim.company.earn(500)
+    news(sim, L.t("Monthly transport grant"), "good")</code></pre>
+      <div class="gtable">
+        <table>
+          <thead><tr><th scope="col">Funktion</th><th scope="col">Wann Fourways sie aufruft</th></tr></thead>
+          <tbody>
+            <tr><td translate="no"><code>_on_load()</code></td><td>Beim Anwenden der aktiven Mods, auch wenn du im Mod-Menü erneut suchst. Zu diesem Zeitpunkt läuft kein Spiel.</td></tr>
+            <tr><td translate="no"><code>_on_new_game(sim)</code><br><code>_on_game_loaded(sim)</code></td><td>Wenn eine Welt erstellt oder ein Spielstand vollständig geladen wurde.</td></tr>
+            <tr><td translate="no"><code>_on_day(sim)</code><br><code>_on_month(sim)</code><br><code>_on_year(sim, year)</code></td><td>Jeden Tag, zum Monatsende und beim Jahreswechsel. <code>year</code> ist das gerade abgelaufene Jahr.</td></tr>
+            <tr><td translate="no"><code>_on_delivery(sim, vehicle, station, amount)</code></td><td>Nachdem ein Fahrzeug entladen und der Transport bezahlt wurde.</td></tr>
+            <tr><td translate="no"><code>_on_vehicle_bought(sim, vehicle)</code><br><code>_on_station_built(sim, station)</code></td><td>Nach einem Kauf oder nachdem eine Station gebaut oder erweitert wurde.</td></tr>
+            <tr><td translate="no"><code>_on_news(sim, item) → bool</code></td><td>Vor dem Veröffentlichen einer Meldung. Das Dictionary enthält <code>text</code>, <code>kind</code>, <code>pos</code> und <code>day</code>. Gib <code>false</code> zurück, um sie auszublenden, oder <code>true</code>, um sie zuzulassen.</td></tr>
+            <tr><td translate="no"><code>_save(sim) → Dictionary</code><br><code>_load(sim, data)</code></td><td>Gib aus <code>_save</code> ein Dictionary mit einfachen Daten zurück. Enthält der Spielstand Daten für diesen Mod, übergibt Fourways sie vor <code>_on_game_loaded</code> an <code>_load</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Das Objekt <code>sim</code> bietet Zugriff auf Firmen, Fahrzeuge, Orte, Industrien und Stationen. Nutze <code>sim.rng</code> für reproduzierbare Zufallsereignisse und Methoden wie <code>sim.build_station()</code> oder <code>sim.buy_vehicle()</code> für Spieleraktionen. Die Klasse <code>Mod</code> bietet <code>news()</code> für Meldungen, <code>note()</code> für Logeinträge und <code>path()</code> zum Auffinden von Dateien im Mod-Ordner.</p>
+      <h3>Hilfsfunktionen für Mods</h3>
+      <ul>
+        <li><code>news(sim, text, kind = "info", at = Vector2(-1, -1))</code> veröffentlicht eine Meldung. Verwende <code>good</code>, <code>info</code>, <code>warn</code> oder <code>bad</code> für <code>kind</code>. Gib in <code>at</code> ein Feld an, zu dem ein Klick auf die Meldung springt.</li>
+        <li><code>note(text)</code> schreibt einen Logeintrag mit der Mod-ID. Du kannst die Funktion aus <code>_on_load()</code> aufrufen.</li>
+        <li><code>path(file)</code> gibt den Pfad zu einer Datei im Mod-Ordner zurück. Über <code>info</code> kannst du Metadaten wie <code>id</code>, <code>name</code> und <code>version</code> abfragen.</li>
+      </ul>
+      <h3>Häufige Simulationsaktionen</h3>
+      <p>Du kannst diese Methoden aus einer Funktion aufrufen, die <code>sim</code> erhält. Ohne <code>who</code> wird die Firma des Spielers verwendet. Prüfe bei einem zurückgegebenen Dictionary zuerst <code>ok</code>. Bei einem Fehlschlag steht der Grund in <code>reason</code>.</p>
+      <ul>
+        <li><code>sim.build_line(kind, pts, who = null)</code> baut eine Straße (<code>road</code>) oder ein Gleis (<code>rail</code>) über aufeinanderfolgende benachbarte Felder. Übergib ein typisiertes <code>Array[Vector2i]</code>.</li>
+        <li><code>sim.build_station(kind, pts, axis, who = null)</code> baut oder erweitert eine Station vom Typ <code>road</code>, <code>rail</code>, <code>dock</code> oder <code>air</code>. Übergib die Felder als <code>Array[Vector2i]</code> und bei Straße oder Schiene die Ausrichtung des Bahnsteigs. Bei Erfolg enthält das Ergebnis <code>station</code>.</li>
+        <li><code>sim.buy_vehicle(model_id, cargo, wagons, stops, full_load_first, who = null, consist = [], transfer_at = [])</code> kauft ein Fahrzeug mit einer vorhandenen Modell-ID und einer Liste von Stationen. <code>consist</code> kann bei gemischten Zügen Fracht und Wagenzahl überschreiben. <code>transfer_at</code> enthält die Indizes der Halte, an denen Fracht für ein anderes Fahrzeug zurückgelassen wird. Bei Erfolg enthält das Ergebnis <code>vehicle</code>.</li>
+        <li><code>sim.town_action(town, action, who = null)</code> führt <code>advertise</code>, <code>trees</code> oder <code>fund</code> aus und gibt die Kosten der Aktion in <code>cost</code> zurück.</li>
+        <li><code>sim.company.earn(amount)</code> schreibt der Firma des Spielers Geld gut. <code>sim.company.spend(cost, category)</code> bucht eine Ausgabe und gibt <code>false</code> zurück, wenn das Geld nicht reicht. Kategorien sind zum Beispiel <code>construction</code> und <code>vehicles</code>.</li>
+        <li><code>town.rating(company_id)</code> liest die Bewertung durch den Gemeinderat. <code>town.change_rating(company_id, delta, why = "", day = -1)</code> passt sie im Bereich von 0 bis 100 an. Übergib einen Grund und <code>sim.day_int</code>, um die Änderung im Ortsfenster zu protokollieren.</li>
+      </ul>
+      <p>Hier sind alle von <code>Mod</code> definierten Funktionen aufgeführt. Skripte können weitere Methoden des Spiels und von Godot aufrufen. Diese findest du im Quellcode des Spiels und der Engine.</p>
+      <p>Skript-Mods laufen mit den Berechtigungen des Spiels. Aktiviere nur Skripte von vertrauenswürdigen Autoren.</p>
+
+      <h2 id="saves">Spielstände und Weitergabe</h2>
+      <p>Packe den Mod-Ordner zum Weitergeben als ZIP-Datei. Fourways akzeptiert auch ZIP-Dateien mit <code>mod.json</code> auf der obersten Ebene. Behalte die Mod-ID und die Fahrzeug-IDs über mehrere Versionen hinweg bei, damit vorhandene Spielstände sie wiederfinden.</p>
+      <p>Ein Spielstand merkt sich aktive Mods und kann Skriptdaten speichern. Fehlt beim Laden ein Mod oder ist er ausgeschaltet, warnt Fourways und lässt Fahrzeuge mit fehlenden Modellen weg. Aktiviere die ursprünglichen Mods wieder, bevor du einen davon abhängigen Spielstand lädst.</p>
+      <p>Die eingebauten Formate decken die hier beschriebenen Inhalte ab. Neue Frachtarten, Industrien oder Stadtgebäude, einzelne Baukosten, der Austausch von Modellen oder Sounds des Grundspiels und Änderungen an der Oberfläche erfordern Arbeit am Spielcode.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand small" href="/de/" data-local><img src="/icon.svg" alt="" width="24" height="24"><span translate="no">Fourways</span></a>
+    <span class="foot-links">
+      <a href="../">Erstelle deinen ersten Mod</a>
+      <a href="/privacy/">Datenschutz und Impressum</a>
+    </span>
+  </div>
+</footer>
+<script src="/guide/guide.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="fr" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fourways – Jeu de gestion de transport sur PC et Mac</title>
+<meta name="description" content="Fourways, jeu de gestion de transport façon tycoon sur Windows et Mac : trains, camions, bateaux et avions, de 1950 à l'ère verte. Bientôt sur Steam et itch.io.">
+<meta name="theme-color" content="#0b1226">
+<link rel="icon" href="../icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="../icon-24.png" sizes="24x24" type="image/png">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fourways – Jeu de gestion de transport sur PC et Mac">
+<meta property="og:description" content="Un jeu de gestion de transport : construis routes et voies ferrées, fais rouler trains, camions, bateaux et avions, et fais grandir un monde vivant de 1950 à l'ère verte.">
+<meta property="og:url" content="https://fourways-game.com/fr/">
+<meta property="og:image" content="https://fourways-game.com/img/og.jpg">
+<link rel="canonical" href="https://fourways-game.com/fr/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://fourways-game.com/">
+<link rel="alternate" hreflang="es" href="https://fourways-game.com/es/">
+<link rel="alternate" hreflang="ca" href="https://fourways-game.com/ca/">
+<link rel="alternate" hreflang="fr" href="https://fourways-game.com/fr/">
+<link rel="alternate" hreflang="de" href="https://fourways-game.com/de/">
+<link rel="alternate" hreflang="it" href="https://fourways-game.com/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://fourways-game.com/pt/">
+<link rel="alternate" hreflang="x-default" href="https://fourways-game.com/">
+<link rel="preload" as="font" type="font/woff2" href="../fonts/big-shoulders.woff2" crossorigin>
+<link rel="preload" as="image" href="../img/hero.webp" media="(min-width: 721px)">
+<link rel="preload" as="image" href="../img/hero-sm.webp" media="(max-width: 720px)">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json" id="ld-game">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Fourways", "url": "https://fourways-game.com/fr/", "description": "Fourways, jeu de gestion de transport façon tycoon sur Windows et Mac : trains, camions, bateaux et avions, de 1950 à l'ère verte. Bientôt sur Steam et itch.io.", "image": "https://fourways-game.com/img/og.jpg", "screenshot": ["https://fourways-game.com/img/hero.webp", "https://fourways-game.com/img/world-day.webp", "https://fourways-game.com/img/world-night.webp", "https://fourways-game.com/img/bridges.webp", "https://fourways-game.com/img/freight.webp", "https://fourways-game.com/img/interface.webp", "https://fourways-game.com/img/streets.webp"], "genre": ["Simulation", "Strategy", "Tycoon"], "gamePlatform": ["PC", "Mac"], "operatingSystem": "Windows, macOS", "applicationCategory": "Game", "playMode": "SinglePlayer", "inLanguage": ["en", "es", "ca", "fr", "de", "it", "pt-BR"]}</script>
+<script type="application/ld+json" id="ld-faq">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Fourways est-il gratuit ?", "acceptedAnswer": {"@type": "Answer", "text": "Fourways sera un jeu payant sur Steam et itch.io. En attendant sa sortie, la version anticipée est en téléchargement gratuit sur cette page, et elle se met à jour toute seule à chaque nouvelle version."}}, {"@type": "Question", "name": "Que faut-il pour y jouer ?", "acceptedAnswer": {"@type": "Answer", "text": "Un PC Windows (l'installateur ne demande pas de droits d'administrateur) ou un Mac avec une puce Intel ou Apple Silicon. Joue à la souris, au trackpad ou avec une manette Xbox ou PlayStation."}}, {"@type": "Question", "name": "Est-ce que ça ressemble à Transport Tycoon ou OpenTTD ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, dans l'esprit : tu construis des lignes routières, ferroviaires, maritimes et aériennes sur une carte en cases, et tu transportes passagers, courrier et fret entre villes et industries. Fourways y ajoute un éclairage en temps réel, les saisons et la météo, cinq ères qui transforment les chaînes industrielles, et des entreprises rivales qui bâtissent leurs propres réseaux."}}, {"@type": "Question", "name": "Y a-t-il un tutoriel ?", "acceptedAnswer": {"@type": "Answer", "text": "Une visite guidée de cinq minutes construit avec toi une première ligne de bus dans le vrai jeu, et le guide du joueur (touche H en jeu) explique tout le reste."}}, {"@type": "Question", "name": "En quelles langues est-il disponible ?", "acceptedAnswer": {"@type": "Answer", "text": "Anglais, espagnol, catalan, français, allemand, italien et portugais du Brésil. Tu peux en changer à tout moment dans les Paramètres."}}, {"@type": "Question", "name": "Puis-je créer des mods ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Crée ton premier mod avec la locomotive d’exemple ou consulte la référence sur les véhicules, les cartes, les traductions et les scripts de jeu."}}]}</script>
+<script>document.documentElement.classList.add("js");</script>
+<!-- Umami (self-hosted, no cookies). Counts only the published site, not local previews. -->
+<script defer src="https://analytics.neptrino.com/script.js" data-website-id="96a6ace5-060e-4a0f-bef4-261feb80c0c0" data-domains="fourways-game.com,www.fourways-game.com"></script>
+<script type="application/json" id="i18n">{"versionOut": "Version anticipée gratuite %s · Bientôt sur Steam et itch.io", "version": "Version anticipée gratuite %s", "versionMac": "Version anticipée gratuite %s pour Mac", "versionWin": "Version anticipée gratuite %s pour Windows", "installer": "Installateur · %s", "macApp": "Intel et Apple Silicon · %s", "play": "Lire la vidéo", "pause": "Mettre la vidéo en pause"}</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" translate="no"><img src="../icon.svg" alt="" width="34" height="34"><span>Fourways</span></a>
+    <nav aria-label="Sections">
+      <a href="#how">Le principe</a>
+      <a href="#world">Le monde</a>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#eras">Ères</a>
+      <a href="guide/" data-local data-umami-event="guide-nav">Guide du joueur</a>
+      <a class="nav-mods" href="mods/" data-local>Mods</a>
+      <a class="btn btn-sm" href="#download">Télécharger</a>
+      <details class="lang">
+        <summary aria-label="Langue"><span translate="no" data-lang-code>FR</span></summary>
+        <ul translate="no">
+          <li><a href="../" hreflang="en" lang="en" data-lang="en" data-umami-event="language" data-umami-event-to="en">English</a></li>
+          <li><a href="../es/" hreflang="es" lang="es" data-lang="es" data-umami-event="language" data-umami-event-to="es">Español</a></li>
+          <li><a href="../ca/" hreflang="ca" lang="ca" data-lang="ca" data-umami-event="language" data-umami-event-to="ca">Català</a></li>
+          <li><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr" data-umami-event="language" data-umami-event-to="fr" aria-current="page">Français</a></li>
+          <li><a href="../de/" hreflang="de" lang="de" data-lang="de" data-umami-event="language" data-umami-event-to="de">Deutsch</a></li>
+          <li><a href="../it/" hreflang="it" lang="it" data-lang="it" data-umami-event="language" data-umami-event-to="it">Italiano</a></li>
+          <li><a href="../pt/" hreflang="pt-BR" lang="pt-BR" data-lang="pt" data-umami-event="language" data-umami-event-to="pt">Português</a></li>
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero-media" id="hero-media" aria-hidden="true">
+    <div class="hero-zoom">
+      <picture>
+        <source media="(max-width: 720px)" srcset="../img/hero-sm.webp">
+        <img class="hero-still" src="../img/hero.webp" alt="" width="2560" height="1440" fetchpriority="high">
+      </picture>
+    </div>
+    <div class="hero-clouds"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-grain"></div>
+  </div>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-in">
+    <a class="chip" href="#download"><span class="chip-dot"></span><span data-chip>Version anticipée gratuite · Bientôt sur Steam et itch.io</span></a>
+    <h1 class="logo"><span class="sr">Fourways, un jeu de gestion de transport</span><span aria-hidden="true" translate="no">Four<em>ways</em></span></h1>
+    <p class="tagline">Construis les lignes qui font vivre un monde en plein essor.</p>
+    <p class="lede">Construis routes et voies ferrées, ouvre des ports et des aéroports, et transporte passagers, courrier et fret à travers soixante-dix ans de changements. Les villes grandissent là où tu les desserts. Tes rivaux construisent là où tu n'es pas.</p>
+    <div class="cta-row">
+      <a class="btn btn-big" id="cta-main" data-umami-event="download-hero" href="https://github.com/Neptrino/Fourways-game/releases/latest">
+        <svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><span class="btn-label">Télécharger</span><span class="btn-sub" data-version-line>Version anticipée gratuite · Windows et Mac</span></span>
+      </a>
+      <a class="btn btn-ghost" href="#how" data-umami-event="see-how-it-plays">Voir le jeu en action</a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#how" aria-label="Faire défiler vers le bas"><span></span></a>
+</section>
+
+<div class="ticker" id="ticker" aria-label="En bref">
+  <div class="ticker-track">
+    <ul>
+      <li>Route</li><li>Rail</li><li>Mer</li><li>Air</li><li>Cinq ères, de 1950 à 2010</li><li>45 véhicules</li>
+      <li>Entreprises rivales</li><li>Jour et nuit</li><li>Quatre saisons</li><li>Orages</li><li>Mods</li><li>Sept langues</li>
+    </ul>
+    <ul aria-hidden="true">
+      <li>Route</li><li>Rail</li><li>Mer</li><li>Air</li><li>Cinq ères, de 1950 à 2010</li><li>45 véhicules</li>
+      <li>Entreprises rivales</li><li>Jour et nuit</li><li>Quatre saisons</li><li>Orages</li><li>Mods</li><li>Sept langues</li>
+    </ul>
+  </div>
+</div>
+
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Le principe</p>
+      <h2>Tu diriges une entreprise de transport.</h2>
+      <p>Passagers, courrier et fret apparaissent partout sur la carte, et on te paie pour les emmener là où on les attend. Tu construis routes, voies, ports et pistes, tu achètes les véhicules et tu fixes leurs itinéraires. Chaque livraison rapporte, et l'argent finance la ligne suivante. Voici un premier itinéraire de charbon, joué en vrai dans le jeu.</p>
+    </div>
+    <div class="player" data-reveal>
+      <div class="player-screen">
+        <video id="howto-video" muted playsinline preload="none" poster="../img/play-connect.webp" aria-label="Extrait de jeu"></video>
+        <button class="player-toggle" type="button" id="howto-toggle" aria-label="Pause"><span></span></button>
+      </div>
+      <ol class="player-steps" role="tablist" aria-label="Étapes">
+        <li><button role="tab" aria-selected="true" data-clip="connect" data-umami-event="how-step" data-umami-event-step="connect"><span class="step-n">1</span><span class="step-t"><strong>Relie deux endroits</strong>Clique près d'une mine de charbon, vise une centrale électrique : le meilleur tracé apparaît avec son prix. Clique encore et c'est construit.</span><i></i></button></li>
+        <li><button role="tab" aria-selected="false" data-clip="stations" data-umami-event="how-step" data-umami-event-step="stations"><span class="step-n">2</span><span class="step-t"><strong>Construis une station à chaque bout</strong>Glisse pour tracer un quai. La zone bleue montre ce qu'une station charge et ce qu'elle accepte : le charbon à la mine, le charbon à la centrale.</span><i></i></button></li>
+        <li><button role="tab" aria-selected="false" data-clip="buy" data-umami-event="how-step" data-umami-event-step="buy"><span class="step-n">3</span><span class="step-t"><strong>Achète un train</strong>Appuie sur B, choisis une locomotive et ses deux arrêts. La cargaison est choisie pour toi, et le train part du dépôt.</span><i></i></button></li>
+        <li><button role="tab" aria-selected="false" data-clip="paid" data-umami-event="how-step" data-umami-event-step="paid"><span class="step-n">4</span><span class="step-t"><strong>Encaisse</strong>Il se charge à la mine et file jusqu'à la centrale. Chaque livraison rapporte : plus c'est loin et rapide, plus ça paie.</span><i></i></button></li>
+      </ol>
+    </div>
+    <p class="how-then" data-reveal><strong>Et tu recommences, un peu plus grand à chaque fois.</strong> Les villes grandissent là où tu les desserts, des industries ouvrent et ferment, cinq ères amènent jets, hydroptères et trains électriques, et des entreprises rivales convoitent la même cargaison.</p>
+  </div>
+</section>
+
+<section class="stats" aria-label="En chiffres">
+  <div class="wrap stats-in">
+    <div data-reveal><strong>4</strong><span>modes de transport : route, rail, mer et air</span></div>
+    <div data-reveal><strong>5</strong><span>ères, de 1950 à l'ère verte</span></div>
+    <div data-reveal><strong>45</strong><span>véhicules, de la vapeur au supersonique</span></div>
+    <div data-reveal><strong>7</strong><span>langues, dans le jeu et sur ce site</span></div>
+    <div data-reveal><strong>0</strong><span>ressource achetée : modèles, musiques et sons sont tous créés par le code</span></div>
+  </div>
+</section>
+
+<section id="fans" class="fans">
+  <div class="wrap">
+    <div class="fans-in" data-reveal>
+      <p class="kicker">Pour les fans de Transport Tycoon</p>
+      <h2>Dans l'esprit de Transport Tycoon et d'OpenTTD.</h2>
+      <p>Si tu as grandi avec Transport Tycoon Deluxe, ou si tu joues encore à OpenTTD, tu seras en terrain connu : une carte en cases, des routes, des voies ferrées, des ports et des aéroports, des industries qui s'approvisionnent les unes les autres et des entreprises rivales sur la même carte. Fourways garde tout cela et ajoute ce que les classiques n'avaient jamais eu : une lumière en temps réel de l'aube à la nuit, les saisons et la météo, des villes qui évoluent au fil des ères, un premier itinéraire guidé et la liste de tout ce qui bloque.</p>
+      <p>Les fans des chemins de fer de Railroad Tycoon, des ères de Transport Fever ou des lignes épurées de Mini Metro s'y sentiront aussi chez eux.</p>
+    </div>
+  </div>
+</section>
+
+<section id="world" class="world">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Un monde, à toute heure</p>
+      <h2>Les saisons passent.<br>Les lumières s'allument.</h2>
+      <p>Éclairage en temps réel, alternance du jour et de la nuit, quatre saisons et une météo qui change. Même ville, même trafic : choisis ton moment.</p>
+    </div>
+  </div>
+  <div class="switcher" data-reveal>
+    <div class="switch-stage" id="stage">
+      <img class="on" src="../img/world-day.webp" alt="La ville un jour d'été" width="1600" height="900" data-key="day">
+      <p class="switch-label" id="switch-label" aria-hidden="true">Jour d'été</p>
+    </div>
+    <div class="switch-tabs" role="tablist" aria-label="Heure et météo">
+      <button role="tab" aria-selected="true" data-key="day" data-alt="La ville un jour d'été">Jour d'été</button>
+      <button role="tab" aria-selected="false" data-key="dusk" data-video="video/dusk.mp4" data-alt="La ville de l'après-midi à la nuit, fenêtres et réverbères qui s'allument">Du jour à la nuit</button>
+      <button role="tab" aria-selected="false" data-key="night" data-alt="La ville la nuit, réverbères et fenêtres éclairées">Nuit</button>
+      <button role="tab" aria-selected="false" data-key="autumn" data-alt="La ville en automne, les arbres virent à l'orange">Automne</button>
+      <button role="tab" aria-selected="false" data-key="winter" data-alt="La ville en hiver, arbres nus et sol pâle">Hiver</button>
+      <button role="tab" aria-selected="false" data-key="mist" data-alt="La ville dans la brume matinale">Brume</button>
+      <button role="tab" aria-selected="false" data-key="rainbow" data-alt="Un arc-en-ciel sur la ville après la pluie">Arc-en-ciel</button>
+      <button role="tab" aria-selected="false" data-key="storm" data-video="video/storm.mp4" data-alt="La ville sous l'orage, la pluie balaie les rues">Orage</button>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <div class="wrap">
+
+    <div class="section-head" data-reveal>
+      <p class="kicker">Ce que tu vas construire</p>
+      <h2>D'un arrêt de bus à tout un pays en&nbsp;mouvement.</h2>
+    </div>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Agrandir l'image"><img src="../img/interchange-rail.webp" alt="Un bus et un train de voyageurs se retrouvent à Westbridge Central au crépuscule" width="1280" height="720" loading="lazy" decoding="async"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">01</span>
+        <p class="kicker">Route · Rail · Mer · Air</p>
+        <h3>Trace une ligne, et ça roule.</h3>
+        <p>Bus et camions, trains à vapeur et à grande vitesse, ferrys et cargos, avions à hélices et gros-porteurs. L'outil Relier trouve la meilleure route ou voie entre deux points, diagonales, ponts et tunnels compris, et affiche le prix avant de construire.</p>
+        <ul>
+          <li>Signaux, voies d'évitement et quais jusqu'à 12 cases de long</li>
+          <li>Trains mixtes : chaque wagon décharge là où sa cargaison est attendue</li>
+          <li>Caténaire pour les locomotives électriques</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature flip" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Agrandir l'image"><img src="../img/bridges.webp" alt="Un viaduc en pierre, une arche en acier et un pont suspendu rouge qui franchissent une rivière" width="1280" height="720" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">02</span>
+        <p class="kicker">Ponts et tunnels</p>
+        <h3>Cinq types de ponts. Des tunnels pour le reste.</h3>
+        <p>Poutres en béton pour un ruisseau, viaducs en pierre et treillis en acier pour une vallée, arches en acier et ponts suspendus quand les décennies le permettent. Les collines trop raides ont droit à un tunnel aux portails de pierre.</p>
+      </div>
+    </article>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Agrandir l'image"><img src="../img/freight.webp" alt="Un train de marchandises quitte une gare entre un lac, une imprimerie et une ville" width="1280" height="720" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">03</span>
+        <p class="kicker">Chaînes industrielles</p>
+        <h3>Du charbon à l'électricité. Du bois aux journaux. De l'acier aux voitures.</h3>
+        <p>Mines, fermes, puits, scieries et usines se passent la cargaison tout au long de la chaîne. Les industries embauchent des travailleurs dans les villes voisines : amène du monde à l'entrée et la production grimpe. Laisse-en une sans service trop longtemps et elle risque de fermer.</p>
+      </div>
+    </article>
+
+    <article class="feature flip" data-reveal>
+      <figure><div class="zoom"><span class="clip-tag">Accéléré</span><video class="clip" muted loop playsinline preload="none" poster="../video/town.webp" data-src="../video/town.mp4" aria-label="Vingt ans en accéléré : un hameau en rase campagne devient une ville de rues et d'immeubles"></video></div></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">04</span>
+        <p class="kicker">Villes vivantes</p>
+        <h3>Un bon service fait grandir une ville.</h3>
+        <p>Les logements suivent les emplois, les commerces suivent les habitants. Les stations animées font monter la valeur foncière, et un terrain qui prend de la valeur attire immeubles et tours de bureaux. Les grandes villes construisent cinémas, musées, fêtes foraines et stades, et leurs foules paient le tarif touristique.</p>
+        <ul>
+          <li>Des conseils municipaux qui se souviennent de ce que tu as démoli</li>
+          <li>Quartiers en damier et vieilles rues sinueuses</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Agrandir l'image"><img src="../img/interchange-port.webp" alt="Un cargo à quai à Westbank en plein jour, avec une grue, une zone de chargement et un camion en attente" width="1280" height="720" loading="lazy" decoding="async"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">05</span>
+        <p class="kicker">Ports et aéroports</p>
+        <h3>Prends le large.</h3>
+        <p>Des ports sur la côte, des bateaux qui trouvent seuls leur chemin en mer, des aéroports où les avions décollent, volent et atterrissent. Les stations construites côte à côte n'en forment qu'une : un seul pôle d'échange peut desservir le rail, la route, la mer et l'air.</p>
+      </div>
+    </article>
+
+    <article class="feature flip" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Agrandir l'image"><img src="../img/interface.webp" alt="L'interface du jeu : barre du haut, barre d'outils, mini-carte et noms des stations au-dessus de la ville" width="1600" height="900" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">06</span>
+        <p class="kicker">Une interface qui t'aide</p>
+        <h3>Vois ce qui bloque, et répare-le en un clic.</h3>
+        <p>La fenêtre Problèmes rassemble chaque véhicule perdu, chaque station débordée et chaque conseil mécontent, avec un bouton qui t'emmène droit à la solution. Fiches au survol, calques de la carte, lignes nommées qui espacent leurs véhicules régulièrement, et l'annulation de tes 20 dernières constructions, remboursées en totalité.</p>
+      </div>
+    </article>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Agrandir l'image"><img src="../img/streets.webp" alt="Des camions et des voitures dans des rues sinueuses, entre commerces et maisons" width="1280" height="720" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">07</span>
+        <p class="kicker">Entreprises de transport rivales</p>
+        <h3>Des concurrents qui réfléchissent comme toi.</h3>
+        <p>Des entreprises gérées par l'ordinateur, à trois niveaux de difficulté, construisent des réseaux de bus, de camions et de trains, puis passent à la mer et aux airs quand elles en ont les moyens. Elles convoitent les industries que tu dessers mal et démolissent les itinéraires qui ne rapportent jamais.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="fleet" class="fleet-sec">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">La flotte</p>
+      <h2>45 véhicules, de la vapeur au supersonique.</h2>
+      <p>Bus, camions, trains, bateaux et avions, chacun avec son propre modèle, créé par le code du jeu lui-même. De nouveaux arrivent au fil des décennies, des locomotives à vapeur de 1950 aux trains et avions à hydrogène.</p>
+    </div>
+    <!-- fleet:start -->
+    <div class="fleet" data-reveal>
+      <div class="fleet-tabs" role="tablist" aria-label="Types de véhicules">
+        <button role="tab" id="fleet-tab-road" aria-controls="fleet-road" aria-selected="false">Route</button>
+        <button role="tab" id="fleet-tab-rail" aria-controls="fleet-rail" aria-selected="true">Rail</button>
+        <button role="tab" id="fleet-tab-water" aria-controls="fleet-water" aria-selected="false">Mer</button>
+        <button role="tab" id="fleet-tab-air" aria-controls="fleet-air" aria-selected="false">Air</button>
+      </div>
+      <ul class="fleet-strip" id="fleet-road" role="tabpanel" aria-labelledby="fleet-tab-road" translate="no" hidden>
+        <li class="fleet-card"><img src="../img/fleet/truck.webp" alt="Atlas Hauler" width="649" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Hauler</span><span class="fleet-meta">1950 · 90 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/bus.webp" alt="Comet City Bus" width="644" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet City Bus</span><span class="fleet-meta">1950 · 90 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/ddbus.webp" alt="Comet Double-Decker" width="514" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet Double-Decker</span><span class="fleet-meta">1956 · 84 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/truck2.webp" alt="Atlas Hauler Mk II" width="649" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Hauler Mk II</span><span class="fleet-meta">1964 · 117 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/bus2.webp" alt="Comet Coach" width="658" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet Coach</span><span class="fleet-meta">1968 · 120 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/artbus.webp" alt="Comet Articulated" width="684" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet Articulated</span><span class="fleet-meta">1980 · 108 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/truck3.webp" alt="Atlas Hauler Mk III" width="620" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Hauler Mk III</span><span class="fleet-meta">1986 · 138 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/roadtrain.webp" alt="Titan Road Train" width="661" height="520" loading="lazy" decoding="async"><span class="fleet-name">Titan Road Train</span><span class="fleet-meta">1994 · 108 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/cartruck.webp" alt="Atlas Car Transporter" width="578" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Car Transporter</span><span class="fleet-meta">1995 · 132 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/ebus.webp" alt="Volt Electric Bus" width="641" height="520" loading="lazy" decoding="async"><span class="fleet-name">Volt Electric Bus</span><span class="fleet-meta">2010 · 129 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/etruck.webp" alt="Volt Electric Truck" width="642" height="520" loading="lazy" decoding="async"><span class="fleet-name">Volt Electric Truck</span><span class="fleet-meta">2016 · 126 km/h</span></li>
+      </ul>
+      <ul class="fleet-strip" id="fleet-rail" role="tabpanel" aria-labelledby="fleet-tab-rail" translate="no">
+        <li class="fleet-card"><img src="../img/fleet/tank.webp" alt="Brigand Tank Engine" width="900" height="492" loading="lazy" decoding="async"><span class="fleet-name">Brigand Tank Engine</span><span class="fleet-meta">1950 · 81 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/steam.webp" alt="Kestrel Steam" width="900" height="520" loading="lazy" decoding="async"><span class="fleet-name">Kestrel Steam</span><span class="fleet-meta">1950 · 99 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/mogul.webp" alt="Highland Mogul" width="899" height="520" loading="lazy" decoding="async"><span class="fleet-name">Highland Mogul</span><span class="fleet-meta">1954 · 108 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/diesel.webp" alt="Meridian Diesel" width="900" height="499" loading="lazy" decoding="async"><span class="fleet-name">Meridian Diesel</span><span class="fleet-meta">1960 · 147 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/railcar.webp" alt="Sparrow Railcar" width="900" height="482" loading="lazy" decoding="async"><span class="fleet-name">Sparrow Railcar</span><span class="fleet-meta">1966 · 168 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/express.webp" alt="Vanguard Express" width="900" height="474" loading="lazy" decoding="async"><span class="fleet-name">Vanguard Express</span><span class="fleet-meta">1975 · 204 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/heavydiesel.webp" alt="Ironclad Freight Diesel" width="900" height="498" loading="lazy" decoding="async"><span class="fleet-name">Ironclad Freight Diesel</span><span class="fleet-meta">1979 · 162 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/electric.webp" alt="Aurora Electric" width="786" height="520" loading="lazy" decoding="async"><span class="fleet-name">Aurora Electric</span><span class="fleet-meta">1985 · 245 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/hst.webp" alt="Swift High-Speed" width="820" height="520" loading="lazy" decoding="async"><span class="fleet-name">Swift High-Speed</span><span class="fleet-meta">1995 · 315 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/tilting.webp" alt="Swallow Tilting Express" width="900" height="467" loading="lazy" decoding="async"><span class="fleet-name">Swallow Tilting Express</span><span class="fleet-meta">2003 · 264 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/hydrogen.webp" alt="Zephyr Hydrogen" width="900" height="498" loading="lazy" decoding="async"><span class="fleet-name">Zephyr Hydrogen</span><span class="fleet-meta">2022 · 240 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/efreight.webp" alt="Tempest Electric Freight" width="784" height="520" loading="lazy" decoding="async"><span class="fleet-name">Tempest Electric Freight</span><span class="fleet-meta">2024 · 222 km/h</span></li>
+      </ul>
+      <ul class="fleet-strip" id="fleet-water" role="tabpanel" aria-labelledby="fleet-tab-water" translate="no" hidden>
+        <li class="fleet-card"><img src="../img/fleet/ferry.webp" alt="Gull Ferry" width="564" height="520" loading="lazy" decoding="async"><span class="fleet-name">Gull Ferry</span><span class="fleet-meta">1950 · 69 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/tanker.webp" alt="Petrel Tanker" width="643" height="520" loading="lazy" decoding="async"><span class="fleet-name">Petrel Tanker</span><span class="fleet-meta">1950 · 63 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/freighter.webp" alt="Tern Freighter" width="609" height="520" loading="lazy" decoding="async"><span class="fleet-name">Tern Freighter</span><span class="fleet-meta">1950 · 60 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/liner.webp" alt="Majestic Liner" width="573" height="520" loading="lazy" decoding="async"><span class="fleet-name">Majestic Liner</span><span class="fleet-meta">1958 · 78 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/hydrofoil.webp" alt="Skimmer Hydrofoil" width="631" height="520" loading="lazy" decoding="async"><span class="fleet-name">Skimmer Hydrofoil</span><span class="fleet-meta">1972 · 138 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/container.webp" alt="Atlas Box Carrier" width="592" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Box Carrier</span><span class="fleet-meta">1980 · 87 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/bulker.webp" alt="Granite Bulk Carrier" width="676" height="520" loading="lazy" decoding="async"><span class="fleet-name">Granite Bulk Carrier</span><span class="fleet-meta">1992 · 78 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/eferry.webp" alt="Ripple Electric Ferry" width="651" height="520" loading="lazy" decoding="async"><span class="fleet-name">Ripple Electric Ferry</span><span class="fleet-meta">2020 · 117 km/h</span></li>
+      </ul>
+      <ul class="fleet-strip" id="fleet-air" role="tabpanel" aria-labelledby="fleet-tab-air" translate="no" hidden>
+        <li class="fleet-card"><img src="../img/fleet/mailplane.webp" alt="Petrel Mailplane" width="900" height="496" loading="lazy" decoding="async"><span class="fleet-name">Petrel Mailplane</span><span class="fleet-meta">1950 · 225 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/prop.webp" alt="Skylark Prop" width="900" height="435" loading="lazy" decoding="async"><span class="fleet-name">Skylark Prop</span><span class="fleet-meta">1950 · 255 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/cargoprop.webp" alt="Stork Cargo Prop" width="900" height="404" loading="lazy" decoding="async"><span class="fleet-name">Stork Cargo Prop</span><span class="fleet-meta">1958 · 245 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/jet.webp" alt="Albatross Jet" width="900" height="428" loading="lazy" decoding="async"><span class="fleet-name">Albatross Jet</span><span class="fleet-meta">1962 · 450 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/turboprop.webp" alt="Kittiwake Turboprop" width="900" height="377" loading="lazy" decoding="async"><span class="fleet-name">Kittiwake Turboprop</span><span class="fleet-meta">1968 · 330 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/cargoplane.webp" alt="Pelican Freighter" width="900" height="369" loading="lazy" decoding="async"><span class="fleet-name">Pelican Freighter</span><span class="fleet-meta">1975 · 390 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/supersonic.webp" alt="Arrow Supersonic" width="857" height="520" loading="lazy" decoding="async"><span class="fleet-name">Arrow Supersonic</span><span class="fleet-meta">1977 · 840 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/jumbo.webp" alt="Condor Jumbo" width="900" height="434" loading="lazy" decoding="async"><span class="fleet-name">Condor Jumbo</span><span class="fleet-meta">1978 · 510 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/widebody.webp" alt="Osprey Widebody" width="900" height="466" loading="lazy" decoding="async"><span class="fleet-name">Osprey Widebody</span><span class="fleet-meta">1984 · 495 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/narrowbody.webp" alt="Falcon Narrowbody" width="900" height="423" loading="lazy" decoding="async"><span class="fleet-name">Falcon Narrowbody</span><span class="fleet-meta">1989 · 465 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/regional.webp" alt="Swift Regional Jet" width="900" height="405" loading="lazy" decoding="async"><span class="fleet-name">Swift Regional Jet</span><span class="fleet-meta">1996 · 480 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/superjumbo.webp" alt="Leviathan Double-Deck" width="900" height="477" loading="lazy" decoding="async"><span class="fleet-name">Leviathan Double-Deck</span><span class="fleet-meta">2007 · 510 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/eplane.webp" alt="Breeze Electric Commuter" width="900" height="373" loading="lazy" decoding="async"><span class="fleet-name">Breeze Electric Commuter</span><span class="fleet-meta">2030 · 285 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/h2liner.webp" alt="Aurora H2 Airliner" width="900" height="413" loading="lazy" decoding="async"><span class="fleet-name">Aurora H2 Airliner</span><span class="fleet-meta">2038 · 480 km/h</span></li>
+      </ul>
+    </div>
+    <!-- fleet:end -->
+  </div>
+</section>
+
+<section id="eras" class="eras">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Cinq ères</p>
+      <h2>La carte change sous tes pieds.</h2>
+      <p>Chaque ère apporte de nouveaux véhicules et bâtiments, et redessine les chaînes industrielles.</p>
+    </div>
+  </div>
+  <ol class="timeline">
+    <li class="e1" data-reveal><span class="year">1950</span><h4>Après-guerre</h4><p>Vapeur, bus et premières chaînes : charbon, bois, céréales, pétrole, fer.</p></li>
+    <li class="e2" data-reveal><span class="year">1965</span><h4>Ère du jet</h4><p>Jets et diesels. Les raffineries produisent des plastiques ; les centrales brûlent aussi du pétrole.</p></li>
+    <li class="e3" data-reveal><span class="year">1980</span><h4>Fin de siècle</h4><p>Chaque maison produit des déchets, et les centres de recyclage en font des marchandises.</p></li>
+    <li class="e4" data-reveal><span class="year">1995</span><h4>Ère de l'information</h4><p>De l'électronique qui se périme en quelques jours, des usines automobiles à trois cargaisons, des tours de bureaux.</p></li>
+    <li class="e5" data-reveal><span class="year">2010</span><h4>Ère verte</h4><p>Le charbon décline, les parcs éoliens se dressent, camions, ferrys et avions électriques arrivent.</p></li>
+  </ol>
+</section>
+
+<section id="download" class="download">
+  <div class="download-bg" aria-hidden="true"></div>
+  <div class="wrap download-in">
+    <p class="kicker" data-version-line>Version anticipée gratuite</p>
+    <h2 class="huge">Ton réseau<br>commence ici.</h2>
+    <p class="dl-lede">Fourways arrive sur Steam et itch.io. En attendant sa sortie, la version anticipée est en téléchargement gratuit, et elle se met à jour toute seule à chaque nouvelle version.</p>
+    <div class="dl-grid">
+      <a class="dl" id="dl-win" data-umami-event="download-windows" href="https://github.com/Neptrino/Fourways-game/releases/latest">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg>
+        <span class="dl-text"><span class="dl-name">Windows</span><span class="dl-meta" data-meta="win">Installateur, sans droits d'administrateur</span></span>
+        <span class="dl-arrow" aria-hidden="true">↓</span>
+      </a>
+      <a class="dl" id="dl-mac" data-umami-event="download-mac" href="https://github.com/Neptrino/Fourways-game/releases/latest">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.9C6.1 6.9 4.5 7.9 3.7 9.4c-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8 2.2-1.2 3-2.4c.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-4.3zM14 5.2c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4z"/></svg>
+        <span class="dl-text"><span class="dl-name">macOS</span><span class="dl-meta" data-meta="mac">Application pour Intel et Apple Silicon</span></span>
+        <span class="dl-arrow" aria-hidden="true">↓</span>
+      </a>
+    </div>
+    <div class="dl-notes">
+      <p><strong>Sur Mac</strong>, l'application n'est pas encore validée par Apple, donc macOS la refuse la première fois. Ouvre <em>Réglages Système › Confidentialité et sécurité</em> et clique sur <em>Ouvrir quand même</em>. Ensuite, les mises à jour s'installent toutes seules.</p>
+      <div class="news" id="news" hidden>
+        <h4>Nouveautés de la version <span data-version></span></h4>
+        <ul id="news-list"></ul>
+      </div>
+      <p class="langs">En anglais, espagnol, catalan, français, allemand, italien et portugais du Brésil : choisis ta langue dans les Paramètres, quand tu veux.</p>
+      <p class="all-releases"><a href="https://github.com/Neptrino/Fourways-game/releases">Toutes les versions</a></p>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Questions</p>
+      <h2>Bon à savoir.</h2>
+    </div>
+    <div class="faq-list" data-reveal>
+      <details><summary>Fourways est-il gratuit ?</summary><p>Fourways sera un jeu payant sur Steam et itch.io. En attendant sa sortie, la version anticipée est en téléchargement gratuit sur cette page, et elle se met à jour toute seule à chaque nouvelle version.</p></details>
+      <details><summary>Que faut-il pour y jouer ?</summary><p>Un PC Windows (l'installateur ne demande pas de droits d'administrateur) ou un Mac avec une puce Intel ou Apple Silicon. Joue à la souris, au trackpad ou avec une manette Xbox ou PlayStation.</p></details>
+      <details><summary>Est-ce que ça ressemble à Transport Tycoon ou OpenTTD ?</summary><p>Oui, dans l'esprit : tu construis des lignes routières, ferroviaires, maritimes et aériennes sur une carte en cases, et tu transportes passagers, courrier et fret entre villes et industries. Fourways y ajoute un éclairage en temps réel, les saisons et la météo, cinq ères qui transforment les chaînes industrielles, et des entreprises rivales qui bâtissent leurs propres réseaux.</p></details>
+      <details><summary>Y a-t-il un tutoriel ?</summary><p>Une visite guidée de cinq minutes construit avec toi une première ligne de bus dans le vrai jeu, et le <a href="guide/">guide du joueur</a> (touche H en jeu) explique tout le reste.</p></details>
+      <details><summary>En quelles langues est-il disponible ?</summary><p>Anglais, espagnol, catalan, français, allemand, italien et portugais du Brésil. Tu peux en changer à tout moment dans les Paramètres.</p></details>
+      <details><summary>Puis-je créer des mods ?</summary><p>Oui. <a href="mods/" data-local>Crée ton premier mod</a> avec la locomotive d’exemple ou consulte la référence sur les véhicules, les cartes, les traductions et les scripts de jeu.</p></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span class="brand small" translate="no"><img src="../icon.svg" alt="" width="24" height="24"><span>Fourways</span></span>
+    <span class="foot-links">
+      <a href="guide/" data-local>Guide du joueur</a>
+      <a href="mods/" data-local>Mods</a>
+      <a href="../privacy/">Confidentialité et mentions légales</a>
+      <a class="foot-maker" href="https://neptrino.com/#apps" translate="no" data-umami-event="neptrino"><img src="../img/neptrino.png" alt="" width="22" height="22"><span>Neptrino Studio</span></a>
+    </span>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Image">
+  <button class="lb-close" type="button" aria-label="Fermer">×</button>
+  <img alt="">
+</dialog>
+
+<script src="../site.js" defer></script>
+</body>
+</html>

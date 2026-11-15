@@ -1,0 +1,1290 @@
+# Fourways website translations: tools/website_i18n.py extract / build (docs/WEBSITE.md).
+# The English text of website/index.html, then each language. Keep the HTML tags as they are.
+
+> Fourways is a transport tycoon game for Windows and Mac. Lay road and rail, run trains, trucks, ships and planes, and grow a living world from 1950 to the green age. Coming to Steam and itch.io; the early build is free.
+es: Fourways es un juego tycoon de gestión de transportes para PC y Mac: tiende vías y carreteras y lleva trenes, camiones, barcos y aviones de 1950 a la era verde.
+ca: Fourways és un joc de gestió de transports per a Windows i Mac: traça carreteres i vies i fes créixer un món viu del 1950 a l'era verda. Aviat a Steam i itch.io.
+fr: Fourways, jeu de gestion de transport façon tycoon sur Windows et Mac : trains, camions, bateaux et avions, de 1950 à l'ère verte. Bientôt sur Steam et itch.io.
+de: Fourways ist eine Wirtschaftssimulation für PC und Mac: Bau Eisenbahn und Straßen, schick Züge, Lkw, Schiffe und Flugzeuge los. Bald auf Steam und itch.io.
+it: Fourways è un gioco gestionale di trasporti per PC e Mac: treni, camion, navi e aerei dal 1950 all'era verde. Presto su Steam; la versione preliminare è gratis.
+pt: Fourways é um jogo tycoon de transporte para PC e Mac: gerencie trens, navios e aviões de 1950 à era verde. Em breve na Steam e no itch.io; versão prévia grátis.
+
+> Fourways – Transport Tycoon Game for PC and Mac
+es: Fourways – Juego de gestión de transportes para PC y Mac
+ca: Fourways – Joc de gestió de transports per a PC i Mac
+fr: Fourways – Jeu de gestion de transport sur PC et Mac
+de: Fourways – Verkehrs-Wirtschaftssimulation für PC und Mac
+it: Fourways – Gioco gestionale di trasporti per PC e Mac
+pt: Fourways – Jogo tycoon de transporte para PC e Mac
+
+> A transport tycoon game: lay road and rail, run trains, trucks, ships and planes, and grow a living world from 1950 to the green age.
+es: Un juego tycoon de transportes: construye carreteras y vías, gestiona trenes, camiones, barcos y aviones, y haz crecer un mundo vivo de 1950 a la era verde.
+ca: Un joc de gestió de transports: traça carreteres i vies, gestiona trens, camions, vaixells i avions, i fes créixer un món viu del 1950 a l'era verda.
+fr: Un jeu de gestion de transport : construis routes et voies ferrées, fais rouler trains, camions, bateaux et avions, et fais grandir un monde vivant de 1950 à l'ère verte.
+de: Ein Aufbauspiel rund um Verkehr: Bau Straßen und Gleise, schick Züge, Lkw, Schiffe und Flugzeuge los und lass eine lebendige Welt von 1950 bis ins Grüne Zeitalter wachsen.
+it: Un gioco gestionale di trasporti: costruisci strade e ferrovie, gestisci treni, camion, navi e aerei e fai crescere un mondo vivo dal 1950 all'era verde.
+pt: Um jogo tycoon de transporte: construa estradas e ferrovias, gerencie trens, caminhões, navios e aviões e faça crescer um mundo vivo de 1950 até a era verde.
+
+> Sections
+es: Secciones
+ca: Seccions
+fr: Sections
+de: Abschnitte
+it: Sezioni
+pt: Seções
+
+> Language
+es: Idioma
+ca: Idioma
+fr: Langue
+de: Sprache
+it: Lingua
+pt: Idioma
+
+> Scroll down
+es: Desplázate hacia abajo
+ca: Desplaça't cap avall
+fr: Faire défiler vers le bas
+de: Nach unten scrollen
+it: Scorri in basso
+pt: Rolar para baixo
+
+> At a glance
+es: De un vistazo
+ca: D'un cop d'ull
+fr: En bref
+de: Auf einen Blick
+it: In breve
+pt: Em resumo
+
+> Gameplay clip
+es: Vídeo del juego
+ca: Vídeo d'una partida
+fr: Extrait de jeu
+de: Spielszene
+it: Video di gioco
+pt: Trecho do jogo
+
+> Pause
+es: Pausa
+ca: Pausa
+fr: Pause
+de: Pause
+it: Pausa
+pt: Pausar
+
+> Steps
+es: Pasos
+ca: Passos
+fr: Étapes
+de: Schritte
+it: Passaggi
+pt: Passos
+
+> In numbers
+es: En cifras
+ca: En xifres
+fr: En chiffres
+de: In Zahlen
+it: In cifre
+pt: Em números
+
+> The town on a summer day
+es: La ciudad en un día de verano
+ca: La ciutat en un dia d'estiu
+fr: La ville un jour d'été
+de: Die Stadt an einem Sommertag
+it: La città in una giornata d'estate
+pt: A cidade num dia de verão
+
+> Time and weather
+es: Hora y tiempo
+ca: L'hora i el temps
+fr: Heure et météo
+de: Zeit und Wetter
+it: Ora e meteo
+pt: Hora e clima
+
+> The town from afternoon into night, windows and street lights coming on
+es: La ciudad de la tarde a la noche, con las ventanas y las farolas encendiéndose
+ca: La ciutat de la tarda a la nit, amb les finestres i els fanals que s'encenen
+fr: La ville de l'après-midi à la nuit, fenêtres et réverbères qui s'allument
+de: Die Stadt vom Nachmittag bis in die Nacht, Fenster und Straßenlaternen gehen an
+it: La città dal pomeriggio alla notte, con le finestre e i lampioni che si accendono
+pt: A cidade da tarde para a noite, com janelas e postes se acendendo
+
+> The town at night, street lights and lit windows
+es: La ciudad de noche, con farolas y ventanas iluminadas
+ca: La ciutat de nit, amb fanals i finestres il·luminades
+fr: La ville la nuit, réverbères et fenêtres éclairées
+de: Die Stadt bei Nacht, Straßenlaternen und erleuchtete Fenster
+it: La città di notte, con i lampioni e le finestre illuminate
+pt: A cidade à noite, com postes e janelas acesas
+
+> The town in autumn, trees turning orange
+es: La ciudad en otoño, con los árboles volviéndose naranjas
+ca: La ciutat a la tardor, amb els arbres que es tornen taronja
+fr: La ville en automne, les arbres virent à l'orange
+de: Die Stadt im Herbst, die Bäume färben sich orange
+it: La città in autunno, con gli alberi che diventano arancioni
+pt: A cidade no outono, com as árvores ficando cor de laranja
+
+> The town in winter, bare trees and pale ground
+es: La ciudad en invierno, con los árboles desnudos y el suelo pálido
+ca: La ciutat a l'hivern, amb els arbres nus i el terra pàl·lid
+fr: La ville en hiver, arbres nus et sol pâle
+de: Die Stadt im Winter, kahle Bäume und blasser Boden
+it: La città in inverno, con gli alberi spogli e il terreno chiaro
+pt: A cidade no inverno, com árvores sem folhas e o chão claro
+
+> The town in morning mist
+es: La ciudad con niebla matinal
+ca: La ciutat amb la boira del matí
+fr: La ville dans la brume matinale
+de: Die Stadt im Morgennebel
+it: La città nella nebbia mattutina
+pt: A cidade na neblina da manhã
+
+> A rainbow over the town after the rain
+es: Un arcoíris sobre la ciudad tras la lluvia
+ca: Un arc de Sant Martí sobre la ciutat després de la pluja
+fr: Un arc-en-ciel sur la ville après la pluie
+de: Ein Regenbogen über der Stadt nach dem Regen
+it: Un arcobaleno sulla città dopo la pioggia
+pt: Um arco-íris sobre a cidade depois da chuva
+
+> The town under a storm, rain sweeping over the streets
+es: La ciudad bajo una tormenta, con la lluvia barriendo las calles
+ca: La ciutat sota una tempesta, amb la pluja que escombra els carrers
+fr: La ville sous l'orage, la pluie balaie les rues
+de: Die Stadt im Sturm, Regen fegt über die Straßen
+it: La città sotto un temporale, con la pioggia che spazza le strade
+pt: A cidade sob uma tempestade, com a chuva varrendo as ruas
+
+> Enlarge picture
+es: Ampliar imagen
+ca: Amplia la imatge
+fr: Agrandir l'image
+de: Bild vergrößern
+it: Ingrandisci l'immagine
+pt: Ampliar imagem
+
+> A bus and a passenger train meeting at Westbridge Central at dusk
+es: Un autobús y un tren de pasajeros coinciden en Westbridge Central al anochecer
+ca: Un autobús i un tren de passatgers coincideixen a Westbridge Central al capvespre
+fr: Un bus et un train de voyageurs se retrouvent à Westbridge Central au crépuscule
+de: Ein Bus und ein Personenzug treffen in der Dämmerung am Bahnhof Westbridge Central zusammen
+it: Un autobus e un treno passeggeri si incontrano a Westbridge Central al crepuscolo
+pt: Um ônibus e um trem de passageiros se encontram na estação Westbridge Central ao anoitecer
+
+> A stone viaduct, a steel arch and a red suspension bridge crossing a river
+es: Un viaducto de piedra, un arco de acero y un puente colgante rojo sobre un río
+ca: Un viaducte de pedra, un arc d'acer i un pont penjant vermell que creuen un riu
+fr: Un viaduc en pierre, une arche en acier et un pont suspendu rouge qui franchissent une rivière
+de: Ein Steinviadukt, ein Stahlbogen und eine rote Hängebrücke über einem Fluss
+it: Un viadotto in pietra, un arco in acciaio e un ponte sospeso rosso che attraversano un fiume
+pt: Um viaduto de pedra, um arco de aço e uma ponte pênsil vermelha atravessando um rio
+
+> A freight train leaving a station between a lake, a printing works and a town
+es: Un tren de mercancías saliendo de una estación entre un lago, una imprenta y una ciudad
+ca: Un tren de càrrega que surt d'una estació entre un llac, una impremta i una ciutat
+fr: Un train de marchandises quitte une gare entre un lac, une imprimerie et une ville
+de: Ein Güterzug verlässt einen Bahnhof zwischen einem See, einer Druckerei und einer Stadt
+it: Un treno merci che lascia una stazione tra un lago, una tipografia e una città
+pt: Um trem de carga saindo de uma estação entre um lago, uma gráfica e uma cidade
+
+> Time-lapse of a town over twenty years: a hamlet in open country becomes a town of streets and apartment blocks
+es: Cámara rápida de veinte años: una aldea en campo abierto se convierte en una ciudad de calles y bloques de pisos
+ca: Vint anys a càmera ràpida: un llogaret en camp obert es converteix en una ciutat de carrers i blocs de pisos
+fr: Vingt ans en accéléré : un hameau en rase campagne devient une ville de rues et d'immeubles
+de: Zwanzig Jahre im Zeitraffer: Aus einem Weiler auf freiem Feld wird eine Stadt mit Straßen und Wohnblocks
+it: Vent'anni in time-lapse: un borgo in aperta campagna diventa una città di strade e palazzi
+pt: Vinte anos em time-lapse: um vilarejo em campo aberto vira uma cidade de ruas e prédios
+
+> A cargo ship at the Westbank quay with a crane, loading area and waiting truck in daylight
+es: Un carguero atracado de día en el muelle de Westbank, con una grúa, una zona de carga y un camión a la espera
+ca: Un vaixell de càrrega amarrat de dia al moll de Westbank, amb una grua, una zona de càrrega i un camió que hi espera
+fr: Un cargo à quai à Westbank en plein jour, avec une grue, une zone de chargement et un camion en attente
+de: Ein Frachtschiff liegt bei Tageslicht am Kai von Westbank, mit Kran, Ladefläche und wartendem Lkw
+it: Una nave da carico attraccata di giorno al molo di Westbank, con una gru, una zona di carico e un camion in attesa
+pt: Um navio cargueiro atracado de dia no cais de Westbank, com um guindaste, uma área de carga e um caminhão à espera
+
+> The game's interface: top bar, toolbar, minimap and station labels over the town
+es: La interfaz del juego: barra superior, barra de herramientas, minimapa y nombres de estaciones sobre la ciudad
+ca: La interfície del joc: barra superior, barra d'eines, minimapa i noms de les estacions sobre la ciutat
+fr: L'interface du jeu : barre du haut, barre d'outils, mini-carte et noms des stations au-dessus de la ville
+de: Die Oberfläche des Spiels: obere Leiste, Werkzeugleiste, Minikarte und Stationsnamen über der Stadt
+it: L'interfaccia del gioco: barra in alto, barra degli strumenti, minimappa ed etichette delle stazioni sopra la città
+pt: A interface do jogo: barra superior, barra de ferramentas, minimapa e nomes das estações sobre a cidade
+
+> Trucks and cars on winding streets past shops and houses
+es: Camiones y coches por calles sinuosas, entre tiendas y casas
+ca: Camions i cotxes per carrers sinuosos, davant de botigues i cases
+fr: Des camions et des voitures dans des rues sinueuses, entre commerces et maisons
+de: Lkw und Autos auf verwinkelten Straßen, vorbei an Läden und Häusern
+it: Camion e auto per strade tortuose, tra negozi e case
+pt: Caminhões e carros em ruas sinuosas, passando por lojas e casas
+
+> Kinds of vehicle
+es: Tipos de vehículo
+ca: Tipus de vehicle
+fr: Types de véhicules
+de: Fahrzeugarten
+it: Tipi di veicolo
+pt: Tipos de veículo
+
+> Picture
+es: Imagen
+ca: Imatge
+fr: Image
+de: Bild
+it: Immagine
+pt: Imagem
+
+> Close
+es: Cerrar
+ca: Tanca
+fr: Fermer
+de: Schließen
+it: Chiudi
+pt: Fechar
+
+> How it plays
+es: Cómo se juega
+ca: Com es juga
+fr: Le principe
+de: So spielt es sich
+it: Come si gioca
+pt: Como se joga
+
+> The world
+es: El mundo
+ca: El món
+fr: Le monde
+de: Die Welt
+it: Il mondo
+pt: O mundo
+
+> Features
+es: Características
+ca: Característiques
+fr: Fonctionnalités
+de: Features
+it: Caratteristiche
+pt: Recursos
+
+> Eras
+es: Eras
+ca: Eres
+fr: Ères
+de: Ären
+it: Ere
+pt: Eras
+
+> Player's guide
+es: Guía del jugador
+ca: Guia del joc
+fr: Guide du joueur
+de: Spielanleitung
+it: Guida del gioco
+pt: Guia do jogador
+
+> Mods
+es: Mods
+ca: Mods
+fr: Mods
+de: Mods
+it: Mod
+pt: Mods
+
+> Download
+es: Descargar
+ca: Descàrrega
+fr: Télécharger
+de: Download
+it: Scarica
+pt: Baixar
+
+> Free early build · Steam and itch.io soon
+es: Versión anticipada gratis · Pronto en Steam e itch.io
+ca: Versió preliminar gratuïta · Aviat a Steam i itch.io
+fr: Version anticipée gratuite · Bientôt sur Steam et itch.io
+de: Kostenlose Vorabversion · Bald auf Steam und itch.io
+it: Versione preliminare gratuita · Presto su Steam e itch.io
+pt: Versão prévia grátis · Steam e itch.io em breve
+
+> Fourways, a transport tycoon game
+es: Fourways, un juego tycoon de transporte
+ca: Fourways, un joc tycoon de transports
+fr: Fourways, un jeu de gestion de transport
+de: Fourways, ein Aufbauspiel rund um Eisenbahn und Verkehr
+it: Fourways, un gioco gestionale di trasporti
+pt: Fourways, um jogo tycoon de transporte
+
+> Build the lines a growing world runs on.
+es: Construye las líneas que mueven un mundo que crece.
+ca: Construeix les línies que mouen un món que creix.
+fr: Construis les lignes qui font vivre un monde en plein essor.
+de: Bau die Strecken, auf denen die Welt wächst.
+it: Costruisci le linee su cui corre un mondo che cresce.
+pt: Construa as linhas que movem um mundo em crescimento.
+
+> Lay road and rail, open docks and airports, and carry passengers, mail and cargo through seventy years of change. Towns grow where you serve them. Rivals build where you don't.
+es: Construye carreteras y vías, abre muelles y aeropuertos, y lleva pasajeros, correo y carga a lo largo de setenta años de cambios. Las ciudades crecen donde les das servicio. Los rivales construyen donde tú no llegas.
+ca: Traça carreteres i vies, obre molls i aeroports, i transporta passatgers, correu i càrrega al llarg de setanta anys de canvis. Les ciutats creixen on hi dones servei. Els rivals construeixen on no hi arribes.
+fr: Construis routes et voies ferrées, ouvre des ports et des aéroports, et transporte passagers, courrier et fret à travers soixante-dix ans de changements. Les villes grandissent là où tu les desserts. Tes rivaux construisent là où tu n'es pas.
+de: Bau Straßen und Gleise, eröffne Häfen und Flughäfen und bring Passagiere, Post und Fracht durch siebzig Jahre Wandel. Städte wachsen, wo du sie bedienst. Rivalen bauen, wo du es nicht tust.
+it: Costruisci strade e ferrovie, apri moli e aeroporti e trasporta passeggeri, posta e merci attraverso settant'anni di cambiamenti. Le città crescono dove arrivi tu. I rivali costruiscono dove non arrivi.
+pt: Construa estradas e ferrovias, abra docas e aeroportos e leve passageiros, correio e carga por setenta anos de mudanças. As cidades crescem onde você as atende. Os rivais constroem onde você não chega.
+
+> Free early build · Windows and Mac
+es: Versión anticipada gratis · Windows y Mac
+ca: Versió preliminar gratuïta · Windows i Mac
+fr: Version anticipée gratuite · Windows et Mac
+de: Kostenlose Vorabversion · Windows und Mac
+it: Versione preliminare gratuita · Windows e Mac
+pt: Versão prévia grátis · Windows e Mac
+
+> See how it plays
+es: Mira cómo se juega
+ca: Mira com es juga
+fr: Voir le jeu en action
+de: Sieh, wie es sich spielt
+it: Guarda come si gioca
+pt: Veja como se joga
+
+> Road
+es: Carretera
+ca: Carretera
+fr: Route
+de: Straße
+it: Strada
+pt: Estrada
+
+> Rail
+es: Tren
+ca: Ferrocarril
+fr: Rail
+de: Schiene
+it: Ferrovia
+pt: Ferrovia
+
+> Sea
+es: Mar
+ca: Mar
+fr: Mer
+de: Wasser
+it: Mare
+pt: Mar
+
+> Air
+es: Aire
+ca: Aire
+fr: Air
+de: Luft
+it: Aria
+pt: Ar
+
+> Five eras, 1950 to 2010
+es: Cinco eras, de 1950 a 2010
+ca: Cinc eres, del 1950 al 2010
+fr: Cinq ères, de 1950 à 2010
+de: Fünf Ären, 1950 bis 2010
+it: Cinque ere, dal 1950 al 2010
+pt: Cinco eras, de 1950 a 2010
+
+> 45 vehicles
+es: 45 vehículos
+ca: 45 vehicles
+fr: 45 véhicules
+de: 45 Fahrzeuge
+it: 45 veicoli
+pt: 45 veículos
+
+> Rival companies
+es: Empresas rivales
+ca: Empreses rivals
+fr: Entreprises rivales
+de: Rivalen
+it: Compagnie rivali
+pt: Empresas rivais
+
+> Day and night
+es: Día y noche
+ca: Dia i nit
+fr: Jour et nuit
+de: Tag und Nacht
+it: Giorno e notte
+pt: Dia e noite
+
+> Four seasons
+es: Cuatro estaciones
+ca: Quatre estacions
+fr: Quatre saisons
+de: Vier Jahreszeiten
+it: Quattro stagioni
+pt: Quatro estações
+
+> Storms
+es: Tormentas
+ca: Tempestes
+fr: Orages
+de: Stürme
+it: Temporali
+pt: Tempestades
+
+> Seven languages
+es: Siete idiomas
+ca: Set idiomes
+fr: Sept langues
+de: Sieben Sprachen
+it: Sette lingue
+pt: Sete idiomas
+
+> You run a transport company.
+es: Diriges una empresa de transportes.
+ca: Portes una empresa de transports.
+fr: Tu diriges une entreprise de transport.
+de: Du führst ein Transportunternehmen.
+it: Gestisci una compagnia di trasporti.
+pt: Você comanda uma empresa de transportes.
+
+> Passengers, mail and cargo turn up all over the map, and people pay to have them carried to where they're wanted. You lay the roads, rails, docks and runways, buy the vehicles and set their routes. Every delivery pays, and the money builds the next line. Here's a first coal route, played in the game.
+es: Pasajeros, correo y carga aparecen por todo el mapa, y te pagan por llevarlos adonde los esperan. Tú tiendes las carreteras, vías, muelles y pistas, compras los vehículos y les marcas las rutas. Cada entrega da dinero, y ese dinero construye la siguiente línea. Así es una primera ruta de carbón, tal cual en el juego.
+ca: Per tot el mapa apareixen passatgers, correu i càrrega, i la gent paga perquè els portis allà on els volen. Tu fas les carreteres, les vies, els molls i les pistes, compres els vehicles i els marques les rutes. Cada entrega es cobra, i amb els diners fas la línia següent. Aquí tens una primera ruta de carbó, jugada dins del joc.
+fr: Passagers, courrier et fret apparaissent partout sur la carte, et on te paie pour les emmener là où on les attend. Tu construis routes, voies, ports et pistes, tu achètes les véhicules et tu fixes leurs itinéraires. Chaque livraison rapporte, et l'argent finance la ligne suivante. Voici un premier itinéraire de charbon, joué en vrai dans le jeu.
+de: Überall auf der Karte tauchen Passagiere, Post und Fracht auf, und die Leute zahlen dafür, dass du sie dorthin bringst, wo sie gebraucht werden. Du baust Straßen, Gleise, Häfen und Startbahnen, kaufst die Fahrzeuge und legst ihre Routen fest. Jede Lieferung bringt Geld, und mit dem Geld baust du die nächste Linie. Hier siehst du eine erste Kohleroute, direkt im Spiel gespielt.
+it: Passeggeri, posta e merci spuntano su tutta la mappa, e c'è chi paga per farli arrivare dove servono. Tu costruisci strade, binari, moli e piste, compri i veicoli e decidi i loro percorsi. Ogni consegna rende, e i soldi costruiscono la linea successiva. Ecco un primo percorso del carbone, giocato in partita.
+pt: Passageiros, correio e carga surgem por todo o mapa, e as pessoas pagam para que sejam levados aonde são esperados. Você constrói as estradas, os trilhos, as docas e as pistas, compra os veículos e define as rotas. Cada entrega rende, e o dinheiro paga a próxima linha. Veja uma primeira rota de carvão, jogada no próprio jogo.
+
+> <strong>Connect two places</strong>Click by a coal mine, point at a power station: the best line appears with its price. Click again and it's built.
+es: <strong>Conecta dos lugares</strong>Haz clic junto a una mina de carbón y apunta a una central eléctrica: aparece la mejor línea con su precio. Vuelve a hacer clic y queda construida.
+ca: <strong>Connecta dos llocs</strong>Fes clic al costat d'una mina de carbó i assenyala una central elèctrica: apareix la millor línia amb el seu preu. Torna a fer clic i ja està construïda.
+fr: <strong>Relie deux endroits</strong>Clique près d'une mine de charbon, vise une centrale électrique : le meilleur tracé apparaît avec son prix. Clique encore et c'est construit.
+de: <strong>Verbinde zwei Orte</strong>Klick neben ein Kohlebergwerk, zeig auf ein Kraftwerk: Die beste Strecke erscheint samt Preis. Noch ein Klick, und sie ist gebaut.
+it: <strong>Collega due luoghi</strong>Clicca vicino a una miniera di carbone e punta una centrale elettrica: compare il percorso migliore con il suo prezzo. Clicca di nuovo ed è costruito.
+pt: <strong>Ligue dois lugares</strong>Clique perto de uma mina de carvão e aponte para uma usina elétrica: a melhor linha aparece com o preço. Clique de novo e ela é construída.
+
+> <strong>Build a station at each end</strong>Drag a platform. The blue area shows what a station picks up and what it takes: coal at the mine, coal at the plant.
+es: <strong>Construye una estación en cada punta</strong>Arrastra un andén. La zona azul muestra lo que recoge y lo que acepta cada estación: carbón en la mina, carbón en la central.
+ca: <strong>Construeix una estació a cada punta</strong>Arrossega una andana. La zona blava mostra què recull i què accepta l'estació: carbó a la mina, carbó a la central.
+fr: <strong>Construis une station à chaque bout</strong>Glisse pour tracer un quai. La zone bleue montre ce qu'une station charge et ce qu'elle accepte : le charbon à la mine, le charbon à la centrale.
+de: <strong>Bau an jedem Ende eine Station</strong>Zieh einen Bahnsteig auf. Die blaue Fläche zeigt, was eine Station abholt und was sie annimmt: Kohle am Bergwerk, Kohle am Kraftwerk.
+it: <strong>Costruisci una stazione a ogni capo</strong>Trascina una banchina. L'area blu mostra cosa raccoglie una stazione e cosa accetta: carbone alla miniera, carbone alla centrale.
+pt: <strong>Construa uma estação em cada ponta</strong>Arraste uma plataforma. A área azul mostra o que a estação recolhe e o que ela aceita: carvão na mina, carvão na usina.
+
+> <strong>Buy a train</strong>Press B, pick a locomotive and its two stops. The shop picks the cargo, and the train sets off from the depot.
+es: <strong>Compra un tren</strong>Pulsa B, elige una locomotora y sus dos paradas. La ventana de compra elige la carga, y el tren sale del depósito.
+ca: <strong>Compra un tren</strong>Prem B i tria una locomotora i les seves dues parades. La càrrega es tria sola, i el tren surt del dipòsit.
+fr: <strong>Achète un train</strong>Appuie sur B, choisis une locomotive et ses deux arrêts. La cargaison est choisie pour toi, et le train part du dépôt.
+de: <strong>Kauf einen Zug</strong>Drück B, wähl eine Lok und ihre zwei Halte. Das Kauffenster wählt die passende Fracht, und der Zug fährt aus dem Depot los.
+it: <strong>Compra un treno</strong>Premi B, scegli una locomotiva e le sue due fermate. Il carico viene scelto per te, e il treno parte dal deposito.
+pt: <strong>Compre um trem</strong>Aperte B, escolha uma locomotiva e suas duas paradas. A carga é escolhida para você, e o trem sai do depósito.
+
+> <strong>Get paid</strong>It loads up at the mine and runs to the plant. Every delivery pays: the further and the faster, the more.
+es: <strong>Cobra</strong>Se carga en la mina y va hasta la central. Cada entrega da dinero: cuanto más lejos y más rápido, más.
+ca: <strong>Cobra</strong>Carrega a la mina i va fins a la central. Cada entrega es cobra: com més lluny i més de pressa, més guanyes.
+fr: <strong>Encaisse</strong>Il se charge à la mine et file jusqu'à la centrale. Chaque livraison rapporte : plus c'est loin et rapide, plus ça paie.
+de: <strong>Kassier ab</strong>Er lädt am Bergwerk und fährt zum Kraftwerk. Jede Lieferung zahlt sich aus: je weiter und je schneller, desto mehr.
+it: <strong>Incassa</strong>Carica alla miniera e corre fino alla centrale. Ogni consegna rende: più lontano e più veloce, più guadagni.
+pt: <strong>Ganhe dinheiro</strong>Ele carrega na mina e segue até a usina. Cada entrega rende: quanto mais longe e mais rápido, mais você ganha.
+
+> <strong>Then round again, a little bigger each time.</strong> Towns grow where you serve them, industries open and close, five eras bring jets, hydrofoils and electric trains, and rival companies go after the same cargo.
+es: <strong>Y vuelta a empezar, un poco más grande cada vez.</strong> Las ciudades crecen donde les das servicio, las industrias abren y cierran, cinco eras traen reactores, hidroalas y trenes eléctricos, y las empresas rivales van a por la misma carga.
+ca: <strong>I tornem-hi, cada cop una mica més gran.</strong> Les ciutats creixen on hi dones servei, les indústries obren i tanquen, cinc eres porten reactors, hidroales i trens elèctrics, i les empreses rivals van darrere la mateixa càrrega.
+fr: <strong>Et tu recommences, un peu plus grand à chaque fois.</strong> Les villes grandissent là où tu les desserts, des industries ouvrent et ferment, cinq ères amènent jets, hydroptères et trains électriques, et des entreprises rivales convoitent la même cargaison.
+de: <strong>Dann die nächste Runde, jedes Mal etwas größer.</strong> Städte wachsen, wo du sie bedienst, Industrien öffnen und schließen, fünf Ären bringen Jets, Tragflügelboote und E-Züge, und konkurrierende Firmen jagen dir dieselbe Fracht ab.
+it: <strong>Poi si ricomincia, ogni volta un po' più in grande.</strong> Le città crescono dove arrivi tu, le industrie aprono e chiudono, cinque ere portano jet, aliscafi e treni elettrici, e le compagnie rivali puntano allo stesso carico.
+pt: <strong>Depois, tudo de novo, um pouco maior a cada vez.</strong> As cidades crescem onde você as atende, indústrias abrem e fecham, cinco eras trazem jatos, aerobarcos e trens elétricos, e empresas rivais disputam a mesma carga.
+
+> ways to move: road, rail, sea and air
+es: formas de moverse: carretera, tren, mar y aire
+ca: maneres de transportar: carretera, ferrocarril, mar i aire
+fr: modes de transport : route, rail, mer et air
+de: Verkehrswege: Straße, Schiene, Wasser und Luft
+it: modi di viaggiare: strada, ferrovia, mare e aria
+pt: formas de transporte: estrada, ferrovia, mar e ar
+
+> eras, from 1950 to the green age
+es: eras, de 1950 a la era verde
+ca: eres, del 1950 a l'era verda
+fr: ères, de 1950 à l'ère verte
+de: Ären, von 1950 bis ins Grüne Zeitalter
+it: ere, dal 1950 all'era verde
+pt: eras, de 1950 até a era verde
+
+> vehicles, steam to supersonic
+es: vehículos, del vapor al supersónico
+ca: vehicles, del vapor al supersònic
+fr: véhicules, de la vapeur au supersonique
+de: Fahrzeuge, von Dampf bis Überschall
+it: veicoli, dal vapore al supersonico
+pt: veículos, do vapor ao supersônico
+
+> languages, in the game and on this page
+es: idiomas, en el juego y en esta web
+ca: idiomes, al joc i en aquesta web
+fr: langues, dans le jeu et sur ce site
+de: Sprachen, im Spiel und auf dieser Seite
+it: lingue, nel gioco e su questa pagina
+pt: idiomas, no jogo e nesta página
+
+> bought assets: every model, tune and sound is made in code
+es: recursos comprados: cada modelo, melodía y sonido está hecho con código
+ca: recursos comprats: tots els models, músiques i sons estan fets amb codi
+fr: ressource achetée : modèles, musiques et sons sont tous créés par le code
+de: zugekaufte Inhalte: Jedes Modell, jede Melodie und jedes Geräusch entsteht im Code
+it: risorse comprate: ogni modello, musica e suono nasce dal codice
+pt: recursos comprados: cada modelo, música e som é feito em código
+
+> For Transport Tycoon fans
+es: Para fans de Transport Tycoon
+ca: Per als fans de Transport Tycoon
+fr: Pour les fans de Transport Tycoon
+de: Für Fans von Transport Tycoon
+it: Per i fan di Transport Tycoon
+pt: Para fãs de Transport Tycoon
+
+> In the spirit of Transport Tycoon and OpenTTD.
+es: Con el espíritu de Transport Tycoon y OpenTTD.
+ca: En la línia de Transport Tycoon i OpenTTD.
+fr: Dans l'esprit de Transport Tycoon et d'OpenTTD.
+de: Im Geist von Transport Tycoon und OpenTTD.
+it: Nello spirito di Transport Tycoon e OpenTTD.
+pt: No espírito de Transport Tycoon e OpenTTD.
+
+> If you grew up on Transport Tycoon Deluxe, or still play OpenTTD, you'll know your way around: a map of tiles, road, rail, docks and airports, industries that feed each other and rival companies on the same map. Fourways keeps all that and adds what the classics never had: real-time light from dawn to night, seasons and weather, towns that change with the eras, a guided first route and a list of everything that's stuck.
+es: Si creciste con Transport Tycoon Deluxe, o aún juegas a OpenTTD, te sentirás como en casa: un mapa de casillas, carreteras, vías, muelles y aeropuertos, industrias que se abastecen entre sí y empresas rivales en el mismo mapa. Fourways mantiene todo eso y añade lo que los clásicos nunca tuvieron: luz en tiempo real del amanecer a la noche, estaciones del año y meteorología, ciudades que cambian con las eras, una primera ruta guiada y una lista de todo lo que se ha atascado.
+ca: Si vas créixer jugant a Transport Tycoon Deluxe, o encara jugues a OpenTTD, t'hi sabràs moure de seguida: un mapa de caselles, carreteres, vies, molls i aeroports, indústries que s'abasteixen entre si i empreses rivals al mateix mapa. Fourways ho conserva tot i hi afegeix el que els clàssics no van tenir mai: llum en temps real de l'alba a la nit, les estacions de l'any i el temps que fa, ciutats que canvien amb les eres, una primera ruta guiada i una llista de tot el que s'ha encallat.
+fr: Si tu as grandi avec Transport Tycoon Deluxe, ou si tu joues encore à OpenTTD, tu seras en terrain connu : une carte en cases, des routes, des voies ferrées, des ports et des aéroports, des industries qui s'approvisionnent les unes les autres et des entreprises rivales sur la même carte. Fourways garde tout cela et ajoute ce que les classiques n'avaient jamais eu : une lumière en temps réel de l'aube à la nuit, les saisons et la météo, des villes qui évoluent au fil des ères, un premier itinéraire guidé et la liste de tout ce qui bloque.
+de: Wenn du mit Transport Tycoon Deluxe aufgewachsen bist oder heute noch OpenTTD spielst, findest du dich sofort zurecht: eine Karte aus Feldern, Straßen, Schienen, Häfen und Flughäfen, Industrien, die sich gegenseitig beliefern, und konkurrierende Firmen auf derselben Karte. Fourways behält all das und bringt, was die Klassiker nie hatten: Echtzeit-Licht vom Morgengrauen bis in die Nacht, Jahreszeiten und Wetter, Städte, die sich mit den Ären wandeln, eine geführte erste Route und eine Liste mit allem, was hängt.
+it: Se sei cresciuto con Transport Tycoon Deluxe, o giochi ancora a OpenTTD, ti orienterai subito: una mappa a caselle, strade, ferrovie, moli e aeroporti, industrie che si riforniscono a vicenda e compagnie rivali sulla stessa mappa. Fourways mantiene tutto questo e aggiunge ciò che i classici non avevano: luce in tempo reale dall'alba alla notte, stagioni e meteo, città che cambiano con le ere, un primo percorso guidato e un elenco di tutto ciò che è bloccato.
+pt: Se você cresceu jogando Transport Tycoon Deluxe, ou ainda joga OpenTTD, vai saber se virar: um mapa quadriculado, estradas, ferrovias, docas e aeroportos, indústrias que abastecem umas às outras e empresas rivais no mesmo mapa. O Fourways mantém tudo isso e traz o que os clássicos nunca tiveram: luz em tempo real do amanhecer à noite, estações do ano e clima, cidades que mudam com as eras, uma primeira linha guiada e uma lista de tudo o que travou.
+
+> Fans of Railroad Tycoon's railways, Transport Fever's eras or Mini Metro's tidy lines will feel at home too.
+es: Si te gustan los trenes de Railroad Tycoon, las eras de Transport Fever o las líneas ordenadas de Mini Metro, también te sentirás como en casa.
+ca: Si t'agraden els ferrocarrils de Railroad Tycoon, les eres de Transport Fever o les línies endreçades de Mini Metro, també t'hi sentiràs com a casa.
+fr: Les fans des chemins de fer de Railroad Tycoon, des ères de Transport Fever ou des lignes épurées de Mini Metro s'y sentiront aussi chez eux.
+de: Auch Fans der Eisenbahnen aus Railroad Tycoon, der Ären von Transport Fever oder der klaren Linien von Mini Metro fühlen sich hier zu Hause.
+it: Anche chi ama le ferrovie di Railroad Tycoon, le ere di Transport Fever o le linee ordinate di Mini Metro qui si sentirà a casa.
+pt: Fãs das ferrovias de Railroad Tycoon, das eras de Transport Fever ou das linhas organizadas de Mini Metro também vão se sentir em casa.
+
+> One world, every hour of it
+es: Un mundo, a todas horas
+ca: Un món, a totes hores
+fr: Un monde, à toute heure
+de: Eine Welt, zu jeder Stunde
+it: Un mondo, a ogni ora del giorno
+pt: Um mundo, a qualquer hora
+
+> Seasons turn.<br>The lights come on.
+es: Pasan las estaciones.<br>Se encienden las luces.
+ca: Passen les estacions.<br>S'encenen els llums.
+fr: Les saisons passent.<br>Les lumières s'allument.
+de: Jahreszeiten wechseln.<br>Die Lichter gehen an.
+it: Le stagioni cambiano.<br>Le luci si accendono.
+pt: As estações passam.<br>As luzes se acendem.
+
+> Real-time lighting, a day and night cycle, four seasons and weather that rolls in. Same town, same day's traffic: pick a moment.
+es: Iluminación en tiempo real, ciclo de día y noche, cuatro estaciones y un tiempo que viene y va. La misma ciudad, el mismo tráfico del día: elige un momento.
+ca: Il·luminació en temps real, cicle de dia i nit, quatre estacions i un temps que va canviant. La mateixa ciutat, el mateix trànsit del dia: tria un moment.
+fr: Éclairage en temps réel, alternance du jour et de la nuit, quatre saisons et une météo qui change. Même ville, même trafic : choisis ton moment.
+de: Echtzeit-Beleuchtung, Tag und Nacht, vier Jahreszeiten und Wetter, das aufzieht. Dieselbe Stadt, derselbe Verkehr: Wähl einen Moment.
+it: Luci in tempo reale, ciclo del giorno e della notte, quattro stagioni e un meteo che va e viene. Stessa città, stesso traffico della giornata: scegli un momento.
+pt: Iluminação em tempo real, ciclo de dia e noite, quatro estações e um clima que muda. Mesma cidade, mesmo trânsito do dia: escolha um momento.
+
+> Summer day
+es: Día de verano
+ca: Dia d'estiu
+fr: Jour d'été
+de: Sommertag
+it: Giorno d'estate
+pt: Dia de verão
+
+> Day to night
+es: Del día a la noche
+ca: Del dia a la nit
+fr: Du jour à la nuit
+de: Tag bis Nacht
+it: Dal giorno alla notte
+pt: Do dia à noite
+
+> Night
+es: Noche
+ca: Nit
+fr: Nuit
+de: Nacht
+it: Notte
+pt: Noite
+
+> Autumn
+es: Otoño
+ca: Tardor
+fr: Automne
+de: Herbst
+it: Autunno
+pt: Outono
+
+> Winter
+es: Invierno
+ca: Hivern
+fr: Hiver
+de: Winter
+it: Inverno
+pt: Inverno
+
+> Mist
+es: Niebla
+ca: Boira
+fr: Brume
+de: Nebel
+it: Nebbia
+pt: Neblina
+
+> Rainbow
+es: Arcoíris
+ca: Arc iris
+fr: Arc-en-ciel
+de: Regenbogen
+it: Arcobaleno
+pt: Arco-íris
+
+> Storm
+es: Tormenta
+ca: Tempesta
+fr: Orage
+de: Sturm
+it: Temporale
+pt: Tempestade
+
+> What you'll build
+es: Lo que construirás
+ca: Què construiràs
+fr: Ce que tu vas construire
+de: Was du baust
+it: Cosa costruirai
+pt: O que você vai construir
+
+> From one bus stop to a whole country on the&nbsp;move.
+es: De una parada de autobús a todo un país en&nbsp;marcha.
+ca: D'una parada d'autobús a tot un país en&nbsp;marxa.
+fr: D'un arrêt de bus à tout un pays en&nbsp;mouvement.
+de: Von einer Haltestelle bis zum ganzen Land in&nbsp;Bewegung.
+it: Da una fermata dell'autobus a un intero paese in&nbsp;movimento.
+pt: De uma parada de ônibus a um país inteiro em&nbsp;movimento.
+
+> Road · Rail · Sea · Air
+es: Carretera · Tren · Mar · Aire
+ca: Carretera · Ferrocarril · Mar · Aire
+fr: Route · Rail · Mer · Air
+de: Straße · Schiene · Wasser · Luft
+it: Strada · Ferrovia · Mare · Aria
+pt: Estrada · Ferrovia · Mar · Ar
+
+> Draw a line, and it runs.
+es: Traza una línea y se pone en marcha.
+ca: Traça una línia i a rodar.
+fr: Trace une ligne, et ça roule.
+de: Strecke ziehen, und es läuft.
+it: Traccia una linea, e si parte.
+pt: Trace uma linha, e ela já funciona.
+
+> Buses and trucks, steam to high-speed trains, ferries and freighters, prop planes to jumbo jets. The Connect tool finds the best road or track between two points, diagonals, bridges and tunnels included, and shows the price before you build.
+es: Autobuses y camiones, trenes de vapor y de alta velocidad, ferris y cargueros, de los aviones de hélice a los jumbos. La herramienta Conectar encuentra la mejor carretera o vía entre dos puntos, con diagonales, puentes y túneles incluidos, y te enseña el precio antes de construir.
+ca: Autobusos i camions, trens de vapor i d'alta velocitat, ferris i vaixells de càrrega, avions d'hèlice i jumbos. Les eines Connecta troben la millor carretera o via entre dos punts, amb diagonals, ponts i túnels inclosos, i et mostren el preu abans de construir.
+fr: Bus et camions, trains à vapeur et à grande vitesse, ferrys et cargos, avions à hélices et gros-porteurs. L'outil Relier trouve la meilleure route ou voie entre deux points, diagonales, ponts et tunnels compris, et affiche le prix avant de construire.
+de: Busse und Lkw, Dampfloks bis Hochgeschwindigkeitszüge, Fähren und Frachter, Propellermaschinen bis Jumbojets. Das Werkzeug Verbinden findet die beste Straße oder Gleisstrecke zwischen zwei Punkten, samt Diagonalen, Brücken und Tunneln, und zeigt den Preis, bevor du baust.
+it: Autobus e camion, treni dal vapore all'alta velocità, traghetti e navi merci, aerei a elica e jumbo jet. Lo strumento Collega trova la strada o i binari migliori tra due punti, diagonali, ponti e gallerie compresi, e ti mostra il prezzo prima di costruire.
+pt: Ônibus e caminhões, do trem a vapor ao de alta velocidade, balsas e cargueiros, do avião a hélice ao jumbo. A ferramenta Ligar encontra a melhor estrada ou trilho entre dois pontos, com diagonais, pontes e túneis, e mostra o preço antes de você construir.
+
+> Signals, passing loops and platforms up to 12 tiles long
+es: Señales, apartaderos y andenes de hasta 12 casillas
+ca: Senyals, apartadors i andanes de fins a 12 caselles
+fr: Signaux, voies d'évitement et quais jusqu'à 12 cases de long
+de: Signale, Ausweichgleise und Bahnsteige mit bis zu 12 Feldern
+it: Segnali, binari di incrocio e banchine lunghe fino a 12 caselle
+pt: Sinais, desvios e plataformas de até 12 quadrados
+
+> Mixed trains: every wagon unloads where its cargo is wanted
+es: Trenes mixtos: cada vagón descarga donde se necesita su carga
+ca: Trens mixtos: cada vagó descarrega on volen la seva càrrega
+fr: Trains mixtes : chaque wagon décharge là où sa cargaison est attendue
+de: Gemischte Züge: Jeder Waggon lädt dort ab, wo seine Fracht gebraucht wird
+it: Treni misti: ogni vagone scarica dove serve il suo carico
+pt: Trens mistos: cada vagão descarrega onde sua carga é aceita
+
+> Overhead wires for electric locomotives
+es: Catenaria para las locomotoras eléctricas
+ca: Catenària per a locomotores elèctriques
+fr: Caténaire pour les locomotives électriques
+de: Oberleitungen für E-Loks
+it: Catenaria per le locomotive elettriche
+pt: Fiação aérea para locomotivas elétricas
+
+> Bridges and tunnels
+es: Puentes y túneles
+ca: Ponts i túnels
+fr: Ponts et tunnels
+de: Brücken und Tunnel
+it: Ponti e gallerie
+pt: Pontes e túneis
+
+> Five kinds of bridge. Tunnels through the rest.
+es: Cinco tipos de puente. Túneles para lo demás.
+ca: Cinc tipus de pont. I túnels per a la resta.
+fr: Cinq types de ponts. Des tunnels pour le reste.
+de: Fünf Brückentypen. Tunnel für den Rest.
+it: Cinque tipi di ponte. Gallerie per tutto il resto.
+pt: Cinco tipos de ponte. Túneis para o resto.
+
+> Concrete beams for a stream, stone viaducts and steel trusses for a valley, steel arches and suspension bridges once the decades allow them. Hills too steep to climb get a tunnel with stone portals.
+es: Vigas de hormigón para un arroyo, viaductos de piedra y celosías de acero para un valle, arcos de acero y puentes colgantes cuando avanzan las décadas. Las colinas demasiado empinadas se cruzan con un túnel de bocas de piedra.
+ca: Bigues de formigó per a un rierol, viaductes de pedra i entramats d'acer per a una vall, arcs d'acer i ponts penjants quan arriba la seva època. Els turons massa costeruts per pujar-los es travessen amb un túnel amb boques de pedra.
+fr: Poutres en béton pour un ruisseau, viaducs en pierre et treillis en acier pour une vallée, arches en acier et ponts suspendus quand les décennies le permettent. Les collines trop raides ont droit à un tunnel aux portails de pierre.
+de: Betonbalken für einen Bach, Steinviadukte und Stahlfachwerk für ein Tal, Stahlbögen und Hängebrücken, sobald die Jahrzehnte so weit sind. Hügel, die zu steil sind, bekommen einen Tunnel mit Steinportalen.
+it: Travi in cemento per un torrente, viadotti in pietra e tralicci in acciaio per una valle, archi in acciaio e ponti sospesi quando i tempi lo permettono. Le colline troppo ripide si passano in galleria, con imbocchi in pietra.
+pt: Vigas de concreto para um riacho, viadutos de pedra e treliças de aço para um vale, arcos de aço e pontes pênseis quando as décadas permitirem. Morros íngremes demais ganham um túnel com bocas de pedra.
+
+> Supply chains
+es: Cadenas de suministro
+ca: Cadenes industrials
+fr: Chaînes industrielles
+de: Produktionsketten
+it: Filiere
+pt: Cadeias produtivas
+
+> Coal to power. Wood to newspapers. Steel to cars.
+es: Del carbón a la electricidad. De la madera a los periódicos. Del acero a los coches.
+ca: Del carbó a l'electricitat. De la fusta als diaris. De l'acer als cotxes.
+fr: Du charbon à l'électricité. Du bois aux journaux. De l'acier aux voitures.
+de: Kohle zu Strom. Holz zu Zeitungen. Stahl zu Autos.
+it: Dal carbone all'energia. Dal legname ai giornali. Dall'acciaio alle auto.
+pt: Carvão vira energia. Madeira vira jornal. Aço vira carro.
+
+> Mines, farms, wells, mills and plants pass cargo down the line. Industries hire workers from the towns nearby, so bringing people to the gate raises the output. Leave one unserved for too long and it may close.
+es: Minas, granjas, pozos, fábricas y centrales se pasan la carga unas a otras. Las industrias contratan trabajadores de las ciudades cercanas, así que llevar gente hasta la puerta aumenta la producción. Si dejas una sin servicio demasiado tiempo, puede cerrar.
+ca: Mines, granges, pous, serradores i fàbriques es van passant la càrrega. Les indústries contracten treballadors de les ciutats properes, així que portar-los gent fins a la porta fa pujar la producció. Si en deixes una massa temps sense servei, pot tancar.
+fr: Mines, fermes, puits, scieries et usines se passent la cargaison tout au long de la chaîne. Les industries embauchent des travailleurs dans les villes voisines : amène du monde à l'entrée et la production grimpe. Laisse-en une sans service trop longtemps et elle risque de fermer.
+de: Bergwerke, Bauernhöfe, Ölquellen, Mühlen und Werke reichen Fracht die Kette entlang. Industrien stellen Arbeiter aus den Städten in der Nähe ein: Bring Leute ans Werkstor, und die Produktion steigt. Bleibt eine zu lange unbedient, kann sie schließen.
+it: Miniere, fattorie, pozzi, fabbriche e impianti si passano il carico lungo la filiera. Le industrie assumono lavoratori dalle città vicine: portare gente ai cancelli fa salire la produzione. Lasciane una senza servizio troppo a lungo e potrebbe chiudere.
+pt: Minas, fazendas, poços, fábricas e usinas passam a carga adiante. As indústrias contratam trabalhadores das cidades vizinhas, então levar gente até o portão aumenta a produção. Deixe uma sem atendimento por muito tempo e ela pode fechar.
+
+> Time-lapse
+es: Cámara rápida
+ca: A càmera ràpida
+fr: Accéléré
+de: Zeitraffer
+it: Time-lapse
+pt: Time-lapse
+
+> Living towns
+es: Ciudades vivas
+ca: Ciutats vives
+fr: Villes vivantes
+de: Lebendige Städte
+it: Città vive
+pt: Cidades vivas
+
+> Good service grows a city.
+es: Un buen servicio hace crecer una ciudad.
+ca: Un bon servei fa créixer una ciutat.
+fr: Un bon service fait grandir une ville.
+de: Gute Anbindung lässt Städte wachsen.
+it: Un buon servizio fa crescere una città.
+pt: Um bom serviço faz a cidade crescer.
+
+> Homes follow jobs, shops follow residents. Busy stations raise land value, and valuable land brings apartment blocks and office towers. Bigger towns build cinemas, museums, funfairs and stadiums, and their crowds pay tourist fares.
+es: Las casas siguen al trabajo y las tiendas siguen a los vecinos. Las estaciones con mucho movimiento suben el valor del suelo, y el suelo caro trae bloques de pisos y torres de oficinas. Las ciudades más grandes construyen cines, museos, parques de atracciones y estadios, y sus visitantes pagan tarifa turística.
+ca: Les cases van on hi ha feina, i les botigues on hi ha veïns. Les estacions amb molt moviment fan pujar el valor del sòl, i el sòl car porta blocs de pisos i torres d'oficines. Les ciutats més grans construeixen cinemes, museus, parcs d'atraccions i estadis, i la gent que hi va paga tarifa turística.
+fr: Les logements suivent les emplois, les commerces suivent les habitants. Les stations animées font monter la valeur foncière, et un terrain qui prend de la valeur attire immeubles et tours de bureaux. Les grandes villes construisent cinémas, musées, fêtes foraines et stades, et leurs foules paient le tarif touristique.
+de: Wohnungen folgen den Jobs, Läden folgen den Bewohnern. Belebte Stationen steigern den Bodenwert, und wertvoller Boden bringt Wohnblocks und Bürotürme. Größere Städte bauen Kinos, Museen, Rummelplätze und Stadien, und deren Besucher zahlen Touristentarife.
+it: Le case seguono il lavoro, i negozi seguono i residenti. Le stazioni trafficate alzano il valore del terreno, e il terreno di valore porta condomini e torri di uffici. Le città più grandi costruiscono cinema, musei, luna park e stadi, e le loro folle pagano la tariffa turistica.
+pt: As casas seguem os empregos, as lojas seguem os moradores. Estações movimentadas valorizam o terreno, e terrenos valorizados atraem prédios de apartamentos e torres de escritórios. Cidades maiores ganham cinemas, museus, parques de diversões e estádios, e o público paga tarifa turística.
+
+> Town councils that remember what you bulldozed
+es: Ayuntamientos que recuerdan lo que has derribado
+ca: Ajuntaments que recorden què has enderrocat
+fr: Des conseils municipaux qui se souviennent de ce que tu as démoli
+de: Gemeinderäte, die nicht vergessen, was du abgerissen hast
+it: Consigli comunali che si ricordano cosa hai demolito
+pt: Prefeituras que lembram o que você demoliu
+
+> Planned grids and winding old streets
+es: Cuadrículas planificadas y viejas calles sinuosas
+ca: Eixamples en quadrícula i carrers antics i tortuosos
+fr: Quartiers en damier et vieilles rues sinueuses
+de: Schachbrettstraßen und verwinkelte Altstadtgassen
+it: Quartieri a griglia e vecchie strade tortuose
+pt: Quarteirões planejados e velhas ruas sinuosas
+
+> Ports and airports
+es: Puertos y aeropuertos
+ca: Ports i aeroports
+fr: Ports et aéroports
+de: Häfen und Flughäfen
+it: Porti e aeroporti
+pt: Portos e aeroportos
+
+> Take it across the water.
+es: Llévalo por mar y por aire.
+ca: Travessa l'aigua.
+fr: Prends le large.
+de: Ab übers Wasser.
+it: Attraversa il mare.
+pt: Atravesse o mar.
+
+> Docks on the shore, ships that find their own way across the sea, airports where planes take off, cruise and land. Stations built side by side join up, so one interchange can serve rail, road, sea and air.
+es: Muelles en la costa, barcos que encuentran solos su camino por el mar y aeropuertos donde los aviones despegan, vuelan y aterrizan. Las estaciones construidas una al lado de otra se unen, así que un solo intercambiador puede servir a tren, carretera, mar y aire.
+ca: Molls a la costa, vaixells que troben sols el camí per mar, aeroports on els avions s'enlairen, volen i aterren. Les estacions construïdes una al costat de l'altra s'uneixen, de manera que un sol intercanviador pot servir tren, carretera, mar i aire.
+fr: Des ports sur la côte, des bateaux qui trouvent seuls leur chemin en mer, des aéroports où les avions décollent, volent et atterrissent. Les stations construites côte à côte n'en forment qu'une : un seul pôle d'échange peut desservir le rail, la route, la mer et l'air.
+de: Häfen am Ufer, Schiffe, die selbst ihren Weg übers Meer finden, Flughäfen, wo Flugzeuge starten, fliegen und landen. Nebeneinander gebaute Stationen schließen sich zusammen, so bedient ein Umsteigeknoten Schiene, Straße, Wasser und Luft.
+it: Moli sulla costa, navi che trovano da sole la rotta in mare, aeroporti dove gli aerei decollano, volano e atterrano. Le stazioni costruite una accanto all'altra si uniscono, così un solo nodo di scambio può servire ferrovia, strada, mare e aria.
+pt: Docas na costa, navios que acham sozinhos o caminho pelo mar, aeroportos onde aviões decolam, voam e pousam. Estações construídas lado a lado se unem, então um só terminal pode atender trem, estrada, mar e ar.
+
+> An interface that helps
+es: Una interfaz que ayuda
+ca: Una interfície que t'ajuda
+fr: Une interface qui t'aide
+de: Eine Oberfläche, die hilft
+it: Un'interfaccia che aiuta
+pt: Uma interface que ajuda
+
+> See what's stuck, and fix it in one click.
+es: Ve qué se ha atascado y arréglalo con un clic.
+ca: Mira què s'ha encallat i arregla-ho amb un clic.
+fr: Vois ce qui bloque, et répare-le en un clic.
+de: Sieh, was hängt, und lös es mit einem Klick.
+it: Vedi cosa è bloccato e risolvi con un clic.
+pt: Veja o que travou e resolva com um clique.
+
+> The Problems list gathers every lost vehicle, overflowing station and unhappy council, each with a button that takes you to the fix. Hover cards, map layers, named lines that space their vehicles evenly, and an undo for your last 20 builds, refunded in full.
+es: La lista de Problemas reúne cada vehículo perdido, estación desbordada y ayuntamiento descontento, cada uno con un botón que te lleva a la solución. Fichas al pasar el puntero, capas del mapa, líneas con nombre que espacian sus vehículos por igual y un deshacer para tus últimas 20 construcciones, con todo el dinero devuelto.
+ca: La finestra Problemes recull cada vehicle perdut, estació desbordada i ajuntament descontent, cadascun amb un botó que et porta a la solució. Fitxes en passar el punter, capes del mapa, línies amb nom que espaien els vehicles per igual, i un Desfés per a les teves últimes 20 construccions, amb tots els diners retornats.
+fr: La fenêtre Problèmes rassemble chaque véhicule perdu, chaque station débordée et chaque conseil mécontent, avec un bouton qui t'emmène droit à la solution. Fiches au survol, calques de la carte, lignes nommées qui espacent leurs véhicules régulièrement, et l'annulation de tes 20 dernières constructions, remboursées en totalité.
+de: Die Liste Probleme sammelt jedes verirrte Fahrzeug, jede überfüllte Station und jeden verärgerten Gemeinderat, jeweils mit einem Knopf, der dich zur Lösung bringt. Dazu Infokarten unter dem Zeiger, Kartenebenen, benannte Linien, die ihre Fahrzeuge gleichmäßig verteilen, und Rückgängig für deine letzten 20 Bauten, voll erstattet.
+it: La finestra Problemi raccoglie ogni veicolo perso, stazione stracolma e consiglio comunale scontento, ognuno con un pulsante che ti porta alla soluzione. Schede al passaggio del puntatore, livelli mappa, linee con un nome che distanziano i veicoli in modo uniforme e un Annulla per le ultime 20 costruzioni, rimborsate per intero.
+pt: A lista de Problemas reúne cada veículo perdido, estação lotada e prefeitura insatisfeita, cada um com um botão que leva à solução. Fichas ao passar o ponteiro, camadas do mapa, linhas com nome que espaçam os veículos por igual e um desfazer para as suas últimas 20 construções, com reembolso total.
+
+> Rival transport companies
+es: Empresas de transporte rivales
+ca: Empreses de transport rivals
+fr: Entreprises de transport rivales
+de: Konkurrierende Transportfirmen
+it: Compagnie di trasporti rivali
+pt: Empresas de transporte rivais
+
+> Competitors who plan like you do.
+es: Competidores que planifican como tú.
+ca: Competidors que planifiquen com tu.
+fr: Des concurrents qui réfléchissent comme toi.
+de: Konkurrenten, die planen wie du.
+it: Concorrenti che ragionano come te.
+pt: Concorrentes que planejam como você.
+
+> AI companies at three skill levels build bus, truck and rail networks, then take to the water and the air when they can afford it. They chase the industries you serve badly and tear up the routes that never pay.
+es: Empresas de la IA, con tres niveles de dificultad, construyen redes de autobús, camión y tren, y luego se lanzan al mar y al aire cuando se lo pueden permitir. Van a por las industrias que atiendes mal y desmantelan las rutas que nunca dan dinero.
+ca: Empreses que porta l'ordinador, amb tres nivells d'habilitat, construeixen xarxes d'autobusos, camions i trens, i quan s'ho poden permetre es llancen al mar i a l'aire. Van a buscar les indústries que serveixes malament i desmunten les rutes que no donen diners.
+fr: Des entreprises gérées par l'ordinateur, à trois niveaux de difficulté, construisent des réseaux de bus, de camions et de trains, puis passent à la mer et aux airs quand elles en ont les moyens. Elles convoitent les industries que tu dessers mal et démolissent les itinéraires qui ne rapportent jamais.
+de: KI-Firmen in drei Stärken bauen Bus-, Lkw- und Bahnnetze und gehen aufs Wasser und in die Luft, sobald sie es sich leisten können. Sie jagen dir die Industrien ab, die du schlecht bedienst, und reißen die Routen ab, die sich nie lohnen.
+it: Compagnie guidate dall'IA, con tre livelli di abilità, costruiscono reti di autobus, camion e treni, poi passano al mare e al cielo quando possono permetterselo. Puntano alle industrie che servi male e smantellano i percorsi che non rendono mai.
+pt: Empresas controladas pela IA, em três níveis de habilidade, constroem redes de ônibus, caminhões e trens e, quando têm dinheiro, partem para o mar e o ar. Elas disputam as indústrias que você atende mal e desmontam as rotas que nunca dão lucro.
+
+> The fleet
+es: La flota
+ca: La flota
+fr: La flotte
+de: Die Flotte
+it: La flotta
+pt: A frota
+
+> 45 vehicles, steam to supersonic.
+es: 45 vehículos, del vapor al supersónico.
+ca: 45 vehicles, del vapor al supersònic.
+fr: 45 véhicules, de la vapeur au supersonique.
+de: 45 Fahrzeuge, von Dampf bis Überschall.
+it: 45 veicoli, dal vapore al supersonico.
+pt: 45 veículos, do vapor ao supersônico.
+
+> Buses, trucks, trains, ships and planes, each with a model of its own, made in the game's own code. New ones arrive as the decades pass, from the steam engines of 1950 to hydrogen trains and airliners.
+es: Autobuses, camiones, trenes, barcos y aviones, cada uno con su propio modelo, hecho con el propio código del juego. Llegan nuevos con el paso de las décadas, de las locomotoras de vapor de 1950 a los trenes y aviones de hidrógeno.
+ca: Autobusos, camions, trens, vaixells i avions, cadascun amb el seu propi model, fet amb el codi del mateix joc. N'arriben de nous amb el pas de les dècades, de les locomotores de vapor de 1950 als trens i avions d'hidrogen.
+fr: Bus, camions, trains, bateaux et avions, chacun avec son propre modèle, créé par le code du jeu lui-même. De nouveaux arrivent au fil des décennies, des locomotives à vapeur de 1950 aux trains et avions à hydrogène.
+de: Busse, Lkw, Züge, Schiffe und Flugzeuge, jedes mit eigenem Modell, gebaut im Code des Spiels selbst. Mit den Jahrzehnten kommen neue dazu, von den Dampfloks von 1950 bis zu Wasserstoffzügen und -flugzeugen.
+it: Autobus, camion, treni, navi e aerei, ognuno con il suo modello, creato dal codice stesso del gioco. Con il passare dei decenni ne arrivano di nuovi, dalle locomotive a vapore del 1950 ai treni e agli aerei a idrogeno.
+pt: Ônibus, caminhões, trens, navios e aviões, cada um com seu próprio modelo, feito pelo próprio código do jogo. Novos chegam com o passar das décadas, das locomotivas a vapor de 1950 aos trens e aviões a hidrogênio.
+
+> Five ages
+es: Cinco eras
+ca: Cinc eres
+fr: Cinq ères
+de: Fünf Zeitalter
+it: Cinque ere
+pt: Cinco eras
+
+> The map keeps changing under you.
+es: El mapa no deja de cambiar bajo tus pies.
+ca: El mapa no para de canviar sota els teus peus.
+fr: La carte change sous tes pieds.
+de: Die Karte bleibt nie, wie sie ist.
+it: La mappa cambia sotto i tuoi occhi.
+pt: O mapa não para de mudar.
+
+> Each era brings new vehicles and buildings, and rewrites the industry chains.
+es: Cada era trae vehículos y edificios nuevos, y rehace las cadenas industriales.
+ca: Cada era porta vehicles i edificis nous, i capgira les cadenes industrials.
+fr: Chaque ère apporte de nouveaux véhicules et bâtiments, et redessine les chaînes industrielles.
+de: Jede Ära bringt neue Fahrzeuge und Gebäude und stellt die Industrieketten neu auf.
+it: Ogni era porta nuovi veicoli ed edifici e riscrive le filiere industriali.
+pt: Cada era traz novos veículos e edifícios e reescreve as cadeias produtivas.
+
+> Post-war
+es: Posguerra
+ca: Postguerra
+fr: Après-guerre
+de: Nachkriegszeit
+it: Dopoguerra
+pt: Pós-guerra
+
+> Steam, buses and the first chains: coal, wood, grain, oil, iron.
+es: Vapor, autobuses y las primeras cadenas: carbón, madera, cereales, petróleo, hierro.
+ca: Vapor, autobusos i les primeres cadenes: carbó, fusta, cereals, petroli, ferro.
+fr: Vapeur, bus et premières chaînes : charbon, bois, céréales, pétrole, fer.
+de: Dampf, Busse und die ersten Ketten: Kohle, Holz, Getreide, Öl, Eisen.
+it: Vapore, autobus e le prime filiere: carbone, legname, cereali, petrolio, ferro.
+pt: Vapor, ônibus e as primeiras cadeias: carvão, madeira, grãos, petróleo, ferro.
+
+> Jet age
+es: Era del reactor
+ca: Era del reactor
+fr: Ère du jet
+de: Düsenzeitalter
+it: Era del jet
+pt: Era do jato
+
+> Jets and diesels. Refineries make plastics; power stations burn oil too.
+es: Reactores y diésel. Las refinerías hacen plásticos; las centrales eléctricas también queman petróleo.
+ca: Reactors i dièsels. Les refineries fan plàstics; les centrals elèctriques també cremen petroli.
+fr: Jets et diesels. Les raffineries produisent des plastiques ; les centrales brûlent aussi du pétrole.
+de: Jets und Dieselloks. Raffinerien machen Kunststoffe, Kraftwerke verfeuern auch Öl.
+it: Jet e diesel. Le raffinerie producono plastica; le centrali bruciano anche petrolio.
+pt: Jatos e diesel. Refinarias fazem plásticos; usinas elétricas também queimam petróleo.
+
+> Late century
+es: Fin de siglo
+ca: Final de segle
+fr: Fin de siècle
+de: Jahrhundertende
+it: Fine secolo
+pt: Fim de século
+
+> Every house makes waste, and recycling plants turn it into goods.
+es: Cada casa produce residuos, y las plantas de reciclaje los convierten en mercancías.
+ca: Cada casa genera residus, i les plantes de reciclatge els converteixen en mercaderies.
+fr: Chaque maison produit des déchets, et les centres de recyclage en font des marchandises.
+de: Jedes Haus macht Abfall, und Recyclinganlagen machen Güter daraus.
+it: Ogni casa produce rifiuti, e gli impianti di riciclaggio li trasformano in merci.
+pt: Toda casa produz resíduos, e as usinas de reciclagem os transformam em mercadorias.
+
+> Information age
+es: Era de la información
+ca: Era de la informació
+fr: Ère de l'information
+de: Informationszeitalter
+it: Era dell'informazione
+pt: Era da informação
+
+> Electronics that spoil in days, car plants with three inputs, office towers.
+es: Electrónica que se estropea en días, fábricas de coches que piden tres cargas, torres de oficinas.
+ca: Electrònica que caduca en pocs dies, fàbriques de cotxes amb tres materials i torres d'oficines.
+fr: De l'électronique qui se périme en quelques jours, des usines automobiles à trois cargaisons, des tours de bureaux.
+de: Elektronik, die nach Tagen veraltet, Autowerke mit drei Zutaten, Bürotürme.
+it: Elettronica che scade in pochi giorni, fabbriche di automobili con tre materiali, torri di uffici.
+pt: Eletrônicos que estragam em dias, fábricas de carros com três materiais, torres de escritórios.
+
+> Green age
+es: Era verde
+ca: Era verda
+fr: Ère verte
+de: Grünes Zeitalter
+it: Era verde
+pt: Era verde
+
+> Coal fades, wind farms rise, electric trucks, ferries and planes arrive.
+es: El carbón pierde fuerza, surgen los parques eólicos y llegan camiones, ferris y aviones eléctricos.
+ca: El carbó s'apaga, s'aixequen parcs eòlics i arriben camions, ferris i avions elèctrics.
+fr: Le charbon décline, les parcs éoliens se dressent, camions, ferrys et avions électriques arrivent.
+de: Die Kohle schwindet, Windparks entstehen, elektrische Lkw, Fähren und Flugzeuge kommen.
+it: Il carbone tramonta, sorgono i parchi eolici, arrivano camion, traghetti e aerei elettrici.
+pt: O carvão perde força, surgem parques eólicos, chegam caminhões, balsas e aviões elétricos.
+
+> Free early build
+es: Versión anticipada gratis
+ca: Versió preliminar gratuïta
+fr: Version anticipée gratuite
+de: Kostenlose Vorabversion
+it: Versione preliminare gratuita
+pt: Versão prévia grátis
+
+> Your network<br>starts here.
+es: Tu red<br>empieza aquí.
+ca: La teva xarxa<br>comença aquí.
+fr: Ton réseau<br>commence ici.
+de: Dein Netz<br>beginnt hier.
+it: La tua rete<br>parte da qui.
+pt: Sua rede<br>começa aqui.
+
+> Fourways is coming to Steam and itch.io. Until it launches there, the early build is free to download, and it updates itself as new builds come out.
+es: Fourways llegará a Steam e itch.io. Hasta que salga allí, la versión anticipada se descarga gratis y se actualiza sola cuando salen versiones nuevas.
+ca: Fourways arribarà a Steam i itch.io. Mentrestant, la versió preliminar es pot descarregar gratis i s'actualitza sola cada cop que en surt una de nova.
+fr: Fourways arrive sur Steam et itch.io. En attendant sa sortie, la version anticipée est en téléchargement gratuit, et elle se met à jour toute seule à chaque nouvelle version.
+de: Fourways kommt auf Steam und itch.io. Bis zum Start dort kannst du die Vorabversion kostenlos herunterladen, und sie aktualisiert sich selbst, sobald neue Versionen erscheinen.
+it: Fourways arriverà su Steam e itch.io. Fino ad allora, la versione preliminare si scarica gratis e si aggiorna da sola a ogni nuova versione.
+pt: O Fourways será lançado na Steam e no itch.io. Até lá, a versão prévia pode ser baixada de graça e se atualiza sozinha sempre que sai uma nova versão.
+
+> Windows
+es: Windows
+ca: Windows
+fr: Windows
+de: Windows
+it: Windows
+pt: Windows
+
+> Installer, no admin rights needed
+es: Instalador, sin permisos de administrador
+ca: Instal·lador, sense permisos d'administrador
+fr: Installateur, sans droits d'administrateur
+de: Installer, keine Adminrechte nötig
+it: Installer, senza permessi di amministratore
+pt: Instalador, sem precisar de administrador
+
+> macOS
+es: macOS
+ca: macOS
+fr: macOS
+de: macOS
+it: macOS
+pt: macOS
+
+> App for Intel and Apple Silicon
+es: App para Intel y Apple Silicon
+ca: Aplicació per a Intel i Apple Silicon
+fr: Application pour Intel et Apple Silicon
+de: App für Intel und Apple Silicon
+it: App per Intel e Apple Silicon
+pt: App para Intel e Apple Silicon
+
+> <strong>On a Mac</strong>, the app isn't notarized yet, so macOS refuses it the first time. Open <em>System Settings › Privacy &amp; Security</em> and click <em>Open Anyway</em>. Updates after that install by themselves.
+es: <strong>En un Mac</strong>, Apple aún no ha verificado la app, así que macOS la rechaza la primera vez. Abre <em>Ajustes del Sistema › Privacidad y seguridad</em> y haz clic en <em>Abrir igualmente</em>. Después, las actualizaciones se instalan solas.
+ca: <strong>En un Mac</strong>, l'aplicació encara no està certificada per Apple, així que macOS la rebutja la primera vegada. Obre <em>Configuració del Sistema › Privacitat i seguretat</em> i fes clic a <em>Obre igualment</em>. Després, les actualitzacions s'instal·len soles.
+fr: <strong>Sur Mac</strong>, l'application n'est pas encore validée par Apple, donc macOS la refuse la première fois. Ouvre <em>Réglages Système › Confidentialité et sécurité</em> et clique sur <em>Ouvrir quand même</em>. Ensuite, les mises à jour s'installent toutes seules.
+de: <strong>Auf einem Mac</strong> ist die App noch nicht notarisiert, deshalb lehnt macOS sie beim ersten Mal ab. Öffne <em>Systemeinstellungen › Datenschutz &amp; Sicherheit</em> und klick auf <em>Dennoch öffnen</em>. Danach installieren sich Updates von selbst.
+it: <strong>Su Mac</strong> l'app non è ancora certificata da Apple, quindi la prima volta macOS la blocca. Apri <em>Impostazioni di Sistema › Privacy e sicurezza</em> e clicca <em>Apri comunque</em>. Da lì in poi gli aggiornamenti si installano da soli.
+pt: <strong>No Mac</strong>, o app ainda não é notarizado, então o macOS o recusa na primeira vez. Abra <em>Ajustes do Sistema › Privacidade e Segurança</em> e clique em <em>Abrir Mesmo Assim</em>. Depois disso, as atualizações se instalam sozinhas.
+
+> What's new in <span data-version></span>
+es: Novedades de la versión <span data-version></span>
+ca: Novetats de la versió <span data-version></span>
+fr: Nouveautés de la version <span data-version></span>
+de: Neu in <span data-version></span>
+it: Novità della versione <span data-version></span>
+pt: Novidades da versão <span data-version></span>
+
+> In English, Spanish, Catalan, French, German, Italian and Brazilian Portuguese: pick one in Settings, any time.
+es: En inglés, español, catalán, francés, alemán, italiano y portugués de Brasil: elige uno en Ajustes cuando quieras.
+ca: En anglès, castellà, català, francès, alemany, italià i portuguès del Brasil: tria'n un a Configuració, quan vulguis.
+fr: En anglais, espagnol, catalan, français, allemand, italien et portugais du Brésil : choisis ta langue dans les Paramètres, quand tu veux.
+de: Auf Englisch, Spanisch, Katalanisch, Französisch, Deutsch, Italienisch und brasilianischem Portugiesisch: Wähl sie jederzeit in den Einstellungen.
+it: In inglese, spagnolo, catalano, francese, tedesco, italiano e portoghese brasiliano: scegli la lingua in Impostazioni, quando vuoi.
+pt: Em inglês, espanhol, catalão, francês, alemão, italiano e português do Brasil: escolha um em Configurações, quando quiser.
+
+> All releases
+es: Todas las versiones
+ca: Totes les versions
+fr: Toutes les versions
+de: Alle Versionen
+it: Tutte le versioni
+pt: Todas as versões
+
+> Questions
+es: Preguntas
+ca: Preguntes
+fr: Questions
+de: Fragen
+it: Domande
+pt: Perguntas
+
+> Good to know.
+es: Conviene saberlo.
+ca: Coses que val la pena saber.
+fr: Bon à savoir.
+de: Gut zu wissen.
+it: Buono a sapersi.
+pt: Bom saber.
+
+> Is Fourways free?
+es: ¿Fourways es gratis?
+ca: Fourways és gratis?
+fr: Fourways est-il gratuit ?
+de: Ist Fourways kostenlos?
+it: Fourways è gratis?
+pt: O Fourways é grátis?
+
+> Fourways will be a paid game on Steam and itch.io. Until it launches there, the early build is free to download from this page, and it updates itself as new builds come out.
+es: Fourways será un juego de pago en Steam e itch.io. Hasta que salga allí, la versión anticipada se puede descargar gratis desde esta página, y se actualiza sola cuando salen versiones nuevas.
+ca: Fourways serà un joc de pagament a Steam i itch.io. Mentre no hi arribi, la versió preliminar es pot descarregar gratis des d'aquesta pàgina i s'actualitza sola cada cop que en surt una de nova.
+fr: Fourways sera un jeu payant sur Steam et itch.io. En attendant sa sortie, la version anticipée est en téléchargement gratuit sur cette page, et elle se met à jour toute seule à chaque nouvelle version.
+de: Fourways wird auf Steam und itch.io ein kostenpflichtiges Spiel. Bis zum Start dort kannst du die Vorabversion kostenlos auf dieser Seite herunterladen, und sie aktualisiert sich selbst, sobald neue Versionen erscheinen.
+it: Fourways sarà un gioco a pagamento su Steam e itch.io. Fino al lancio, la versione preliminare si scarica gratis da questa pagina e si aggiorna da sola a ogni nuova versione.
+pt: O Fourways será um jogo pago na Steam e no itch.io. Até o lançamento lá, a versão prévia pode ser baixada de graça nesta página e se atualiza sozinha sempre que sai uma nova versão.
+
+> What do I need to play it?
+es: ¿Qué necesito para jugar?
+ca: Què necessito per jugar-hi?
+fr: Que faut-il pour y jouer ?
+de: Was brauche ich zum Spielen?
+it: Cosa mi serve per giocare?
+pt: O que eu preciso para jogar?
+
+> A Windows PC (the installer needs no admin rights) or a Mac with an Intel or Apple Silicon chip. Play with a mouse, a trackpad, or an Xbox or PlayStation controller.
+es: Un PC con Windows (el instalador no necesita permisos de administrador) o un Mac con chip Intel o Apple Silicon. Se juega con ratón, panel táctil o mando de Xbox o PlayStation.
+ca: Un PC amb Windows (l'instal·lador no demana permisos d'administrador) o un Mac amb xip Intel o Apple Silicon. Es juga amb ratolí, panell tàctil o un comandament d'Xbox o PlayStation.
+fr: Un PC Windows (l'installateur ne demande pas de droits d'administrateur) ou un Mac avec une puce Intel ou Apple Silicon. Joue à la souris, au trackpad ou avec une manette Xbox ou PlayStation.
+de: Einen Windows-PC (der Installer braucht keine Adminrechte) oder einen Mac mit Intel- oder Apple-Silicon-Chip. Gespielt wird mit Maus, Trackpad oder einem Xbox- oder PlayStation-Controller.
+it: Un PC Windows (l'installer non richiede permessi di amministratore) o un Mac con chip Intel o Apple Silicon. Puoi giocare con mouse, trackpad o un controller Xbox o PlayStation.
+pt: Um PC com Windows (o instalador não pede permissão de administrador) ou um Mac com chip Intel ou Apple Silicon. Jogue com mouse, touchpad ou um controle de Xbox ou PlayStation.
+
+> Is it like Transport Tycoon or OpenTTD?
+es: ¿Se parece a Transport Tycoon u OpenTTD?
+ca: S'assembla a Transport Tycoon o OpenTTD?
+fr: Est-ce que ça ressemble à Transport Tycoon ou OpenTTD ?
+de: Ist es wie Transport Tycoon oder OpenTTD?
+it: È simile a Transport Tycoon o OpenTTD?
+pt: É parecido com Transport Tycoon ou OpenTTD?
+
+> Yes, in spirit: you build road, rail, sea and air routes on a map of tiles and carry passengers, mail and cargo between towns and industries. Fourways adds real-time lighting, seasons and weather, five eras that change the industry chains, and rival companies that build networks of their own.
+es: Sí, en lo esencial: construyes rutas por carretera, tren, mar y aire en un mapa de casillas y llevas pasajeros, correo y carga entre ciudades e industrias. Fourways añade iluminación en tiempo real, estaciones del año y meteorología, cinco eras que cambian las cadenas industriales y empresas rivales que construyen sus propias redes.
+ca: Sí, en essència: construeixes rutes per carretera, ferrocarril, mar i aire sobre un mapa de caselles i transportes passatgers, correu i càrrega entre ciutats i indústries. Fourways hi afegeix il·luminació en temps real, les estacions de l'any i el temps que fa, cinc eres que canvien les cadenes industrials i empreses rivals que construeixen les seves pròpies xarxes.
+fr: Oui, dans l'esprit : tu construis des lignes routières, ferroviaires, maritimes et aériennes sur une carte en cases, et tu transportes passagers, courrier et fret entre villes et industries. Fourways y ajoute un éclairage en temps réel, les saisons et la météo, cinq ères qui transforment les chaînes industrielles, et des entreprises rivales qui bâtissent leurs propres réseaux.
+de: Ja, im Geist: Du baust Straßen-, Eisenbahn-, Schiffs- und Flugrouten auf einer Karte aus Feldern und beförderst Passagiere, Post und Fracht zwischen Städten und Industrien. Dazu bringt Fourways Echtzeit-Beleuchtung, Jahreszeiten und Wetter, fünf Ären, die die Industrieketten verändern, und konkurrierende Firmen, die eigene Netze aufbauen.
+it: Sì, nello spirito: è un gestionale di trasporti in cui costruisci percorsi su strada, ferrovia, mare e aria su una mappa a caselle e trasporti passeggeri, posta e merci tra città e industrie. Fourways aggiunge luci in tempo reale, stagioni e meteo, cinque ere che cambiano le filiere industriali e compagnie rivali che costruiscono reti tutte loro.
+pt: Sim, na essência: você constrói rotas por estrada, ferrovia, mar e ar num mapa quadriculado e leva passageiros, correio e carga entre cidades e indústrias. O Fourways acrescenta iluminação em tempo real, estações do ano e clima, cinco eras que mudam as cadeias produtivas e empresas rivais que montam suas próprias redes.
+
+> Is there a tutorial?
+es: ¿Tiene tutorial?
+ca: Hi ha un tutorial?
+fr: Y a-t-il un tutoriel ?
+de: Gibt es ein Tutorial?
+it: C'è un tutorial?
+pt: O jogo tem tutorial?
+
+> A five-minute guided tour builds a first bus route with you in the real game, and the <a href="guide/">player's guide</a> (press H in the game) explains everything else.
+es: Un recorrido guiado de cinco minutos construye contigo una primera ruta de autobús en el juego real, y la <a href="guide/">guía del jugador</a> (pulsa H en el juego) explica todo lo demás.
+ca: Una visita guiada de cinc minuts construeix amb tu una primera ruta d'autobús dins del joc de veritat, i la <a href="guide/">guia del joc</a> (prem H mentre jugues) t'explica tota la resta.
+fr: Une visite guidée de cinq minutes construit avec toi une première ligne de bus dans le vrai jeu, et le <a href="guide/">guide du joueur</a> (touche H en jeu) explique tout le reste.
+de: Eine fünfminütige geführte Tour baut mit dir im echten Spiel eine erste Buslinie, und die <a href="guide/">Spielanleitung</a> (im Spiel H drücken) erklärt alles Weitere.
+it: Una visita guidata di cinque minuti costruisce con te una prima linea di autobus nel gioco vero e proprio, e la <a href="guide/">guida del gioco</a> (premi H in partita) spiega tutto il resto.
+pt: Uma visita guiada de cinco minutos constrói com você uma primeira linha de ônibus no próprio jogo, e o <a href="guide/">guia do jogador</a> (aperte H no jogo) explica todo o resto.
+
+> Which languages does it come in?
+es: ¿En qué idiomas está?
+ca: En quins idiomes es pot jugar?
+fr: En quelles langues est-il disponible ?
+de: In welchen Sprachen gibt es das Spiel?
+it: In quali lingue è disponibile?
+pt: Em quais idiomas ele está disponível?
+
+> English, Spanish, Catalan, French, German, Italian and Brazilian Portuguese. Switch in Settings at any time.
+es: Inglés, español, catalán, francés, alemán, italiano y portugués de Brasil. Puedes cambiarlo en Ajustes cuando quieras.
+ca: Anglès, castellà, català, francès, alemany, italià i portuguès del Brasil. Pots canviar-lo a Configuració quan vulguis.
+fr: Anglais, espagnol, catalan, français, allemand, italien et portugais du Brésil. Tu peux en changer à tout moment dans les Paramètres.
+de: Englisch, Spanisch, Katalanisch, Französisch, Deutsch, Italienisch und brasilianisches Portugiesisch. Wechseln kannst du jederzeit in den Einstellungen.
+it: Inglese, spagnolo, catalano, francese, tedesco, italiano e portoghese brasiliano. Puoi cambiare lingua in Impostazioni in qualsiasi momento.
+pt: Inglês, espanhol, catalão, francês, alemão, italiano e português do Brasil. Troque em Configurações quando quiser.
+
+> Can I make mods?
+es: ¿Puedo crear mods?
+ca: Puc fer mods?
+fr: Puis-je créer des mods ?
+de: Kann ich Mods erstellen?
+it: Posso creare mod?
+pt: Posso criar mods?
+
+> Yes. <a href="mods/" data-local>Make your first mod</a> with the sample locomotive, or explore the reference for vehicles, maps, translations and gameplay scripts.
+es: Sí. <a href="mods/" data-local>Crea tu primer mod</a> con la locomotora de ejemplo o consulta la referencia sobre vehículos, mapas, traducciones y scripts de juego.
+ca: Sí. <a href="mods/" data-local>Fes el teu primer mod</a> amb la locomotora de mostra o consulta la referència sobre vehicles, mapes, traduccions i scripts de joc.
+fr: Oui. <a href="mods/" data-local>Crée ton premier mod</a> avec la locomotive d’exemple ou consulte la référence sur les véhicules, les cartes, les traductions et les scripts de jeu.
+de: Ja. <a href="mods/" data-local>Erstelle deinen ersten Mod</a> mit der Beispiel-Lok oder lies die Referenz zu Fahrzeugen, Karten, Übersetzungen und Spielskripten.
+it: Sì. <a href="mods/" data-local>Crea la tua prima mod</a> con la locomotiva di esempio o consulta la guida di riferimento su veicoli, mappe, traduzioni e script di gioco.
+pt: Sim. <a href="mods/" data-local>Crie seu primeiro mod</a> com a locomotiva de exemplo ou consulte a referência sobre veículos, mapas, traduções e scripts de jogo.
+
+> Privacy and legal notice
+es: Privacidad y aviso legal
+ca: Privacitat i avís legal
+fr: Confidentialité et mentions légales
+de: Datenschutz und Impressum
+it: Privacy e note legali
+pt: Privacidade e aviso legal
+
+> Free early build %s · Steam and itch.io soon
+es: Versión anticipada %s gratis · Pronto en Steam e itch.io
+ca: Versió preliminar gratuïta %s · Aviat a Steam i itch.io
+fr: Version anticipée gratuite %s · Bientôt sur Steam et itch.io
+de: Kostenlose Vorabversion %s · Bald auf Steam und itch.io
+it: Versione preliminare gratuita %s · Presto su Steam e itch.io
+pt: Versão prévia %s grátis · Steam e itch.io em breve
+
+> Free early build %s
+es: Versión anticipada %s gratis
+ca: Versió preliminar gratuïta %s
+fr: Version anticipée gratuite %s
+de: Kostenlose Vorabversion %s
+it: Versione preliminare gratuita %s
+pt: Versão prévia %s grátis
+
+> Free early build %s for Mac
+es: Versión anticipada %s gratis para Mac
+ca: Versió preliminar gratuïta %s per a Mac
+fr: Version anticipée gratuite %s pour Mac
+de: Kostenlose Vorabversion %s für Mac
+it: Versione preliminare gratuita %s per Mac
+pt: Versão prévia %s grátis para Mac
+
+> Free early build %s for Windows
+es: Versión anticipada %s gratis para Windows
+ca: Versió preliminar gratuïta %s per a Windows
+fr: Version anticipée gratuite %s pour Windows
+de: Kostenlose Vorabversion %s für Windows
+it: Versione preliminare gratuita %s per Windows
+pt: Versão prévia %s grátis para Windows
+
+> Installer · %s
+es: Instalador · %s
+ca: Instal·lador · %s
+fr: Installateur · %s
+de: Installer · %s
+it: Installer · %s
+pt: Instalador · %s
+
+> Intel and Apple Silicon · %s
+es: Intel y Apple Silicon · %s
+ca: Intel i Apple Silicon · %s
+fr: Intel et Apple Silicon · %s
+de: Intel und Apple Silicon · %s
+it: Intel e Apple Silicon · %s
+pt: Intel e Apple Silicon · %s
+
+> Play the video
+es: Reproducir el vídeo
+ca: Reprodueix el vídeo
+fr: Lire la vidéo
+de: Video abspielen
+it: Riproduci il video
+pt: Reproduzir o vídeo
+
+> Pause the video
+es: Pausar el vídeo
+ca: Posa en pausa el vídeo
+fr: Mettre la vidéo en pause
+de: Video anhalten
+it: Metti in pausa il video
+pt: Pausar o vídeo

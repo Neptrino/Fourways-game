@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="ca" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fourways – Joc de gestió de transports per a PC i Mac</title>
+<meta name="description" content="Fourways és un joc de gestió de transports per a Windows i Mac: traça carreteres i vies i fes créixer un món viu del 1950 a l'era verda. Aviat a Steam i itch.io.">
+<meta name="theme-color" content="#0b1226">
+<link rel="icon" href="../icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="../icon-24.png" sizes="24x24" type="image/png">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fourways – Joc de gestió de transports per a PC i Mac">
+<meta property="og:description" content="Un joc de gestió de transports: traça carreteres i vies, gestiona trens, camions, vaixells i avions, i fes créixer un món viu del 1950 a l'era verda.">
+<meta property="og:url" content="https://fourways-game.com/ca/">
+<meta property="og:image" content="https://fourways-game.com/img/og.jpg">
+<link rel="canonical" href="https://fourways-game.com/ca/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://fourways-game.com/">
+<link rel="alternate" hreflang="es" href="https://fourways-game.com/es/">
+<link rel="alternate" hreflang="ca" href="https://fourways-game.com/ca/">
+<link rel="alternate" hreflang="fr" href="https://fourways-game.com/fr/">
+<link rel="alternate" hreflang="de" href="https://fourways-game.com/de/">
+<link rel="alternate" hreflang="it" href="https://fourways-game.com/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://fourways-game.com/pt/">
+<link rel="alternate" hreflang="x-default" href="https://fourways-game.com/">
+<link rel="preload" as="font" type="font/woff2" href="../fonts/big-shoulders.woff2" crossorigin>
+<link rel="preload" as="image" href="../img/hero.webp" media="(min-width: 721px)">
+<link rel="preload" as="image" href="../img/hero-sm.webp" media="(max-width: 720px)">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json" id="ld-game">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Fourways", "url": "https://fourways-game.com/ca/", "description": "Fourways és un joc de gestió de transports per a Windows i Mac: traça carreteres i vies i fes créixer un món viu del 1950 a l'era verda. Aviat a Steam i itch.io.", "image": "https://fourways-game.com/img/og.jpg", "screenshot": ["https://fourways-game.com/img/hero.webp", "https://fourways-game.com/img/world-day.webp", "https://fourways-game.com/img/world-night.webp", "https://fourways-game.com/img/bridges.webp", "https://fourways-game.com/img/freight.webp", "https://fourways-game.com/img/interface.webp", "https://fourways-game.com/img/streets.webp"], "genre": ["Simulation", "Strategy", "Tycoon"], "gamePlatform": ["PC", "Mac"], "operatingSystem": "Windows, macOS", "applicationCategory": "Game", "playMode": "SinglePlayer", "inLanguage": ["en", "es", "ca", "fr", "de", "it", "pt-BR"]}</script>
+<script type="application/ld+json" id="ld-faq">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Fourways és gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Fourways serà un joc de pagament a Steam i itch.io. Mentre no hi arribi, la versió preliminar es pot descarregar gratis des d'aquesta pàgina i s'actualitza sola cada cop que en surt una de nova."}}, {"@type": "Question", "name": "Què necessito per jugar-hi?", "acceptedAnswer": {"@type": "Answer", "text": "Un PC amb Windows (l'instal·lador no demana permisos d'administrador) o un Mac amb xip Intel o Apple Silicon. Es juga amb ratolí, panell tàctil o un comandament d'Xbox o PlayStation."}}, {"@type": "Question", "name": "S'assembla a Transport Tycoon o OpenTTD?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, en essència: construeixes rutes per carretera, ferrocarril, mar i aire sobre un mapa de caselles i transportes passatgers, correu i càrrega entre ciutats i indústries. Fourways hi afegeix il·luminació en temps real, les estacions de l'any i el temps que fa, cinc eres que canvien les cadenes industrials i empreses rivals que construeixen les seves pròpies xarxes."}}, {"@type": "Question", "name": "Hi ha un tutorial?", "acceptedAnswer": {"@type": "Answer", "text": "Una visita guiada de cinc minuts construeix amb tu una primera ruta d'autobús dins del joc de veritat, i la guia del joc (prem H mentre jugues) t'explica tota la resta."}}, {"@type": "Question", "name": "En quins idiomes es pot jugar?", "acceptedAnswer": {"@type": "Answer", "text": "Anglès, castellà, català, francès, alemany, italià i portuguès del Brasil. Pots canviar-lo a Configuració quan vulguis."}}, {"@type": "Question", "name": "Puc fer mods?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Fes el teu primer mod amb la locomotora de mostra o consulta la referència sobre vehicles, mapes, traduccions i scripts de joc."}}]}</script>
+<script>document.documentElement.classList.add("js");</script>
+<!-- Umami (self-hosted, no cookies). Counts only the published site, not local previews. -->
+<script defer src="https://analytics.neptrino.com/script.js" data-website-id="96a6ace5-060e-4a0f-bef4-261feb80c0c0" data-domains="fourways-game.com,www.fourways-game.com"></script>
+<script type="application/json" id="i18n">{"versionOut": "Versió preliminar gratuïta %s · Aviat a Steam i itch.io", "version": "Versió preliminar gratuïta %s", "versionMac": "Versió preliminar gratuïta %s per a Mac", "versionWin": "Versió preliminar gratuïta %s per a Windows", "installer": "Instal·lador · %s", "macApp": "Intel i Apple Silicon · %s", "play": "Reprodueix el vídeo", "pause": "Posa en pausa el vídeo"}</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" translate="no"><img src="../icon.svg" alt="" width="34" height="34"><span>Fourways</span></a>
+    <nav aria-label="Seccions">
+      <a href="#how">Com es juga</a>
+      <a href="#world">El món</a>
+      <a href="#features">Característiques</a>
+      <a href="#eras">Eres</a>
+      <a href="guide/" data-local data-umami-event="guide-nav">Guia del joc</a>
+      <a class="nav-mods" href="mods/" data-local>Mods</a>
+      <a class="btn btn-sm" href="#download">Descàrrega</a>
+      <details class="lang">
+        <summary aria-label="Idioma"><span translate="no" data-lang-code>CA</span></summary>
+        <ul translate="no">
+          <li><a href="../" hreflang="en" lang="en" data-lang="en" data-umami-event="language" data-umami-event-to="en">English</a></li>
+          <li><a href="../es/" hreflang="es" lang="es" data-lang="es" data-umami-event="language" data-umami-event-to="es">Español</a></li>
+          <li><a href="../ca/" hreflang="ca" lang="ca" data-lang="ca" data-umami-event="language" data-umami-event-to="ca" aria-current="page">Català</a></li>
+          <li><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr" data-umami-event="language" data-umami-event-to="fr">Français</a></li>
+          <li><a href="../de/" hreflang="de" lang="de" data-lang="de" data-umami-event="language" data-umami-event-to="de">Deutsch</a></li>
+          <li><a href="../it/" hreflang="it" lang="it" data-lang="it" data-umami-event="language" data-umami-event-to="it">Italiano</a></li>
+          <li><a href="../pt/" hreflang="pt-BR" lang="pt-BR" data-lang="pt" data-umami-event="language" data-umami-event-to="pt">Português</a></li>
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero-media" id="hero-media" aria-hidden="true">
+    <div class="hero-zoom">
+      <picture>
+        <source media="(max-width: 720px)" srcset="../img/hero-sm.webp">
+        <img class="hero-still" src="../img/hero.webp" alt="" width="2560" height="1440" fetchpriority="high">
+      </picture>
+    </div>
+    <div class="hero-clouds"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-grain"></div>
+  </div>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-in">
+    <a class="chip" href="#download"><span class="chip-dot"></span><span data-chip>Versió preliminar gratuïta · Aviat a Steam i itch.io</span></a>
+    <h1 class="logo"><span class="sr">Fourways, un joc tycoon de transports</span><span aria-hidden="true" translate="no">Four<em>ways</em></span></h1>
+    <p class="tagline">Construeix les línies que mouen un món que creix.</p>
+    <p class="lede">Traça carreteres i vies, obre molls i aeroports, i transporta passatgers, correu i càrrega al llarg de setanta anys de canvis. Les ciutats creixen on hi dones servei. Els rivals construeixen on no hi arribes.</p>
+    <div class="cta-row">
+      <a class="btn btn-big" id="cta-main" data-umami-event="download-hero" href="https://github.com/Neptrino/Fourways-game/releases/latest">
+        <svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><span class="btn-label">Descàrrega</span><span class="btn-sub" data-version-line>Versió preliminar gratuïta · Windows i Mac</span></span>
+      </a>
+      <a class="btn btn-ghost" href="#how" data-umami-event="see-how-it-plays">Mira com es juga</a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#how" aria-label="Desplaça't cap avall"><span></span></a>
+</section>
+
+<div class="ticker" id="ticker" aria-label="D'un cop d'ull">
+  <div class="ticker-track">
+    <ul>
+      <li>Carretera</li><li>Ferrocarril</li><li>Mar</li><li>Aire</li><li>Cinc eres, del 1950 al 2010</li><li>45 vehicles</li>
+      <li>Empreses rivals</li><li>Dia i nit</li><li>Quatre estacions</li><li>Tempestes</li><li>Mods</li><li>Set idiomes</li>
+    </ul>
+    <ul aria-hidden="true">
+      <li>Carretera</li><li>Ferrocarril</li><li>Mar</li><li>Aire</li><li>Cinc eres, del 1950 al 2010</li><li>45 vehicles</li>
+      <li>Empreses rivals</li><li>Dia i nit</li><li>Quatre estacions</li><li>Tempestes</li><li>Mods</li><li>Set idiomes</li>
+    </ul>
+  </div>
+</div>
+
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Com es juga</p>
+      <h2>Portes una empresa de transports.</h2>
+      <p>Per tot el mapa apareixen passatgers, correu i càrrega, i la gent paga perquè els portis allà on els volen. Tu fas les carreteres, les vies, els molls i les pistes, compres els vehicles i els marques les rutes. Cada entrega es cobra, i amb els diners fas la línia següent. Aquí tens una primera ruta de carbó, jugada dins del joc.</p>
+    </div>
+    <div class="player" data-reveal>
+      <div class="player-screen">
+        <video id="howto-video" muted playsinline preload="none" poster="../img/play-connect.webp" aria-label="Vídeo d'una partida"></video>
+        <button class="player-toggle" type="button" id="howto-toggle" aria-label="Pausa"><span></span></button>
+      </div>
+      <ol class="player-steps" role="tablist" aria-label="Passos">
+        <li><button role="tab" aria-selected="true" data-clip="connect" data-umami-event="how-step" data-umami-event-step="connect"><span class="step-n">1</span><span class="step-t"><strong>Connecta dos llocs</strong>Fes clic al costat d'una mina de carbó i assenyala una central elèctrica: apareix la millor línia amb el seu preu. Torna a fer clic i ja està construïda.</span><i></i></button></li>
+        <li><button role="tab" aria-selected="false" data-clip="stations" data-umami-event="how-step" data-umami-event-step="stations"><span class="step-n">2</span><span class="step-t"><strong>Construeix una estació a cada punta</strong>Arrossega una andana. La zona blava mostra què recull i què accepta l'estació: carbó a la mina, carbó a la central.</span><i></i></button></li>
+        <li><button role="tab" aria-selected="false" data-clip="buy" data-umami-event="how-step" data-umami-event-step="buy"><span class="step-n">3</span><span class="step-t"><strong>Compra un tren</strong>Prem B i tria una locomotora i les seves dues parades. La càrrega es tria sola, i el tren surt del dipòsit.</span><i></i></button></li>
+        <li><button role="tab" aria-selected="false" data-clip="paid" data-umami-event="how-step" data-umami-event-step="paid"><span class="step-n">4</span><span class="step-t"><strong>Cobra</strong>Carrega a la mina i va fins a la central. Cada entrega es cobra: com més lluny i més de pressa, més guanyes.</span><i></i></button></li>
+      </ol>
+    </div>
+    <p class="how-then" data-reveal><strong>I tornem-hi, cada cop una mica més gran.</strong> Les ciutats creixen on hi dones servei, les indústries obren i tanquen, cinc eres porten reactors, hidroales i trens elèctrics, i les empreses rivals van darrere la mateixa càrrega.</p>
+  </div>
+</section>
+
+<section class="stats" aria-label="En xifres">
+  <div class="wrap stats-in">
+    <div data-reveal><strong>4</strong><span>maneres de transportar: carretera, ferrocarril, mar i aire</span></div>
+    <div data-reveal><strong>5</strong><span>eres, del 1950 a l'era verda</span></div>
+    <div data-reveal><strong>45</strong><span>vehicles, del vapor al supersònic</span></div>
+    <div data-reveal><strong>7</strong><span>idiomes, al joc i en aquesta web</span></div>
+    <div data-reveal><strong>0</strong><span>recursos comprats: tots els models, músiques i sons estan fets amb codi</span></div>
+  </div>
+</section>
+
+<section id="fans" class="fans">
+  <div class="wrap">
+    <div class="fans-in" data-reveal>
+      <p class="kicker">Per als fans de Transport Tycoon</p>
+      <h2>En la línia de Transport Tycoon i OpenTTD.</h2>
+      <p>Si vas créixer jugant a Transport Tycoon Deluxe, o encara jugues a OpenTTD, t'hi sabràs moure de seguida: un mapa de caselles, carreteres, vies, molls i aeroports, indústries que s'abasteixen entre si i empreses rivals al mateix mapa. Fourways ho conserva tot i hi afegeix el que els clàssics no van tenir mai: llum en temps real de l'alba a la nit, les estacions de l'any i el temps que fa, ciutats que canvien amb les eres, una primera ruta guiada i una llista de tot el que s'ha encallat.</p>
+      <p>Si t'agraden els ferrocarrils de Railroad Tycoon, les eres de Transport Fever o les línies endreçades de Mini Metro, també t'hi sentiràs com a casa.</p>
+    </div>
+  </div>
+</section>
+
+<section id="world" class="world">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Un món, a totes hores</p>
+      <h2>Passen les estacions.<br>S'encenen els llums.</h2>
+      <p>Il·luminació en temps real, cicle de dia i nit, quatre estacions i un temps que va canviant. La mateixa ciutat, el mateix trànsit del dia: tria un moment.</p>
+    </div>
+  </div>
+  <div class="switcher" data-reveal>
+    <div class="switch-stage" id="stage">
+      <img class="on" src="../img/world-day.webp" alt="La ciutat en un dia d'estiu" width="1600" height="900" data-key="day">
+      <p class="switch-label" id="switch-label" aria-hidden="true">Dia d'estiu</p>
+    </div>
+    <div class="switch-tabs" role="tablist" aria-label="L'hora i el temps">
+      <button role="tab" aria-selected="true" data-key="day" data-alt="La ciutat en un dia d'estiu">Dia d'estiu</button>
+      <button role="tab" aria-selected="false" data-key="dusk" data-video="video/dusk.mp4" data-alt="La ciutat de la tarda a la nit, amb les finestres i els fanals que s'encenen">Del dia a la nit</button>
+      <button role="tab" aria-selected="false" data-key="night" data-alt="La ciutat de nit, amb fanals i finestres il·luminades">Nit</button>
+      <button role="tab" aria-selected="false" data-key="autumn" data-alt="La ciutat a la tardor, amb els arbres que es tornen taronja">Tardor</button>
+      <button role="tab" aria-selected="false" data-key="winter" data-alt="La ciutat a l'hivern, amb els arbres nus i el terra pàl·lid">Hivern</button>
+      <button role="tab" aria-selected="false" data-key="mist" data-alt="La ciutat amb la boira del matí">Boira</button>
+      <button role="tab" aria-selected="false" data-key="rainbow" data-alt="Un arc de Sant Martí sobre la ciutat després de la pluja">Arc iris</button>
+      <button role="tab" aria-selected="false" data-key="storm" data-video="video/storm.mp4" data-alt="La ciutat sota una tempesta, amb la pluja que escombra els carrers">Tempesta</button>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <div class="wrap">
+
+    <div class="section-head" data-reveal>
+      <p class="kicker">Què construiràs</p>
+      <h2>D'una parada d'autobús a tot un país en&nbsp;marxa.</h2>
+    </div>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Amplia la imatge"><img src="../img/interchange-rail.webp" alt="Un autobús i un tren de passatgers coincideixen a Westbridge Central al capvespre" width="1280" height="720" loading="lazy" decoding="async"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">01</span>
+        <p class="kicker">Carretera · Ferrocarril · Mar · Aire</p>
+        <h3>Traça una línia i a rodar.</h3>
+        <p>Autobusos i camions, trens de vapor i d'alta velocitat, ferris i vaixells de càrrega, avions d'hèlice i jumbos. Les eines Connecta troben la millor carretera o via entre dos punts, amb diagonals, ponts i túnels inclosos, i et mostren el preu abans de construir.</p>
+        <ul>
+          <li>Senyals, apartadors i andanes de fins a 12 caselles</li>
+          <li>Trens mixtos: cada vagó descarrega on volen la seva càrrega</li>
+          <li>Catenària per a locomotores elèctriques</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature flip" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Amplia la imatge"><img src="../img/bridges.webp" alt="Un viaducte de pedra, un arc d'acer i un pont penjant vermell que creuen un riu" width="1280" height="720" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">02</span>
+        <p class="kicker">Ponts i túnels</p>
+        <h3>Cinc tipus de pont. I túnels per a la resta.</h3>
+        <p>Bigues de formigó per a un rierol, viaductes de pedra i entramats d'acer per a una vall, arcs d'acer i ponts penjants quan arriba la seva època. Els turons massa costeruts per pujar-los es travessen amb un túnel amb boques de pedra.</p>
+      </div>
+    </article>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Amplia la imatge"><img src="../img/freight.webp" alt="Un tren de càrrega que surt d'una estació entre un llac, una impremta i una ciutat" width="1280" height="720" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">03</span>
+        <p class="kicker">Cadenes industrials</p>
+        <h3>Del carbó a l'electricitat. De la fusta als diaris. De l'acer als cotxes.</h3>
+        <p>Mines, granges, pous, serradores i fàbriques es van passant la càrrega. Les indústries contracten treballadors de les ciutats properes, així que portar-los gent fins a la porta fa pujar la producció. Si en deixes una massa temps sense servei, pot tancar.</p>
+      </div>
+    </article>
+
+    <article class="feature flip" data-reveal>
+      <figure><div class="zoom"><span class="clip-tag">A càmera ràpida</span><video class="clip" muted loop playsinline preload="none" poster="../video/town.webp" data-src="../video/town.mp4" aria-label="Vint anys a càmera ràpida: un llogaret en camp obert es converteix en una ciutat de carrers i blocs de pisos"></video></div></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">04</span>
+        <p class="kicker">Ciutats vives</p>
+        <h3>Un bon servei fa créixer una ciutat.</h3>
+        <p>Les cases van on hi ha feina, i les botigues on hi ha veïns. Les estacions amb molt moviment fan pujar el valor del sòl, i el sòl car porta blocs de pisos i torres d'oficines. Les ciutats més grans construeixen cinemes, museus, parcs d'atraccions i estadis, i la gent que hi va paga tarifa turística.</p>
+        <ul>
+          <li>Ajuntaments que recorden què has enderrocat</li>
+          <li>Eixamples en quadrícula i carrers antics i tortuosos</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Amplia la imatge"><img src="../img/interchange-port.webp" alt="Un vaixell de càrrega amarrat de dia al moll de Westbank, amb una grua, una zona de càrrega i un camió que hi espera" width="1280" height="720" loading="lazy" decoding="async"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">05</span>
+        <p class="kicker">Ports i aeroports</p>
+        <h3>Travessa l'aigua.</h3>
+        <p>Molls a la costa, vaixells que troben sols el camí per mar, aeroports on els avions s'enlairen, volen i aterren. Les estacions construïdes una al costat de l'altra s'uneixen, de manera que un sol intercanviador pot servir tren, carretera, mar i aire.</p>
+      </div>
+    </article>
+
+    <article class="feature flip" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Amplia la imatge"><img src="../img/interface.webp" alt="La interfície del joc: barra superior, barra d'eines, minimapa i noms de les estacions sobre la ciutat" width="1600" height="900" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">06</span>
+        <p class="kicker">Una interfície que t'ajuda</p>
+        <h3>Mira què s'ha encallat i arregla-ho amb un clic.</h3>
+        <p>La finestra Problemes recull cada vehicle perdut, estació desbordada i ajuntament descontent, cadascun amb un botó que et porta a la solució. Fitxes en passar el punter, capes del mapa, línies amb nom que espaien els vehicles per igual, i un Desfés per a les teves últimes 20 construccions, amb tots els diners retornats.</p>
+      </div>
+    </article>
+
+    <article class="feature" data-reveal>
+      <figure><button class="zoom" type="button" aria-label="Amplia la imatge"><img src="../img/streets.webp" alt="Camions i cotxes per carrers sinuosos, davant de botigues i cases" width="1280" height="720" loading="lazy"></button></figure>
+      <div class="feature-text">
+        <span class="num" aria-hidden="true">07</span>
+        <p class="kicker">Empreses de transport rivals</p>
+        <h3>Competidors que planifiquen com tu.</h3>
+        <p>Empreses que porta l'ordinador, amb tres nivells d'habilitat, construeixen xarxes d'autobusos, camions i trens, i quan s'ho poden permetre es llancen al mar i a l'aire. Van a buscar les indústries que serveixes malament i desmunten les rutes que no donen diners.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="fleet" class="fleet-sec">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">La flota</p>
+      <h2>45 vehicles, del vapor al supersònic.</h2>
+      <p>Autobusos, camions, trens, vaixells i avions, cadascun amb el seu propi model, fet amb el codi del mateix joc. N'arriben de nous amb el pas de les dècades, de les locomotores de vapor de 1950 als trens i avions d'hidrogen.</p>
+    </div>
+    <!-- fleet:start -->
+    <div class="fleet" data-reveal>
+      <div class="fleet-tabs" role="tablist" aria-label="Tipus de vehicle">
+        <button role="tab" id="fleet-tab-road" aria-controls="fleet-road" aria-selected="false">Carretera</button>
+        <button role="tab" id="fleet-tab-rail" aria-controls="fleet-rail" aria-selected="true">Ferrocarril</button>
+        <button role="tab" id="fleet-tab-water" aria-controls="fleet-water" aria-selected="false">Mar</button>
+        <button role="tab" id="fleet-tab-air" aria-controls="fleet-air" aria-selected="false">Aire</button>
+      </div>
+      <ul class="fleet-strip" id="fleet-road" role="tabpanel" aria-labelledby="fleet-tab-road" translate="no" hidden>
+        <li class="fleet-card"><img src="../img/fleet/truck.webp" alt="Atlas Hauler" width="649" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Hauler</span><span class="fleet-meta">1950 · 90 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/bus.webp" alt="Comet City Bus" width="644" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet City Bus</span><span class="fleet-meta">1950 · 90 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/ddbus.webp" alt="Comet Double-Decker" width="514" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet Double-Decker</span><span class="fleet-meta">1956 · 84 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/truck2.webp" alt="Atlas Hauler Mk II" width="649" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Hauler Mk II</span><span class="fleet-meta">1964 · 117 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/bus2.webp" alt="Comet Coach" width="658" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet Coach</span><span class="fleet-meta">1968 · 120 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/artbus.webp" alt="Comet Articulated" width="684" height="520" loading="lazy" decoding="async"><span class="fleet-name">Comet Articulated</span><span class="fleet-meta">1980 · 108 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/truck3.webp" alt="Atlas Hauler Mk III" width="620" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Hauler Mk III</span><span class="fleet-meta">1986 · 138 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/roadtrain.webp" alt="Titan Road Train" width="661" height="520" loading="lazy" decoding="async"><span class="fleet-name">Titan Road Train</span><span class="fleet-meta">1994 · 108 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/cartruck.webp" alt="Atlas Car Transporter" width="578" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Car Transporter</span><span class="fleet-meta">1995 · 132 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/ebus.webp" alt="Volt Electric Bus" width="641" height="520" loading="lazy" decoding="async"><span class="fleet-name">Volt Electric Bus</span><span class="fleet-meta">2010 · 129 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/etruck.webp" alt="Volt Electric Truck" width="642" height="520" loading="lazy" decoding="async"><span class="fleet-name">Volt Electric Truck</span><span class="fleet-meta">2016 · 126 km/h</span></li>
+      </ul>
+      <ul class="fleet-strip" id="fleet-rail" role="tabpanel" aria-labelledby="fleet-tab-rail" translate="no">
+        <li class="fleet-card"><img src="../img/fleet/tank.webp" alt="Brigand Tank Engine" width="900" height="492" loading="lazy" decoding="async"><span class="fleet-name">Brigand Tank Engine</span><span class="fleet-meta">1950 · 81 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/steam.webp" alt="Kestrel Steam" width="900" height="520" loading="lazy" decoding="async"><span class="fleet-name">Kestrel Steam</span><span class="fleet-meta">1950 · 99 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/mogul.webp" alt="Highland Mogul" width="899" height="520" loading="lazy" decoding="async"><span class="fleet-name">Highland Mogul</span><span class="fleet-meta">1954 · 108 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/diesel.webp" alt="Meridian Diesel" width="900" height="499" loading="lazy" decoding="async"><span class="fleet-name">Meridian Diesel</span><span class="fleet-meta">1960 · 147 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/railcar.webp" alt="Sparrow Railcar" width="900" height="482" loading="lazy" decoding="async"><span class="fleet-name">Sparrow Railcar</span><span class="fleet-meta">1966 · 168 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/express.webp" alt="Vanguard Express" width="900" height="474" loading="lazy" decoding="async"><span class="fleet-name">Vanguard Express</span><span class="fleet-meta">1975 · 204 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/heavydiesel.webp" alt="Ironclad Freight Diesel" width="900" height="498" loading="lazy" decoding="async"><span class="fleet-name">Ironclad Freight Diesel</span><span class="fleet-meta">1979 · 162 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/electric.webp" alt="Aurora Electric" width="786" height="520" loading="lazy" decoding="async"><span class="fleet-name">Aurora Electric</span><span class="fleet-meta">1985 · 245 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/hst.webp" alt="Swift High-Speed" width="820" height="520" loading="lazy" decoding="async"><span class="fleet-name">Swift High-Speed</span><span class="fleet-meta">1995 · 315 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/tilting.webp" alt="Swallow Tilting Express" width="900" height="467" loading="lazy" decoding="async"><span class="fleet-name">Swallow Tilting Express</span><span class="fleet-meta">2003 · 264 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/hydrogen.webp" alt="Zephyr Hydrogen" width="900" height="498" loading="lazy" decoding="async"><span class="fleet-name">Zephyr Hydrogen</span><span class="fleet-meta">2022 · 240 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/efreight.webp" alt="Tempest Electric Freight" width="784" height="520" loading="lazy" decoding="async"><span class="fleet-name">Tempest Electric Freight</span><span class="fleet-meta">2024 · 222 km/h</span></li>
+      </ul>
+      <ul class="fleet-strip" id="fleet-water" role="tabpanel" aria-labelledby="fleet-tab-water" translate="no" hidden>
+        <li class="fleet-card"><img src="../img/fleet/ferry.webp" alt="Gull Ferry" width="564" height="520" loading="lazy" decoding="async"><span class="fleet-name">Gull Ferry</span><span class="fleet-meta">1950 · 69 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/tanker.webp" alt="Petrel Tanker" width="643" height="520" loading="lazy" decoding="async"><span class="fleet-name">Petrel Tanker</span><span class="fleet-meta">1950 · 63 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/freighter.webp" alt="Tern Freighter" width="609" height="520" loading="lazy" decoding="async"><span class="fleet-name">Tern Freighter</span><span class="fleet-meta">1950 · 60 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/liner.webp" alt="Majestic Liner" width="573" height="520" loading="lazy" decoding="async"><span class="fleet-name">Majestic Liner</span><span class="fleet-meta">1958 · 78 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/hydrofoil.webp" alt="Skimmer Hydrofoil" width="631" height="520" loading="lazy" decoding="async"><span class="fleet-name">Skimmer Hydrofoil</span><span class="fleet-meta">1972 · 138 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/container.webp" alt="Atlas Box Carrier" width="592" height="520" loading="lazy" decoding="async"><span class="fleet-name">Atlas Box Carrier</span><span class="fleet-meta">1980 · 87 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/bulker.webp" alt="Granite Bulk Carrier" width="676" height="520" loading="lazy" decoding="async"><span class="fleet-name">Granite Bulk Carrier</span><span class="fleet-meta">1992 · 78 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/eferry.webp" alt="Ripple Electric Ferry" width="651" height="520" loading="lazy" decoding="async"><span class="fleet-name">Ripple Electric Ferry</span><span class="fleet-meta">2020 · 117 km/h</span></li>
+      </ul>
+      <ul class="fleet-strip" id="fleet-air" role="tabpanel" aria-labelledby="fleet-tab-air" translate="no" hidden>
+        <li class="fleet-card"><img src="../img/fleet/mailplane.webp" alt="Petrel Mailplane" width="900" height="496" loading="lazy" decoding="async"><span class="fleet-name">Petrel Mailplane</span><span class="fleet-meta">1950 · 225 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/prop.webp" alt="Skylark Prop" width="900" height="435" loading="lazy" decoding="async"><span class="fleet-name">Skylark Prop</span><span class="fleet-meta">1950 · 255 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/cargoprop.webp" alt="Stork Cargo Prop" width="900" height="404" loading="lazy" decoding="async"><span class="fleet-name">Stork Cargo Prop</span><span class="fleet-meta">1958 · 245 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/jet.webp" alt="Albatross Jet" width="900" height="428" loading="lazy" decoding="async"><span class="fleet-name">Albatross Jet</span><span class="fleet-meta">1962 · 450 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/turboprop.webp" alt="Kittiwake Turboprop" width="900" height="377" loading="lazy" decoding="async"><span class="fleet-name">Kittiwake Turboprop</span><span class="fleet-meta">1968 · 330 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/cargoplane.webp" alt="Pelican Freighter" width="900" height="369" loading="lazy" decoding="async"><span class="fleet-name">Pelican Freighter</span><span class="fleet-meta">1975 · 390 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/supersonic.webp" alt="Arrow Supersonic" width="857" height="520" loading="lazy" decoding="async"><span class="fleet-name">Arrow Supersonic</span><span class="fleet-meta">1977 · 840 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/jumbo.webp" alt="Condor Jumbo" width="900" height="434" loading="lazy" decoding="async"><span class="fleet-name">Condor Jumbo</span><span class="fleet-meta">1978 · 510 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/widebody.webp" alt="Osprey Widebody" width="900" height="466" loading="lazy" decoding="async"><span class="fleet-name">Osprey Widebody</span><span class="fleet-meta">1984 · 495 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/narrowbody.webp" alt="Falcon Narrowbody" width="900" height="423" loading="lazy" decoding="async"><span class="fleet-name">Falcon Narrowbody</span><span class="fleet-meta">1989 · 465 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/regional.webp" alt="Swift Regional Jet" width="900" height="405" loading="lazy" decoding="async"><span class="fleet-name">Swift Regional Jet</span><span class="fleet-meta">1996 · 480 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/superjumbo.webp" alt="Leviathan Double-Deck" width="900" height="477" loading="lazy" decoding="async"><span class="fleet-name">Leviathan Double-Deck</span><span class="fleet-meta">2007 · 510 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/eplane.webp" alt="Breeze Electric Commuter" width="900" height="373" loading="lazy" decoding="async"><span class="fleet-name">Breeze Electric Commuter</span><span class="fleet-meta">2030 · 285 km/h</span></li>
+        <li class="fleet-card"><img src="../img/fleet/h2liner.webp" alt="Aurora H2 Airliner" width="900" height="413" loading="lazy" decoding="async"><span class="fleet-name">Aurora H2 Airliner</span><span class="fleet-meta">2038 · 480 km/h</span></li>
+      </ul>
+    </div>
+    <!-- fleet:end -->
+  </div>
+</section>
+
+<section id="eras" class="eras">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Cinc eres</p>
+      <h2>El mapa no para de canviar sota els teus peus.</h2>
+      <p>Cada era porta vehicles i edificis nous, i capgira les cadenes industrials.</p>
+    </div>
+  </div>
+  <ol class="timeline">
+    <li class="e1" data-reveal><span class="year">1950</span><h4>Postguerra</h4><p>Vapor, autobusos i les primeres cadenes: carbó, fusta, cereals, petroli, ferro.</p></li>
+    <li class="e2" data-reveal><span class="year">1965</span><h4>Era del reactor</h4><p>Reactors i dièsels. Les refineries fan plàstics; les centrals elèctriques també cremen petroli.</p></li>
+    <li class="e3" data-reveal><span class="year">1980</span><h4>Final de segle</h4><p>Cada casa genera residus, i les plantes de reciclatge els converteixen en mercaderies.</p></li>
+    <li class="e4" data-reveal><span class="year">1995</span><h4>Era de la informació</h4><p>Electrònica que caduca en pocs dies, fàbriques de cotxes amb tres materials i torres d'oficines.</p></li>
+    <li class="e5" data-reveal><span class="year">2010</span><h4>Era verda</h4><p>El carbó s'apaga, s'aixequen parcs eòlics i arriben camions, ferris i avions elèctrics.</p></li>
+  </ol>
+</section>
+
+<section id="download" class="download">
+  <div class="download-bg" aria-hidden="true"></div>
+  <div class="wrap download-in">
+    <p class="kicker" data-version-line>Versió preliminar gratuïta</p>
+    <h2 class="huge">La teva xarxa<br>comença aquí.</h2>
+    <p class="dl-lede">Fourways arribarà a Steam i itch.io. Mentrestant, la versió preliminar es pot descarregar gratis i s'actualitza sola cada cop que en surt una de nova.</p>
+    <div class="dl-grid">
+      <a class="dl" id="dl-win" data-umami-event="download-windows" href="https://github.com/Neptrino/Fourways-game/releases/latest">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg>
+        <span class="dl-text"><span class="dl-name">Windows</span><span class="dl-meta" data-meta="win">Instal·lador, sense permisos d'administrador</span></span>
+        <span class="dl-arrow" aria-hidden="true">↓</span>
+      </a>
+      <a class="dl" id="dl-mac" data-umami-event="download-mac" href="https://github.com/Neptrino/Fourways-game/releases/latest">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.9C6.1 6.9 4.5 7.9 3.7 9.4c-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8 2.2-1.2 3-2.4c.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-4.3zM14 5.2c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4z"/></svg>
+        <span class="dl-text"><span class="dl-name">macOS</span><span class="dl-meta" data-meta="mac">Aplicació per a Intel i Apple Silicon</span></span>
+        <span class="dl-arrow" aria-hidden="true">↓</span>
+      </a>
+    </div>
+    <div class="dl-notes">
+      <p><strong>En un Mac</strong>, l'aplicació encara no està certificada per Apple, així que macOS la rebutja la primera vegada. Obre <em>Configuració del Sistema › Privacitat i seguretat</em> i fes clic a <em>Obre igualment</em>. Després, les actualitzacions s'instal·len soles.</p>
+      <div class="news" id="news" hidden>
+        <h4>Novetats de la versió <span data-version></span></h4>
+        <ul id="news-list"></ul>
+      </div>
+      <p class="langs">En anglès, castellà, català, francès, alemany, italià i portuguès del Brasil: tria'n un a Configuració, quan vulguis.</p>
+      <p class="all-releases"><a href="https://github.com/Neptrino/Fourways-game/releases">Totes les versions</a></p>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <p class="kicker">Preguntes</p>
+      <h2>Coses que val la pena saber.</h2>
+    </div>
+    <div class="faq-list" data-reveal>
+      <details><summary>Fourways és gratis?</summary><p>Fourways serà un joc de pagament a Steam i itch.io. Mentre no hi arribi, la versió preliminar es pot descarregar gratis des d'aquesta pàgina i s'actualitza sola cada cop que en surt una de nova.</p></details>
+      <details><summary>Què necessito per jugar-hi?</summary><p>Un PC amb Windows (l'instal·lador no demana permisos d'administrador) o un Mac amb xip Intel o Apple Silicon. Es juga amb ratolí, panell tàctil o un comandament d'Xbox o PlayStation.</p></details>
+      <details><summary>S'assembla a Transport Tycoon o OpenTTD?</summary><p>Sí, en essència: construeixes rutes per carretera, ferrocarril, mar i aire sobre un mapa de caselles i transportes passatgers, correu i càrrega entre ciutats i indústries. Fourways hi afegeix il·luminació en temps real, les estacions de l'any i el temps que fa, cinc eres que canvien les cadenes industrials i empreses rivals que construeixen les seves pròpies xarxes.</p></details>
+      <details><summary>Hi ha un tutorial?</summary><p>Una visita guiada de cinc minuts construeix amb tu una primera ruta d'autobús dins del joc de veritat, i la <a href="guide/">guia del joc</a> (prem H mentre jugues) t'explica tota la resta.</p></details>
+      <details><summary>En quins idiomes es pot jugar?</summary><p>Anglès, castellà, català, francès, alemany, italià i portuguès del Brasil. Pots canviar-lo a Configuració quan vulguis.</p></details>
+      <details><summary>Puc fer mods?</summary><p>Sí. <a href="mods/" data-local>Fes el teu primer mod</a> amb la locomotora de mostra o consulta la referència sobre vehicles, mapes, traduccions i scripts de joc.</p></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span class="brand small" translate="no"><img src="../icon.svg" alt="" width="24" height="24"><span>Fourways</span></span>
+    <span class="foot-links">
+      <a href="guide/" data-local>Guia del joc</a>
+      <a href="mods/" data-local>Mods</a>
+      <a href="../privacy/">Privacitat i avís legal</a>
+      <a class="foot-maker" href="https://neptrino.com/#apps" translate="no" data-umami-event="neptrino"><img src="../img/neptrino.png" alt="" width="22" height="22"><span>Neptrino Studio</span></a>
+    </span>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Imatge">
+  <button class="lb-close" type="button" aria-label="Tanca">×</button>
+  <img alt="">
+</dialog>
+
+<script src="../site.js" defer></script>
+</body>
+</html>

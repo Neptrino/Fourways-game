@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crie seu primeiro mod – Fourways</title>
+<meta name="description" content="Baixe uma locomotiva de exemplo, mude o preço em um editor de texto e veja o resultado na loja de veículos do Fourways.">
+<meta name="theme-color" content="#0b1226">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://fourways-game.com/pt/mods/">
+<!-- mod-alternates -->
+<link rel="alternate" hreflang="en" href="https://fourways-game.com/mods/">
+<link rel="alternate" hreflang="es" href="https://fourways-game.com/es/mods/">
+<link rel="alternate" hreflang="ca" href="https://fourways-game.com/ca/mods/">
+<link rel="alternate" hreflang="fr" href="https://fourways-game.com/fr/mods/">
+<link rel="alternate" hreflang="de" href="https://fourways-game.com/de/mods/">
+<link rel="alternate" hreflang="it" href="https://fourways-game.com/it/mods/">
+<link rel="alternate" hreflang="pt-BR" href="https://fourways-game.com/pt/mods/">
+<link rel="alternate" hreflang="x-default" href="https://fourways-game.com/mods/">
+<!-- /mod-alternates -->
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.neptrino.com/script.js" data-website-id="96a6ace5-060e-4a0f-bef4-261feb80c0c0" data-domains="fourways-game.com,www.fourways-game.com"></script>
+</head>
+<body class="guide-body mod-guide">
+<header class="nav solid">
+  <div class="wrap nav-in">
+    <a class="brand" href="/pt/" data-local><img src="/icon.svg" alt="" width="34" height="34"><span translate="no">Fourways</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="/pt/guide/" data-local>Guia do jogador</a>
+      <a class="btn btn-sm" href="reference/">Referência de mods</a>
+      <!-- mod-languages -->
+      <details class="lang"><summary aria-label="Idioma"><span>PT</span></summary><ul translate="no"><li><a href="/mods/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/es/mods/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/ca/mods/" hreflang="ca" lang="ca" data-lang="ca">Català</a></li><li><a href="/fr/mods/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/mods/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/it/mods/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt/mods/" hreflang="pt-BR" lang="pt-BR" data-lang="pt" aria-current="page">Português (Brasil)</a></li></ul></details>
+<!-- /mod-languages -->
+    </nav>
+  </div>
+</header>
+
+<main class="guide wrap">
+  <nav aria-label="Caminho de navegação">
+    <ol class="crumbs"><li><a href="/pt/" data-local translate="no">Fourways</a></li><li aria-current="page">Mods</li></ol>
+  </nav>
+
+  <div class="mod-layout">
+    <article class="guide-article mod-article">
+      <header class="guide-head">
+        <div>
+          <h1>Crie seu primeiro mod</h1>
+          <p class="guide-sub">Mude o preço de uma locomotiva de exemplo e confira na loja do Fourways. Você só precisa do jogo e de um editor de texto simples.</p>
+        </div>
+      </header>
+
+      <ol class="mod-steps">
+        <li>
+          <h2 id="download">Baixe e extraia</h2>
+          <p><a class="btn btn-sm" href="/mods/first-locomotive.zip" download>Baixar ZIP de exemplo</a></p>
+          <p>Extraia o ZIP. A pasta <code>first_locomotive</code> contém dois arquivos. <code>mod.json</code> identifica o mod e <code>data.json</code> define a locomotiva.</p>
+        </li>
+        <li>
+          <h2 id="edit">Mude o preço</h2>
+          <p>Abra <code>data.json</code> em um editor de texto simples. Procure esta linha em <code>workshop_night_mail</code>.</p>
+          <pre translate="no"><code>"cost": 88000,</code></pre>
+          <p>Troque <code>88000</code> por <code>45000</code>. Mantenha a vírgula no fim da linha e salve o arquivo como <code>data.json</code>.</p>
+        </li>
+        <li>
+          <h2 id="enable">Ative o mod</h2>
+          <p>Na tela inicial, escolha <strong>Mods</strong> → <strong>Abrir a pasta de mods</strong>. Mova a pasta extraída <code>first_locomotive</code> para lá. De volta ao Fourways, clique em <strong>Procurar de novo</strong> e marque <strong>My first locomotive</strong>.</p>
+        </li>
+        <li>
+          <h2 id="check">Confira o preço na loja</h2>
+          <p>Comece um novo jogo em <strong>1970</strong>. Pressione <kbd>B</kbd> ou clique em <strong>Veículo</strong> na barra de ferramentas e selecione <strong>Trens</strong>. A ficha da <strong>Owl Workshop Mail</strong> deve mostrar <strong>$ 45.000</strong>. Dá para conferir antes de construir trilhos ou adicionar vagões.</p>
+        </li>
+      </ol>
+
+      <h2 id="troubleshoot">Se a locomotiva não aparecer</h2>
+      <ul>
+        <li>Confira se <code>mod.json</code> e <code>data.json</code> estão diretamente dentro da pasta que você moveu para a pasta de mods.</li>
+        <li>Se a tela de mods mostrar um erro, confira se você alterou apenas o número em <code>data.json</code>. Salve o arquivo e clique em <strong>Procurar de novo</strong>.</li>
+        <li>A locomotiva chega à loja em 1962. Confira se o jogo está em 1962 ou depois.</li>
+      </ul>
+
+      <p class="mod-next"><a href="reference/">Consulte a referência de mods</a><span aria-hidden="true">→</span></p>
+    </article>
+
+    <aside class="mod-locomotive">
+      <img src="/img/fleet/diesel.webp" alt="Modelo de locomotiva a diesel usado no exemplo">
+      <p><strong translate="no">Owl Workshop Mail</strong><br>Locomotiva a diesel · À venda a partir de 1962</p>
+    </aside>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand small" href="/pt/" data-local><img src="/icon.svg" alt="" width="24" height="24"><span translate="no">Fourways</span></a>
+    <span class="foot-links">
+      <a href="/pt/guide/" data-local>Guia do jogador</a>
+      <a href="/privacy/">Privacidade e aviso legal</a>
+    </span>
+  </div>
+</footer>
+<script src="/guide/guide.js" defer></script>
+</body>
+</html>

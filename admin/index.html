@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b1226">
+<title>Fourways admin</title>
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="admin.css">
+<!-- Feedback and statistics from the game (docs/FEEDBACK.md). Anyone can load this page; only the
+     admin account can read anything through it (row-level security in the Supabase project). -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js" defer></script>
+<script src="admin.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../">Fourways <span>admin</span></a>
+  <nav class="tabs" id="tabs" hidden>
+    <button type="button" data-tab="feedback" aria-pressed="true">Feedback <b class="count" id="new-count" hidden></b></button>
+    <button type="button" data-tab="stats" aria-pressed="false">Statistics</button>
+  </nav>
+  <div class="who" id="who" hidden>
+    <span id="who-email"></span>
+    <button type="button" class="ghost" id="sign-out">Sign out</button>
+  </div>
+</header>
+
+<main>
+  <p class="loading" id="loading">Loading…</p>
+
+  <section class="card signin" id="signin" hidden>
+    <h1 id="signin-title">Sign in</h1>
+    <p class="muted" id="signin-sub">Feedback and play statistics from the game.</p>
+    <form id="signin-form">
+      <label>Email <input type="email" id="email" autocomplete="username" required></label>
+      <label>Password <input type="password" id="password" autocomplete="current-password" minlength="8" required></label>
+      <button type="submit" class="primary" id="signin-go">Sign in</button>
+    </form>
+    <p class="status" id="signin-status" role="status"></p>
+  </section>
+
+  <section class="card signin" id="denied" hidden>
+    <h1>No access</h1>
+    <p class="muted">This account isn't an admin, or its email hasn't been confirmed yet (look for the email from Supabase and click its link).</p>
+    <button type="button" class="primary" id="denied-retry">Check again</button>
+  </section>
+
+  <section id="feedback" hidden>
+    <div class="filters">
+      <div class="seg" id="status-filter" role="group" aria-label="Status">
+        <button type="button" data-status="new" aria-pressed="true">New</button>
+        <button type="button" data-status="read" aria-pressed="false">Read</button>
+        <button type="button" data-status="done" aria-pressed="false">Done</button>
+        <button type="button" data-status="" aria-pressed="false">All</button>
+      </div>
+      <select id="about-filter" aria-label="About">
+        <option value="">Everything</option>
+        <option value="problem">Problems</option>
+        <option value="idea">Ideas</option>
+        <option value="other">Other</option>
+      </select>
+      <label class="check"><input type="checkbox" id="hide-dev" checked> Hide test builds</label>
+      <button type="button" class="ghost" id="refresh">Refresh</button>
+    </div>
+    <div class="inbox">
+      <ul class="list" id="list" aria-label="Messages"></ul>
+      <article class="card detail" id="detail"><p class="muted">Pick a message.</p></article>
+    </div>
+  </section>
+
+  <section id="stats" hidden>
+    <p class="muted small">Only from players who said yes to statistics, and never from test builds.</p>
+    <div class="tiles" id="tiles"></div>
+    <div class="charts">
+      <figure class="card chart" id="chart-players"></figure>
+      <figure class="card chart" id="chart-hours"></figure>
+      <figure class="card chart wide" id="chart-steps"></figure>
+    </div>
+    <div class="tables">
+      <div class="card"><h2>Versions</h2><table id="versions"></table></div>
+      <div class="card">
+        <h2>Systems, last 30 days</h2>
+        <p class="muted small">FPS is measured during gameplay with the game window focused. A dash means no FPS data yet.</p>
+        <table id="systems"></table>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+</body>
+</html>
