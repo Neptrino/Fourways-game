@@ -1,0 +1,317 @@
+[
+  {
+    "id": "bus",
+    "kind": "road",
+    "name": "Comet City Bus",
+    "speed": 90,
+    "year": 1950
+  },
+  {
+    "id": "truck",
+    "kind": "road",
+    "name": "Atlas Hauler",
+    "speed": 90,
+    "year": 1950
+  },
+  {
+    "id": "ddbus",
+    "kind": "road",
+    "name": "Comet Double-Decker",
+    "speed": 84,
+    "year": 1956
+  },
+  {
+    "id": "truck2",
+    "kind": "road",
+    "name": "Atlas Hauler Mk II",
+    "speed": 117,
+    "year": 1964
+  },
+  {
+    "id": "bus2",
+    "kind": "road",
+    "name": "Comet Coach",
+    "speed": 120,
+    "year": 1968
+  },
+  {
+    "id": "artbus",
+    "kind": "road",
+    "name": "Comet Articulated",
+    "speed": 108,
+    "year": 1980
+  },
+  {
+    "id": "truck3",
+    "kind": "road",
+    "name": "Atlas Hauler Mk III",
+    "speed": 138,
+    "year": 1986
+  },
+  {
+    "id": "roadtrain",
+    "kind": "road",
+    "name": "Titan Road Train",
+    "speed": 108,
+    "year": 1994
+  },
+  {
+    "id": "cartruck",
+    "kind": "road",
+    "name": "Atlas Car Transporter",
+    "speed": 132,
+    "year": 1995
+  },
+  {
+    "id": "ebus",
+    "kind": "road",
+    "name": "Volt Electric Bus",
+    "speed": 129,
+    "year": 2010
+  },
+  {
+    "id": "etruck",
+    "kind": "road",
+    "name": "Volt Electric Truck",
+    "speed": 126,
+    "year": 2016
+  },
+  {
+    "id": "steam",
+    "kind": "rail",
+    "name": "Kestrel Steam",
+    "speed": 99,
+    "year": 1950
+  },
+  {
+    "id": "tank",
+    "kind": "rail",
+    "name": "Brigand Tank Engine",
+    "speed": 81,
+    "year": 1950
+  },
+  {
+    "id": "mogul",
+    "kind": "rail",
+    "name": "Highland Mogul",
+    "speed": 108,
+    "year": 1954
+  },
+  {
+    "id": "diesel",
+    "kind": "rail",
+    "name": "Meridian Diesel",
+    "speed": 147,
+    "year": 1960
+  },
+  {
+    "id": "railcar",
+    "kind": "rail",
+    "name": "Sparrow Railcar",
+    "speed": 168,
+    "year": 1966
+  },
+  {
+    "id": "express",
+    "kind": "rail",
+    "name": "Vanguard Express",
+    "speed": 204,
+    "year": 1975
+  },
+  {
+    "id": "heavydiesel",
+    "kind": "rail",
+    "name": "Ironclad Freight Diesel",
+    "speed": 162,
+    "year": 1979
+  },
+  {
+    "id": "electric",
+    "kind": "rail",
+    "name": "Aurora Electric",
+    "speed": 245,
+    "year": 1985
+  },
+  {
+    "id": "hst",
+    "kind": "rail",
+    "name": "Swift High-Speed",
+    "speed": 315,
+    "year": 1995
+  },
+  {
+    "id": "tilting",
+    "kind": "rail",
+    "name": "Swallow Tilting Express",
+    "speed": 264,
+    "year": 2003
+  },
+  {
+    "id": "hydrogen",
+    "kind": "rail",
+    "name": "Zephyr Hydrogen",
+    "speed": 240,
+    "year": 2022
+  },
+  {
+    "id": "efreight",
+    "kind": "rail",
+    "name": "Tempest Electric Freight",
+    "speed": 222,
+    "year": 2024
+  },
+  {
+    "id": "ferry",
+    "kind": "water",
+    "name": "Gull Ferry",
+    "speed": 69,
+    "year": 1950
+  },
+  {
+    "id": "freighter",
+    "kind": "water",
+    "name": "Tern Freighter",
+    "speed": 60,
+    "year": 1950
+  },
+  {
+    "id": "tanker",
+    "kind": "water",
+    "name": "Petrel Tanker",
+    "speed": 63,
+    "year": 1950
+  },
+  {
+    "id": "liner",
+    "kind": "water",
+    "name": "Majestic Liner",
+    "speed": 78,
+    "year": 1958
+  },
+  {
+    "id": "hydrofoil",
+    "kind": "water",
+    "name": "Skimmer Hydrofoil",
+    "speed": 138,
+    "year": 1972
+  },
+  {
+    "id": "container",
+    "kind": "water",
+    "name": "Atlas Box Carrier",
+    "speed": 87,
+    "year": 1980
+  },
+  {
+    "id": "bulker",
+    "kind": "water",
+    "name": "Granite Bulk Carrier",
+    "speed": 78,
+    "year": 1992
+  },
+  {
+    "id": "eferry",
+    "kind": "water",
+    "name": "Ripple Electric Ferry",
+    "speed": 117,
+    "year": 2020
+  },
+  {
+    "id": "mailplane",
+    "kind": "air",
+    "name": "Petrel Mailplane",
+    "speed": 225,
+    "year": 1950
+  },
+  {
+    "id": "prop",
+    "kind": "air",
+    "name": "Skylark Prop",
+    "speed": 255,
+    "year": 1950
+  },
+  {
+    "id": "cargoprop",
+    "kind": "air",
+    "name": "Stork Cargo Prop",
+    "speed": 245,
+    "year": 1958
+  },
+  {
+    "id": "jet",
+    "kind": "air",
+    "name": "Albatross Jet",
+    "speed": 450,
+    "year": 1962
+  },
+  {
+    "id": "turboprop",
+    "kind": "air",
+    "name": "Kittiwake Turboprop",
+    "speed": 330,
+    "year": 1968
+  },
+  {
+    "id": "cargoplane",
+    "kind": "air",
+    "name": "Pelican Freighter",
+    "speed": 390,
+    "year": 1975
+  },
+  {
+    "id": "supersonic",
+    "kind": "air",
+    "name": "Arrow Supersonic",
+    "speed": 840,
+    "year": 1977
+  },
+  {
+    "id": "jumbo",
+    "kind": "air",
+    "name": "Condor Jumbo",
+    "speed": 510,
+    "year": 1978
+  },
+  {
+    "id": "widebody",
+    "kind": "air",
+    "name": "Osprey Widebody",
+    "speed": 495,
+    "year": 1984
+  },
+  {
+    "id": "narrowbody",
+    "kind": "air",
+    "name": "Falcon Narrowbody",
+    "speed": 465,
+    "year": 1989
+  },
+  {
+    "id": "regional",
+    "kind": "air",
+    "name": "Swift Regional Jet",
+    "speed": 480,
+    "year": 1996
+  },
+  {
+    "id": "superjumbo",
+    "kind": "air",
+    "name": "Leviathan Double-Deck",
+    "speed": 510,
+    "year": 2007
+  },
+  {
+    "id": "eplane",
+    "kind": "air",
+    "name": "Breeze Electric Commuter",
+    "speed": 285,
+    "year": 2030
+  },
+  {
+    "id": "h2liner",
+    "kind": "air",
+    "name": "Aurora H2 Airliner",
+    "speed": 480,
+    "year": 2038
+  }
+]

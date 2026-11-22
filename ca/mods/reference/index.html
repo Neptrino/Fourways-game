@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Referència de mods – Fourways</title>
+<meta name="description" content="Com fer mods de Fourways amb vehicles, models 3D, mapes de terreny, tarifes de càrrega, traduccions i scripts de joc.">
+<meta name="theme-color" content="#0b1226">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://fourways-game.com/ca/mods/reference/">
+<!-- mod-alternates -->
+<link rel="alternate" hreflang="en" href="https://fourways-game.com/mods/reference/">
+<link rel="alternate" hreflang="es" href="https://fourways-game.com/es/mods/reference/">
+<link rel="alternate" hreflang="ca" href="https://fourways-game.com/ca/mods/reference/">
+<link rel="alternate" hreflang="fr" href="https://fourways-game.com/fr/mods/reference/">
+<link rel="alternate" hreflang="de" href="https://fourways-game.com/de/mods/reference/">
+<link rel="alternate" hreflang="it" href="https://fourways-game.com/it/mods/reference/">
+<link rel="alternate" hreflang="pt-BR" href="https://fourways-game.com/pt/mods/reference/">
+<link rel="alternate" hreflang="x-default" href="https://fourways-game.com/mods/reference/">
+<!-- /mod-alternates -->
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.neptrino.com/script.js" data-website-id="96a6ace5-060e-4a0f-bef4-261feb80c0c0" data-domains="fourways-game.com,www.fourways-game.com"></script>
+</head>
+<body class="guide-body mod-guide">
+<header class="nav solid">
+  <div class="wrap nav-in">
+    <a class="brand" href="/ca/" data-local><img src="/icon.svg" alt="" width="34" height="34"><span translate="no">Fourways</span></a>
+    <nav aria-label="Navegació principal">
+      <a href="/ca/guide/" data-local>Guia del joc</a>
+      <a class="btn btn-sm" href="../">Fes el teu primer mod</a>
+      <!-- mod-languages -->
+      <details class="lang"><summary aria-label="Idioma"><span>CA</span></summary><ul translate="no"><li><a href="/mods/reference/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/es/mods/reference/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/ca/mods/reference/" hreflang="ca" lang="ca" data-lang="ca" aria-current="page">Català</a></li><li><a href="/fr/mods/reference/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/mods/reference/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/it/mods/reference/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt/mods/reference/" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português (Brasil)</a></li></ul></details>
+<!-- /mod-languages -->
+    </nav>
+  </div>
+</header>
+
+<main class="guide wrap">
+  <nav aria-label="Fil d’Ariadna">
+    <ol class="crumbs"><li><a href="/ca/" data-local translate="no">Fourways</a></li><li><a href="../">Mods</a></li><li aria-current="page">Referència de mods</li></ol>
+  </nav>
+
+  <header class="gi-head">
+    <h1>Referència de mods</h1>
+    <p>Afegeix vehicles, modifica el terreny i les tarifes, tradueix el joc o escriu les teves regles.</p>
+  </header>
+
+  <a class="mod-reference-link" href="../api/">
+    <span><strong>Cerca a l’API de mods</strong><span>Consulta les funcions d’esdeveniments, els mètodes i les opcions dels fitxers.</span></span>
+    <span class="mod-reference-arrow" aria-hidden="true">→</span>
+  </a>
+
+  <div class="guide-grid mod-reference">
+    <nav class="guide-toc" aria-label="Índex">
+      <p class="toc-g">En aquesta pàgina</p>
+      <ul>
+        <li><a href="#files">Fitxers i identificadors del mod</a></li>
+        <li><a href="#vehicles">Vehicles</a></li>
+        <li><a href="#models">Models 3D</a></li>
+        <li><a href="#fares-and-names">Tarifes de càrrega i noms</a></li>
+        <li><a href="#maps">Mapes</a></li>
+        <li><a href="#translations">Traduccions</a></li>
+        <li><a href="#scripts">Scripts de joc</a></li>
+        <li><a href="#saves">Partides desades i distribució</a></li>
+      </ul>
+    </nav>
+    <article class="guide-article mod-article">
+      <h2 id="files">Fitxers i identificadors del mod</h2>
+      <p>Cada mod és una carpeta que conté <code>mod.json</code>. Afegeix-hi només els altres fitxers que faci servir el mod.</p>
+      <pre translate="no"><code>my_mod/
+  mod.json
+  data.json
+  lang/*.lang.txt
+  maps/
+  models/*.glb
+  main.gd</code></pre>
+      <p>Aquest és un <code>mod.json</code> complet. L’únic camp obligatori és <code>id</code>. Tria un identificador únic i conserva’l quan publiquis actualitzacions, perquè les partides desades l’utilitzen per identificar el mod.</p>
+      <pre translate="no"><code>{
+  "id": "north_line_mail",
+  "name": "North Line Mail",
+  "version": "1.0",
+  "author": "Your name",
+  "description": "A diesel for overnight mail trains."
+}</code></pre>
+      <p>Obre <strong>Mods</strong> a la pantalla de títol i tria <strong>Obre la carpeta de mods</strong>. Posa-hi la carpeta o el ZIP, fes clic a <strong>Torna a buscar</strong> i marca el mod. Mentre l’editis, treballa amb la carpeta descomprimida per poder desar els canvis i tornar a buscar. Els canvis s’apliquen quan comencis o carreguis la partida següent.</p>
+
+      <h2 id="vehicles">Vehicles</h2>
+      <p>A <code>data.json</code>, posa cada vehicle dins de <code>vehicles</code> amb un identificador únic. Per exemple, <code>north_line_mail_diesel</code> afegeix una locomotora amb l’aspecte de la dièsel del joc base.</p>
+      <pre translate="no"><code>{
+  "vehicles": {
+    "north_line_mail_diesel": {
+      "name": "North Line Mail Diesel",
+      "kind": "rail",
+      "look": "diesel",
+      "cargos": ["mail", "pax"],
+      "max_wagons": 6,
+      "speed": 6.2,
+      "cost": 88000,
+      "run": 7600,
+      "year": 1962,
+      "desc": "A fast diesel for overnight mail."
+    }
+  }
+}</code></pre>
+      <div class="gtable">
+        <table>
+          <thead><tr><th scope="col">Camp</th><th scope="col">Valor</th></tr></thead>
+          <tbody>
+            <tr><td translate="no"><code>name</code>, <code>desc</code></td><td>Nom visible i descripció opcional per a la botiga.</td></tr>
+            <tr><td translate="no"><code>kind</code></td><td><code>rail</code>, <code>road</code>, <code>water</code> o <code>air</code>.</td></tr>
+            <tr><td><code>look</code> o <code>model</code></td><td>Reutilitza un model del mateix tipus o indica el camí al teu model. Alguns identificadors del joc base són <code>steam</code>, <code>diesel</code>, <code>bus</code>, <code>truck</code>, <code>ferry</code>, <code>freighter</code>, <code>prop</code> i <code>jet</code>.</td></tr>
+            <tr><td translate="no"><code>cargos</code></td><td>Llista amb almenys un identificador de càrrega existent. Per exemple, <code>pax</code>, <code>mail</code>, <code>coal</code>, <code>wood</code>, <code>goods</code> i <code>food</code>.</td></tr>
+            <tr><td><code>max_wagons</code> o <code>cap</code></td><td>Les locomotores requereixen <code>max_wagons</code>. Per als altres vehicles, <code>cap</code> indica la capacitat.</td></tr>
+            <tr><td translate="no"><code>speed</code></td><td>Caselles per dia de joc. Multiplica per 30 per obtenir la velocitat en km/h que mostra la botiga.</td></tr>
+            <tr><td translate="no"><code>cost</code>, <code>run</code></td><td>Preu de compra i cost anual de funcionament, en dòlars sencers. Els vagons s’afegeixen al preu del tren.</td></tr>
+            <tr><td translate="no"><code>year</code></td><td>Primer any en què apareix a la botiga. Omet-lo perquè estigui disponible des del principi.</td></tr>
+            <tr><td translate="no"><code>rel</code></td><td>Fiabilitat inicial opcional, entre 0 i 1. El valor per defecte depèn de l’any del vehicle.</td></tr>
+            <tr><td translate="no"><code>electric</code></td><td>Fes servir <code>true</code> si la locomotora necessita catenària.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Els mods afegeixen identificadors de vehicle nous. Si Fourways n’indica un de duplicat, tria un identificador propi del teu mod.</p>
+
+      <h2 id="models">Models 3D personalitzats</h2>
+      <p>Exporta el model com a glTF binari (<code>.glb</code>) i desa’l a <code>models/</code>. A la definició del vehicle, fes servir <code>"model": "models/mail.glb"</code> en comptes de <code>look</code> i indica a <code>length</code> la llargada de la carrosseria en caselles.</p>
+      <ul>
+        <li>Fes servir una unitat per casella. Un autobús fa unes 0,46 unitats de llarg i un vaixell, unes 0,9.</li>
+        <li>Centra el model a l’origen, posa’n la base a Y = 0 i orienta’l cap a −Z.</li>
+        <li>Els models personalitzats conserven els materials amb què s’han exportat. Els reutilitzats amb <code>look</code> fan servir els colors de la companyia.</li>
+        <li>El model de locomotora només inclou la màquina. Fourways hi posa els vagons.</li>
+      </ul>
+
+      <h2 id="fares-and-names">Tarifes de càrrega i noms</h2>
+      <p>Afegeix qualsevol d’aquestes seccions a <code>data.json</code> al costat de les definicions de vehicles o fes-les servir soles.</p>
+      <pre translate="no"><code>{
+  "cargo": {
+    "mail": {"rate": 52, "days": 10}
+  },
+  "town_names": {
+    "prefixes": ["Vila", "Sant", "Mont"],
+    "suffixes": ["nova", "bella", "serrat"],
+    "replace": false
+  },
+  "company_names": ["Ferrocarrils del Nord", "Costa Brava Lines"]
+}</code></pre>
+      <ul>
+        <li>A <code>cargo</code>, fes servir identificadors de càrregues existents. <code>rate</code> és la tarifa per una unitat transportada 25 caselles i <code>days</code> és el nombre de dies que es paga la tarifa sencera. Tots dos valors han de ser positius. Prem <kbd>Y</kbd> per veure el resultat a Tarifes de càrrega.</li>
+        <li><code>town_names</code> combina un prefix i un sufix per generar noms de pobles. Fes servir <code>replace: true</code> per substituir les llistes del joc per les teves.</li>
+        <li><code>company_names</code> aporta noms per a les companyies rivals. El joc fa servir aquests noms abans de recórrer als del joc base.</li>
+      </ul>
+
+      <h2 id="maps">Mapes d’altura i valors predefinits</h2>
+      <p>Posa un PNG o JPEG en escala de grisos a <code>maps/</code>. El negre marca el terreny més baix, normalment el mar, i el blanc el més alt. Fourways adapta la imatge a la mida del món i la mostra a <strong>Mapa</strong> quan obres <strong>Partida nova</strong>.</p>
+      <p>Afegeix un fitxer <code>great_valley.json</code> al costat de <code>great_valley.png</code> per definir-ne el nom, la descripció i les opcions inicials.</p>
+      <pre translate="no"><code>{
+  "name": "Great Valley",
+  "description": "A wide valley between two ranges.",
+  "settings": {"w": 512, "h": 256, "towns": 1, "industries": 2, "year": 1970}
+}</code></pre>
+      <ul>
+        <li>L’amplada i l’alçada poden ser de 64, 128, 256, 512 o 1024 caselles cadascuna.</li>
+        <li>La densitat de pobles i indústries va de 0 (pocs) a 3 (molt nombrosos).</li>
+        <li>Els anys d’inici són 1950, 1960, 1970, 1980, 1990 i 2000. Els jugadors poden canviar els valors abans de començar.</li>
+      </ul>
+
+      <h2 id="translations">Traduccions i idiomes nous</h2>
+      <p>Posa a <code>lang/</code> fitxers de text pla que acabin en <code>.lang.txt</code>. Comença cada bloc amb <code>&gt; </code> i el text exacte en anglès. Afegeix una línia per codi d’idioma. Serveix tant per als textos del joc com per als noms i descripcions dels vehicles del mod.</p>
+      <pre translate="no"><code>&gt; Cost %s
+es: Coste %s
+ca: Cost %s
+fr: Coût %s</code></pre>
+      <ul>
+        <li>Mantén en el mateix ordre els marcadors com <code>%s</code> i <code>%d</code>. Fes servir <code>\n</code> per als salts de línia i cometes dobles si el text comença o acaba amb un espai.</li>
+        <li>Per afegir un idioma, posa les traduccions sota el seu codi i tradueix la clau <code>English</code> perquè el nom de l’idioma aparegui a <strong>Configuració</strong>. Per exemple, posa <code>nl: Nederlands</code> a sota de <code>&gt; English</code>.</li>
+        <li>Als scripts, posa el text dins de <code>L.t("English text")</code> perquè els jugadors el puguin traduir amb els mateixos fitxers.</li>
+      </ul>
+
+      <h2 id="scripts">Scripts de joc</h2>
+      <p>Crea <code>main.gd</code> a la carpeta del mod i comença amb <code>extends Mod</code>. Redefineix les funcions que necessitis. Aquest exemple dona 500 $ al jugador cada mes i publica una notícia.</p>
+      <pre translate="no"><code>extends Mod
+
+func _on_month(sim: Sim) -&gt; void:
+    sim.company.earn(500)
+    news(sim, L.t("Monthly transport grant"), "good")</code></pre>
+      <div class="gtable">
+        <table>
+          <thead><tr><th scope="col">Funció</th><th scope="col">Quan la crida Fourways</th></tr></thead>
+          <tbody>
+            <tr><td translate="no"><code>_on_load()</code></td><td>Quan s’apliquen els mods actius, també si tornes a buscar des de la pantalla de mods. Encara no hi ha cap partida activa.</td></tr>
+            <tr><td translate="no"><code>_on_new_game(sim)</code><br><code>_on_game_loaded(sim)</code></td><td>Quan es crea un món o s’acaba de carregar una partida.</td></tr>
+            <tr><td translate="no"><code>_on_day(sim)</code><br><code>_on_month(sim)</code><br><code>_on_year(sim, year)</code></td><td>Cada dia, a final de mes i quan canvia l’any. <code>year</code> és l’any que s’acaba d’acabar.</td></tr>
+            <tr><td translate="no"><code>_on_delivery(sim, vehicle, station, amount)</code></td><td>Quan un vehicle descarrega i es cobra el transport.</td></tr>
+            <tr><td translate="no"><code>_on_vehicle_bought(sim, vehicle)</code><br><code>_on_station_built(sim, station)</code></td><td>Després d’una compra o de construir o ampliar una estació.</td></tr>
+            <tr><td translate="no"><code>_on_news(sim, item) → bool</code></td><td>Abans de publicar una notícia. El diccionari conté <code>text</code>, <code>kind</code>, <code>pos</code> i <code>day</code>. Retorna <code>false</code> per amagar-la o <code>true</code> per mostrar-la.</td></tr>
+            <tr><td translate="no"><code>_save(sim) → Dictionary</code><br><code>_load(sim, data)</code></td><td>Retorna un diccionari amb dades simples des de <code>_save</code>. Si la partida conté dades d’aquest mod, Fourways crida <code>_load</code> amb aquestes dades abans de <code>_on_game_loaded</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>L’objecte <code>sim</code> dona accés a companyies, vehicles, pobles, indústries i estacions. Fes servir <code>sim.rng</code> per generar esdeveniments aleatoris reproduïbles i mètodes com <code>sim.build_station()</code> o <code>sim.buy_vehicle()</code> per executar accions del jugador. La classe <code>Mod</code> ofereix <code>news()</code> per publicar notícies, <code>note()</code> per escriure al registre i <code>path()</code> per trobar fitxers a la carpeta del mod.</p>
+      <h3>Funcions auxiliars dels mods</h3>
+      <ul>
+        <li><code>news(sim, text, kind = "info", at = Vector2(-1, -1))</code> publica una notícia. Fes servir <code>good</code>, <code>info</code>, <code>warn</code> o <code>bad</code> a <code>kind</code>. Indica una casella a <code>at</code> perquè la vista hi salti quan es faci clic a la notícia.</li>
+        <li><code>note(text)</code> escriu una entrada al registre amb l’identificador del mod. La pots cridar des de <code>_on_load()</code>.</li>
+        <li><code>path(file)</code> retorna el camí d’un fitxer a partir de la carpeta del mod. Fes servir <code>info</code> per consultar metadades com <code>id</code>, <code>name</code> i <code>version</code>.</li>
+      </ul>
+      <h3>Accions habituals de la simulació</h3>
+      <p>Pots cridar aquests mètodes des d’una funció que rebi <code>sim</code>. Si omets <code>who</code>, es fa servir la companyia del jugador. Si la crida retorna un diccionari, comprova <code>ok</code> abans de fer servir el resultat. Si falla, consulta <code>reason</code>.</p>
+      <ul>
+        <li><code>sim.build_line(kind, pts, who = null)</code> construeix una carretera (<code>road</code>) o una via (<code>rail</code>) per caselles adjacents consecutives. Passa-hi un <code>Array[Vector2i]</code> tipat.</li>
+        <li><code>sim.build_station(kind, pts, axis, who = null)</code> construeix o amplia una estació de tipus <code>road</code>, <code>rail</code>, <code>dock</code> o <code>air</code>. Passa les caselles en un <code>Array[Vector2i]</code> i l’eix de l’andana per a carretera o ferrocarril. Si va bé, el resultat conté <code>station</code>.</li>
+        <li><code>sim.buy_vehicle(model_id, cargo, wagons, stops, full_load_first, who = null, consist = [], transfer_at = [])</code> compra un vehicle amb un identificador de model existent i una llista d’estacions. <code>consist</code> permet definir la càrrega i el nombre de vagons d’un tren mixt. <code>transfer_at</code> indica els índexs de les parades on es deixa càrrega per a un altre vehicle. Si va bé, el resultat conté <code>vehicle</code>.</li>
+        <li><code>sim.town_action(town, action, who = null)</code> executa <code>advertise</code>, <code>trees</code> o <code>fund</code> i retorna el cost de l’acció a <code>cost</code>.</li>
+        <li><code>sim.company.earn(amount)</code> ingressa diners a la companyia del jugador. <code>sim.company.spend(cost, category)</code> registra una despesa i retorna <code>false</code> si la companyia no té prou diners. Dues categories possibles són <code>construction</code> i <code>vehicles</code>.</li>
+        <li><code>town.rating(company_id)</code> consulta la valoració de l’ajuntament. <code>town.change_rating(company_id, delta, why = "", day = -1)</code> l’ajusta dins de l’interval de 0 a 100. Passa un motiu i <code>sim.day_int</code> per registrar el canvi a la finestra del poble.</li>
+      </ul>
+      <p>Aquí es llisten totes les funcions que defineix <code>Mod</code>. Els scripts també poden cridar altres mètodes del joc i de Godot. Els pots consultar al codi del joc i del motor.</p>
+      <p>Els mods amb scripts s’executen amb els permisos del joc. Activa només scripts d’autors de confiança.</p>
+
+      <h2 id="saves">Partides desades i distribució</h2>
+      <p>Per compartir un mod, comprimeix la carpeta en ZIP. Fourways també accepta ZIP amb <code>mod.json</code> al nivell superior. Conserva els identificadors del mod i dels vehicles entre versions perquè les partides desades els puguin trobar.</p>
+      <p>La partida desada registra els mods actius i pot conservar dades dels scripts. Si falta un mod o està desactivat quan carregues la partida, Fourways t’avisa i omet els vehicles amb models que no estan disponibles. Torna a activar els mods que feia servir la partida abans de carregar-la.</p>
+      <p>Els formats disponibles cobreixen el contingut descrit aquí. Afegir tipus de càrrega, indústries o edificis urbans, ajustar costos de construcció individuals, substituir models o sons del joc o canviar la interfície requereix treballar amb el codi del joc.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand small" href="/ca/" data-local><img src="/icon.svg" alt="" width="24" height="24"><span translate="no">Fourways</span></a>
+    <span class="foot-links">
+      <a href="../">Fes el teu primer mod</a>
+      <a href="/privacy/">Privacitat i avís legal</a>
+    </span>
+  </div>
+</footer>
+<script src="/guide/guide.js" defer></script>
+</body>
+</html>
